@@ -1,0 +1,641 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?qaeoso');
+  src:  url('../fonts/icomoon.eot?qaeoso#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?qaeoso') format('truetype'),
+    url('../fonts/icomoon.woff?qaeoso') format('woff'),
+    url('../fonts/icomoon.svg?qaeoso#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-manos:before {
+  content: "\e919";
+}
+.icon-tools:before {
+  content: "\e918";
+}
+.icon-platzi:before {
+  content: "\e900";
+}
+.icon-css3:before {
+  content: "\e912";
+  color: #1572b6;
+}
+.icon-raspberrypi:before {
+  content: "\e903";
+  color: #c51a4a;
+}
+.icon-jest:before {
+  content: "\e904";
+  color: #c21325;
+}
+.icon-jenkins:before {
+  content: "\e905";
+  color: #d24939;
+}
+.icon-bootstrap:before {
+  content: "\e906";
+  color: #563d7c;
+}
+.icon-redux:before {
+  content: "\e907";
+  color: #764abc;
+}
+.icon-git:before {
+  content: "\e908";
+  color: #f05032;
+}
+.icon-amazonaws:before {
+  content: "\e909";
+}
+.icon-eclipseide:before {
+  content: "\e90a";
+  color: #2c2255;
+}
+.icon-spring:before {
+  content: "\e90b";
+  color: #6db33f;
+}
+.icon-oracle:before {
+  content: "\e90c";
+  color: #f80000;
+}
+.icon-mysql:before {
+  content: "\e90d";
+  color: #4479a1;
+}
+.icon-postgresql:before {
+  content: "\e90e";
+  color: #336791;
+}
+.icon-kubernetes:before {
+  content: "\e90f";
+  color: #326ce5;
+}
+.icon-docker:before {
+  content: "\e910";
+  color: #1488c6;
+}
+.icon-html5:before {
+  content: "\e911";
+  color: #e34f26;
+}
+.icon-javascript:before {
+  content: "\e913";
+  color: #f7df1e;
+}
+.icon-java:before {
+  content: "\e914";
+  color: #007396;
+}
+.icon-react:before {
+  content: "\e915";
+  color: #61dafb;
+}
+.icon-job:before {
+  content: "\e916";
+}
+.icon-user:before {
+  content: "\e917";
+}
+.icon-linkedin:before {
+  content: "\e901";
+}
+.icon-menu:before {
+  content: "\e902";
+}
+
+
+/*-----------------Fin iconos*/
+
+
+.icon-platzi {
+  font-size: 3em;
+  font-style: normal;
+  color: white;
+}
+
+.icon-linkedin {
+  font-size: 3em;
+  font-style: normal;
+  color: white;
+}
+
+
+
+.burger-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.8);
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  z-index: 4;
+  left: 5px;
+  top: 5px;
+  color: white;
+  display: none;
+}
+
+.header {
+  background-color: #393939;
+  color: white;
+  display: flex;
+  height: 90px; /* <---- solo agregamos esta linea */
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.header a:hover {
+  background-color:  rgb(0, 57, 138);
+}
+
+.hero-image {
+  width: 240px;
+  height: 300px;
+}
+
+.container {
+  /* border: 1px solid red; */
+  /*max-width: 1000px;*/
+  padding: 0 1em;
+  max-width: 1000px;
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+  flex-direction: inherit;
+}
+
+.header .logoContainer {
+  height: 50px;
+}
+.header .logoContainer .logo {
+  height: inherit;
+}
+
+.header ol {
+  /* .header ol hereda de .menu */
+  display: flex;
+  height: inherit;
+}
+
+.linkContainer {
+  /* .header ol li hereda de .header ol */
+  height: 100%;
+}
+.linkContainer i{
+  display: none;
+  margin-top: 0.3em;
+  font-size: 2.5em;
+  margin-right: 0.2em;
+  margin-left: 0.5em;
+}
+
+.link {
+  /* .header a hereda de .header ol li */
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px; /* <---- solo agregamos esta linea */
+}
+
+.menu {
+  /* .menu hereda de .header */
+  height: inherit;
+}
+
+.hero {
+  height: 300px;
+  background-color: #393939;
+  /*background-image: url("../images/mario.jpg");
+  background-size: 250px 300px;
+  background-repeat: no-repeat;
+  background-position-x: right;*/
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0px;
+}
+figure {
+  margin: 0;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+  /*font-style: italic;*/
+}
+
+h1 {
+  margin: 0px;
+  font-size: 40px;
+  line-height: 1.5; /*Alto de la linea*/
+  letter-spacing: -0.2px; /*Espaciado de letras , 20 % menos de un pixel*/
+  /*text-transform: uppercase;*/ /*Pone texto en miniusculas o mayusculas*/
+  /*text-decoration: underline;*/ /*Decoracion del texto , por ejemplo subrayado*/
+  color: white;
+}
+h1 strong {
+  color: #026fff;
+}
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.profiles {
+  background-color: #fafafa;
+  padding: 20px;
+  display: block;
+  /*display: flex;*/ /*Usa el modo flex a los hijos*/
+  /*flex-direction: row;*/ /*Direccion de flex de los elementos*/
+  /*flex-wrap: wrap; */ /*Wap ayuda  saltar de linea si el espacio se acaba*/
+}
+.profile {
+  /*flex-shrink: 0;*/ /*Esta propiedad nos ayuda a impedir la reduccion o reducir la reduccion del tamañano del elemento cuando se usa flex*/
+  /* align-self: flex-start;*/ /*Alinea un solo elemento hijo*/
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* box-sizing: border-box;*/ /*Para que tome el width y heigh como tamñaos maximos si importar margin y padding*/
+}
+.profile-image {
+  max-width: 100%;
+}
+.profile-title {
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.profile-desc {
+  margin: 10px 0px;
+  font-size: 20px;
+}
+
+.profile-details {
+  width: 50%;
+  flex-wrap: wrap;
+}
+.profile-imageContainer {
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.footer {
+  background-color: #393939;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer img {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+}
+.knowledges {
+  background-color: #fafafa;
+  padding: 20px;
+  display: block;
+  /* flex-direction: column;*/
+}
+
+.knowledge-detail {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.knowledge {
+  width: 45%;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.knowledge-first {
+  width: 50%;
+}
+.knowledge-second {
+  width: 50%;
+}
+.knowledges h2 {
+  margin-top: 0px;
+}
+.knowledge-title {
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.knowledge-tech {
+  margin: 10px 0px;
+}
+.knowledge-exp {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.knowledge-desc {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.knowledge img {
+  width: 50%;
+  text-align: center;
+}
+.contacts {
+  background-color: #026fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contacts h3 {
+  font-weight: 900;
+}
+.social {
+  padding-bottom: 1em;
+}
+.social a {
+  text-decoration: none;
+  margin: 0.5em;
+}
+
+.social-link {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+.social-link.linkedin {
+  background-image: url("../images/linkedin.png");
+  background-size: 50px 50px;
+}
+
+.form-email input {
+  border-color: gray;
+  padding: 5px 5px 5px 25px;
+  border-style: solid;
+  border-radius: 5px;
+  background-size: 15px 15px;
+  background-image: url("../images/envelope.svg");
+  background-position-y: center;
+  background-position-x: 5px;
+  background-repeat: no-repeat;
+}
+
+.form-email button {
+  display: block;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 30px;
+}
+
+.form-email h3 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.tools{
+  background-color: #fafafa;
+  padding: 20px;
+  display: block;
+}
+.tool-detail{
+  display: flex;
+  justify-content: start;
+
+  flex-wrap: wrap;
+}
+.tool-detail a{
+  text-decoration: none;
+  padding: 1em;
+}
+.tool-detail i{
+  font-size: 3em;
+}
+
+@media screen and (max-width: 1024px) {
+  .linkContainer i{
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .linkContainer{
+    display: flex;
+  }
+  .linkContainer i{
+    display: flex;
+   
+  }
+  /*Se reduce 1 solo pixel para que lo tome de medidas mas debajo del 768 que es un ipad*/
+  .header {
+    display: block;
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .header ol {
+    display: block;
+  }
+  .header ol li {
+    height: 50px;
+  }
+  .header a {
+    justify-content: left;
+  }
+  .header .logoContainer {
+    text-align: center;
+  }
+  .profile {
+    display: block;
+  }
+  .profile-details {
+    width: auto;
+    font-size: 16px;
+  }
+  .profile-imageContainer {
+    width: auto;
+    text-align: center;
+  }
+  .profile-title {
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+  }
+  .profile-desc {
+    font-size: 1.7em;
+    margin: 0.4em 0;
+  }
+  .knowledge-detail {
+    display: block;
+    width: auto;
+  }
+  .knowledge {
+    width: auto;
+  }
+  .knowledge-first {
+    width: 100%;
+  }
+  .knowledge-second {
+    width: 100%;
+  }
+  .contacts {
+    display: block;
+    height: auto;
+    text-align: center;
+    padding: 1em;
+  }
+  .form-email {
+    display: block;
+    text-align: center;
+  }
+  .wrapperButton {
+    display: flex;
+    justify-content: center;
+  }
+  .social {
+    padding-top: 0.5em;
+  }
+  .footer {
+    display: block;
+    text-align: center;
+    border: 1px solid transparent;
+  }
+  .hero {
+    height: auto;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .hero-image {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 120px;
+    right: 0;
+  }
+  h1 {
+    font-size: 1.5em;
+    z-index: 2;
+  }
+  .burger-button {
+    display: block;
+  }
+  .menu {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 3;
+    top: 0;
+    left: -100vw;
+    width: 80vw;
+    /*height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    bottom: 0;
+    transition: 0.5s;
+    font-size: 0.6em;
+    font-weight: bold;
+  }
+ 
+
+  .menu.is-active {
+    left: 0;
+  }
+  .header a {
+    text-decoration: none;
+    height: 40px;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    display: flex;
+    align-items: center;
+  }
+  .knowledge-desc{
+    font-size: 1.5em;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .hero {
+    height: 144px;
+  }
+  h1 {
+    font-size: 1.3em;
+  }
+  .profile-details {
+    font-size: 12px;
+  }
+  .container {
+    padding: 0 0.3em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 0.9em;
+  }
+  .contacts {
+    padding-bottom: 1em;
+    padding-top: 0.5em;
+  }
+}

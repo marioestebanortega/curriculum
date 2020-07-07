@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mario Esteban</title>
+    <link rel="icon" type="image/png" href="images/marioLogo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Source+Sans+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="./js/mailSend.js" type="application/javascript"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-171840911-1"
+    ></script>
+    
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-171840911-1");
+    </script>
+  </head>
+
+  <body>
+    <i class="icon-menu burger-button" id="burger-menu"></i>
+    <header class="header">
+      <div class="container">
+        <figure class="logoContainer">
+          <img class="logo" src="images/marioLogoNombre2.png" alt="" />
+        </figure>
+        <nav class="menu">
+          <ol>
+            <li>
+              <div class="linkContainer">
+              <i class="icon-user"></i>
+              <a class="link" href="#perfil">Mi perfil</a>
+            </div>
+            </li>
+            <li>
+              <div class="linkContainer">
+                <i class="icon-job"></i>
+              <a class="link" href="#conocimiento">Mi experiencia</a>
+              </div>
+            </li>
+            <li>
+              <div class="linkContainer">
+                <i class="icon-tools"></i>
+              <a class="link" href="#herramientas">Mis tecnologías</a>
+              </div>
+            </li>
+            <li>
+              <div class="linkContainer">
+                <i class="icon-manos"></i>
+              <a class="link" href="#trabajemosJuntos">¿Trabajamos juntos?</a>
+              </div>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h1>
+          Hola! Soy <strong>Mario Esteban</strong> <br />Consultor de
+          <strong>software</strong> <br />Arquitecto de
+          <strong>microservicios</strong><br />
+          Apasionadado del <strong>software</strong>
+        </h1>
+
+        <img
+          class="hero-image"
+          src="images/mario.jpg"
+          alt="Imagen principal del sitio"
+        />
+      </div>
+    </section>
+    <section id="perfil" class="profiles">
+      <div class="container">
+        <h2>Mi perfil</h2>
+        <article class="profile">
+          <div class="profile-details">
+            <h3 class="profile-title">Arquitecto</h3>
+            <p class="profile-desc">
+              <small
+                ><strong
+                  >Arquitecto de software especialista en garantizar decisiones
+                  en sistemas de información monolíticas y microservicios
+                  logrando ecosistemas tecnológicos de alto desempeño,
+                  rendimiento y seguros, eliminando riesgos mediante diseños
+                  arquitectónicos de alto nivel basados en las ultimas
+                  tecnologías que la industria trabaja en la actualidad</strong
+                ></small
+              >
+            </p>
+          </div>
+          <figure class="profile-imageContainer">
+            <img
+              class="profile-image"
+              src="images/imagenArquitecto.jpg"
+              alt="Arquitecto"
+            />
+          </figure>
+        </article>
+        <article class="profile">
+          <div class="profile-details">
+            <h3 class="profile-title">Consultor de software</h3>
+            <p class="profile-desc">
+              <small
+                ><strong
+                  >Brindar apoyo en decisiones y definiciones técnicas en
+                  plataformas tecnologicas logrando soluciones escalables,
+                  seguras, con excelente rendimiento gracias a la experticia
+                  adquirida por más de 10 años en industrias de software</strong
+                ></small
+              >
+            </p>
+          </div>
+          <figure class="profile-imageContainer">
+            <img
+              class="profile-image"
+              src="images/imagenConsultor.png"
+              alt="Consultor"
+            />
+          </figure>
+        </article>
+        <article class="profile">
+          <div class="profile-details">
+            <h3 class="profile-title">Líder</h3>
+            <p class="profile-desc">
+              <small
+                ><strong
+                  >Guiar a equipos de tecnología encontrando lo mejor de sus
+                  individualidades, fomentando el concepto tan valioso del
+                  trabajo en equipo para lograr metas y objetivos en servicios y
+                  aplicaciones de acuerdo a las directrices del sponsor del
+                  proyecto
+                </strong></small
+              >
+            </p>
+          </div>
+          <figure class="profile-imageContainer">
+            <img
+              class="profile-image"
+              src="images/imagenLider.jpg"
+              alt="Lider"
+            />
+          </figure>
+        </article>
+      </div>
+    </section>
+    <section id="conocimiento" class="knowledges">
+      <div class="container">
+        <h2>Mi experiencia</h2>
+        <div class="knowledge-detail">
+          <article class="knowledge">
+            <div class="knowledge-first">
+              <img src="./images/microservicios.png" alt="" />
+              <h6 class="knowledge-tech">
+                React.js, Java Spring boot, Docker, Kubernetes, JWT
+              </h6>
+            </div>
+            <div class="knowledge-second">
+              <p class="knowledge-exp">
+                <small><strong>Experiencia: 4 años</strong></small>
+              </p>
+              <p class="knowledge-desc">
+                <small
+                  ><strong
+                    >Definiciones e implementaciones en diseños de arquitectura
+                    de software microservicios, definiendo las mejores prácticas
+                    en implementación de servicios de negocio en contenedores
+                    orquestados con herramientas instaladas en Servicios de
+                    Infraestructura basadas en Cloud</strong
+                  ></small
+                >
+              </p>
+            </div>
+          </article>
+          <article class="knowledge">
+            <div class="knowledge-first">
+              <img src="./images/java.jpg" alt="" />
+              <h6 class="knowledge-tech">Java, JEE, Spring</h6>
+            </div>
+            <div class="knowledge-second">
+              <p class="knowledge-exp">
+                <small><strong>Experiencia: 10 años</strong></small>
+              </p>
+              <p class="knowledge-desc">
+                <small
+                  ><strong
+                    >Diseños e implementaciones de aplicaciones monoliticas y
+                    microservicios empresariales basadas en uno de los lenguajes
+                    más robustos y experimentados del mercado como lo es JAVA.
+                    Los proyectos ejecutados han logrado soluciones con alto
+                    impacto social y económico gracias a la estabilidad en los
+                    ambientes productivos en sectores como educación, banca,
+                    pensiones, salud y gobierno</strong
+                  ></small
+                >
+              </p>
+            </div>
+          </article>
+          <article class="knowledge">
+            <div class="knowledge-first">
+              <img src="./images/basedatos.png" alt="" />
+              <h6 class="knowledge-tech">Oracle, Postgres, Mysql, ETL</h6>
+            </div>
+            <div class="knowledge-second">
+              <p class="knowledge-exp">
+                <small><strong>Experiencia: 10 años</strong></small>
+              </p>
+              <p class="knowledge-desc">
+                <small
+                  ><strong
+                    >Amplia experiencia en soluciones de uno de los elementos
+                    más importantes del ciclo de vida de los sistemas de
+                    información: <b>LOS DATOS</b>. Las puestas en producción de
+                    estos sistemas han sido exitosas gracias a los correctos
+                    diseños de bases de datos relacionadas así como su acertada
+                    configuración, seguridad y tunning para soportar peticiones
+                    de los servicios de Backend que los requieran</strong
+                  ></small
+                >
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--Inicio Herramientas-->
+    <section id="herramientas" class="tools">
+      <div class="container">
+        <h2>Mis tecnologías</h2>
+        <div class="tool-detail">
+          <a
+            href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)"
+          >
+            <i class="icon-java"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Spring_Framework">
+            <i class="icon-spring"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Eclipse_(software)">
+            <i class="icon-eclipseide"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Git">
+            <i class="icon-git"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Amazon_Web_Services">
+            <i class="icon-amazonaws"></i>
+          </a>
+          <a href="https://es.qwe.wiki/wiki/Oracle_Database">
+            <i class="icon-oracle"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/MySQL">
+            <i class="icon-mysql"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/PostgreSQL">
+            <i class="icon-postgresql"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada">
+            <i class="icon-css3"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Bootstrap_(framework)">
+            <i class="icon-bootstrap"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/HTML5">
+            <i class="icon-html5"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/JavaScript">
+            <i class="icon-javascript"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/React">
+            <i class="icon-react"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Redux_(JavaScript)">
+            <i class="icon-redux"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Docker_(software)">
+            <i class="icon-docker"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Kubernetes">
+            <i class="icon-kubernetes"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Jenkins">
+            <i class="icon-jenkins"></i>
+          </a>
+          <a href="https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)">
+            <i class="icon-jest"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Raspberry_Pi">
+            <i class="icon-raspberrypi"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--Fin Herramientas-->
+    <section id="trabajemosJuntos" class="contacts">
+      <div class="container">
+        <form class="form-email" onsubmit="submitMail(event)">
+          <h3>¿Trabajamos juntos?</h3>
+         <!--<input type="text" placeholder="Dejame tu email" />--> 
+          <div class="wrapperButton">
+            <button type="submit">Contactame
+              </button>
+          </div>
+        </form>
+        <div class="social">
+          <a href="http://www.linkedin.com/in/maes0186">
+            <i class="icon-linkedin"></i>
+          </a>
+          <a href="https://platzi.com/@maes0186/">
+            <i class="icon-platzi"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <p>
+            Portafolio
+            <img src="./images/marioLogo.png" alt="" />
+          </p>
+        </div>
+        <div>
+          <p>
+            Implementado por <strong><b>Mario Esteban Ortega Garcés</b></strong>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./js/menu.js" type="application/javascript"></script>
+</html>
