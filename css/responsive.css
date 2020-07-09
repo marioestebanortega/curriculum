@@ -1,0 +1,129 @@
+@media screen and (max-width: 1024px) {
+    .linkContainer i{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    html{
+      font-size: 8px;
+    }
+    .linkContainer{
+      display: flex;
+    }
+    .linkContainer i{
+      display: flex;
+     
+    }
+    /*Se reduce 1 solo pixel para que lo tome de medidas mas debajo del 768 que es un ipad*/
+    /*------------------------------------->HEADER*/
+    .header {
+      height: auto;
+      padding-bottom: 40px;
+    }
+    .header ol {
+      display: block;
+    }
+    .header ol li {
+      height: 50px;
+    }
+    .header a {
+      justify-content: left;
+    }
+    .header .logoContainer {
+      text-align: center;
+      margin-left: 10vw;
+    }
+
+    /*--------------------------->HEADER*/
+
+   /*----------------------------------->HERO*/
+        .hero {
+          height: auto;
+          position: relative;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+        .hero-imageContainer{
+          width: 100%;
+          text-align: center;
+          padding-bottom: 2em;
+        }
+        .hero-image {
+      
+          z-index: 1;
+          width: 40%;
+          right: 0;
+        }
+        .hero-detail{
+          display: flex;
+          flex-direction: column-reverse
+          
+        }
+        
+
+        
+ /*-------------------------------------->HERO*/
+
+ /*Experiences*/
+ .experience{
+   display: block;
+ }
+
+ .experience-all-container{
+  display: flex;
+  flex-direction: column-reverse;
+ }
+
+ .experience-details{
+  width: 100%;
+ }
+ .experience-enterprise{
+   text-align: center;
+ }
+ .experience-image{
+   width: 150px;
+ }
+ /*Experiences*/
+
+/*Menu*/   
+.menu-container{
+  left: -100vw;
+}
+
+.burger-button {
+  display: block;
+}
+.menu {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 3;
+  top: 0;
+  left: -100vw;
+  width: 80vw;
+  /*height: 100vh;*/
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  bottom: 0;
+  transition: 0.5s;
+  font-size: 0.6em;
+  font-weight: bold;
+}
+
+
+.menu.is-active {
+  left: 0;
+}
+
+/*Menu*/
+
+  }
+  
+  @media screen and (max-width: 480px) {
+   
+  }
+  
+  @media screen and (max-width: 320px) {
+   
+  }
+  

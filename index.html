@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/font-icons.css" />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/body.css" />
+    <link rel="stylesheet" href="css/menu.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/hero.css" />
@@ -49,173 +50,212 @@
 
   <body>
     <i class="icon-menu burger-button" id="burger-menu"></i>
+    <section id="seccionMenu" class="menu-container arrow-hide">
+      <nav class="menu">
+        <ol>
+          <li>
+            <div class="linkContainer">
+              <i class="icon-user"></i>
+              <a class="link" href="#encabezado">Perfil</a>
+            </div>
+          </li>
+          <li>
+            <div class="linkContainer">
+              <i class="icon-job"></i>
+              <a class="link" href="#experiencia">Experiencia laboral</a>
+            </div>
+          </li>
+          <li>
+            <div class="linkContainer">
+              <i class="icon-tools"></i>
+              <a class="link" href="#certificaciones">Certificaciones</a>
+            </div>
+          </li>
+          <li>
+            <div class="linkContainer">
+              <i class="icon-manos"></i>
+              <a class="link" href="#educacion">Educación</a>
+            </div>
+          </li>
+          <li>
+            <div class="linkContainer">
+              <i class="icon-manos"></i>
+              <a class="link" href="#idiomas">Idiomas</a>
+            </div>
+          </li>
+        </ol>
+      </nav>
+      <div class="arrowContainer">
+        <i class="arrow arrow-right" id="arrow-menu"></i>
+      </div>
+    </section>
     <!--##################################################HEADER-->
     <header class="header">
       <div class="container">
         <figure class="logoContainer">
           <img class="logo" src="images/marioLogoNombre2.png" alt="" />
         </figure>
-        <nav class="menu">
-          <ol>
-            <li>
-              <div class="linkContainer">
-                <i class="icon-user"></i>
-                <a class="link" href="#perfil">Mi perfil</a>
-              </div>
-            </li>
-            <li>
-              <div class="linkContainer">
-                <i class="icon-job"></i>
-                <a class="link" href="#conocimiento">Mi experiencia</a>
-              </div>
-            </li>
-            <li>
-              <div class="linkContainer">
-                <i class="icon-tools"></i>
-                <a class="link" href="#herramientas">Mis tecnologías</a>
-              </div>
-            </li>
-            <li>
-              <div class="linkContainer">
-                <i class="icon-manos"></i>
-                <a class="link" href="#trabajemosJuntos">¿Trabajamos juntos?</a>
-              </div>
-            </li>
-          </ol>
-        </nav>
       </div>
     </header>
     <!--##################################################HEADER-->
 
     <!--##################################################HERO-->
-    <section class="hero">
+
+    <section id="encabezado" class="hero">
       <div class="container">
         <div class="hero-title">
-         <h2> Mario Esteban Ortega Garcés
-           <br/>
-         <small
-          ><strong>
-              Arquitecto y consultor de software
-            </strong></small
-            ></h2>
+          <h2>
+            Mario Esteban Ortega Garcés
+            <br />
+            <small
+              ><strong>
+                Arquitecto y consultor de software
+              </strong></small
+            >
+          </h2>
         </div>
         <div class="hero-detail">
           <div class="hero-detail-text">
-          <h5>
-            Soy una persona apasionada de la tecnología, quien busca constante
-            crecimiento y quien nunca para de aprender. He desempeñado roles de
-            alta responsabilidad en soluciones de ingeniería de software,
-            liderando y definiendo arquitecturas de proyectos con variedad de
-            necesidades tales como disponibilidad de usuarios, concurrencia,
-            integraciones, entre otras. Me encuentro enfocado en brindar
-            soluciones con arquitectura de microservicios que involucren
-            tecnologías : React, Spring Boot, Docker , Kubernetes
-            <br />
-            <br />
-            Email:
-            <small><strong>mario.esteban.ortega@gmail.com</strong></small>
-            <br />
-            Celular: <small><strong>+57 3103096818</strong></small>
-            <br />
-            Dirección:
-            <small
-              ><strong>Carrera 11 # 140 -52, Bogotá - Colombia</strong></small
-            >
-          </h5>
-               <!--##################################################TOOLS-->
-          
-                  <div class="tool-detail">
-                    <a
-                      href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)"
-                    >
-                      <i class="icon-java"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/Spring_Framework">
-                      <i class="icon-spring"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/Eclipse_(software)">
-                      <i class="icon-eclipseide"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/Git">
-                      <i class="icon-git"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/Amazon_Web_Services">
-                      <i class="icon-amazonaws"></i>
-                    </a>
-                    <a href="https://es.qwe.wiki/wiki/Oracle_Database">
-                      <i class="icon-oracle"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/MySQL">
-                      <i class="icon-mysql"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/PostgreSQL">
-                      <i class="icon-postgresql"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada">
-                      <i class="icon-css3"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/Bootstrap_(framework)">
-                      <i class="icon-bootstrap"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/HTML5">
-                      <i class="icon-html5"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/JavaScript">
-                      <i class="icon-javascript"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/React">
-                      <i class="icon-react"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/Redux_(JavaScript)">
-                      <i class="icon-redux"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/Docker_(software)">
-                      <i class="icon-docker"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/Kubernetes">
-                      <i class="icon-kubernetes"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/Jenkins">
-                      <i class="icon-jenkins"></i>
-                    </a>
-                    <a href="https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)">
-                      <i class="icon-jest"></i>
-                    </a>
-                    <a href="https://es.wikipedia.org/wiki/Raspberry_Pi">
-                      <i class="icon-raspberrypi"></i>
-                    </a>
-                  </div>
-              
-        </div>
+            <h5>
+              Soy una persona apasionada de la tecnología, quien busca constante
+              crecimiento y quien nunca para de aprender. He desempeñado roles
+              de alta responsabilidad en soluciones de ingeniería de software,
+              liderando y definiendo arquitecturas de proyectos con variedad de
+              necesidades tales como disponibilidad de usuarios, concurrencia,
+              integraciones, entre otras. Me encuentro enfocado en brindar
+              soluciones con arquitectura de microservicios que involucren
+              tecnologías : React, Spring Boot, Docker , Kubernetes
+              <br />
+              <br />
+              Email:
+              <small><strong>mario.esteban.ortega@gmail.com</strong></small>
+              <br />
+              Celular: <small><strong>+57 3103096818</strong></small>
+              <br />
+              Dirección:
+              <small
+                ><strong>Carrera 11 # 140 -52, Bogotá - Colombia</strong></small
+              >
+            </h5>
+          </div>
           <figure class="hero-imageContainer">
-          <img
-            class="hero-image"
-            src="images/mario.jpg"
-            alt="Imagen principal del sitio"
-          />
-        </figure>
+            <img
+              class="hero-image"
+              src="images/mario.jpg"
+              alt="Imagen principal del sitio"
+            />
+          </figure>
+        </div>
+        <div class="tool-detail">
+          <a
+            href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)"
+            target="_blank"
+          >
+            <i class="icon-java"></i>
+          </a>
+          <a
+            href="https://es.wikipedia.org/wiki/Spring_Framework"
+            target="_blank"
+          >
+            <i class="icon-spring"></i>
+          </a>
+          <a
+            href="https://es.wikipedia.org/wiki/Eclipse_(software)"
+            target="_blank"
+          >
+            <i class="icon-eclipseide"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Git" target="_blank">
+            <i class="icon-git"></i>
+          </a>
+          <a
+            href="https://es.wikipedia.org/wiki/Amazon_Web_Services"
+            target="_blank"
+          >
+            <i class="icon-amazonaws"></i>
+          </a>
+          <a href="https://es.qwe.wiki/wiki/Oracle_Database" target="_blank">
+            <i class="icon-oracle"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/MySQL" target="_blank">
+            <i class="icon-mysql"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/PostgreSQL" target="_blank">
+            <i class="icon-postgresql"></i>
+          </a>
+          <a
+            href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada"
+            target="_blank"
+          >
+            <i class="icon-css3"></i>
+          </a>
+          <a
+            href="https://es.wikipedia.org/wiki/Bootstrap_(framework)"
+            target="_blank"
+          >
+            <i class="icon-bootstrap"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/HTML5" target="_blank">
+            <i class="icon-html5"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/JavaScript" target="_blank">
+            <i class="icon-javascript"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/React" target="_blank">
+            <i class="icon-react"></i>
+          </a>
+          <a
+            href="https://es.wikipedia.org/wiki/Redux_(JavaScript)"
+            target="_blank"
+          >
+            <i class="icon-redux"></i>
+          </a>
+          <a
+            href="https://es.wikipedia.org/wiki/Docker_(software)"
+            target="_blank"
+          >
+            <i class="icon-docker"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Kubernetes" target="_blank">
+            <i class="icon-kubernetes"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Jenkins" target="_blank">
+            <i class="icon-jenkins"></i>
+          </a>
+          <a
+            href="https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)"
+            target="_blank"
+          >
+            <i class="icon-jest"></i>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Raspberry_Pi" target="_blank">
+            <i class="icon-raspberrypi"></i>
+          </a>
         </div>
       </div>
     </section>
     <!--##################################################HERO-->
 
-      
-          <!--##################################################TOOLS-->
+    <!--##################################################TOOLS-->
     <!--##################################################EXPERIENCES-->
-    <section id="perfil" class="experiences">
-      
+    <section id="experiencia" class="experiences">
       <div class="container">
         <h2>Experiencia laboral</h2>
         <article class="experience">
+          <h3 class="experience-enterprise">
+            Secretaria distrital de arte cultura y patrimonio
+          </h3>
+          <div class="experience-all-container">
           <div class="experience-details">
-            <h3 class="experience-enterprise">Secretaria distrital de arte cultura y patrimonio</h2>
-            <h4 class="experience-title">Consultor de software</h3>
+            <h4 class="experience-title">Consultor de software</h4>
             <h6 class="experience-date-init">
               Fecha inicio: Febrero 2018
             </h6>
             <h6 class="experience-date-end">Fecha fin: Actualmente</h6>
             <p class="experience-desc">
-              Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS
+              Consultor en solución basada en microservicios para la Secretaria
+              distrital , recreación y deporte de Bogotá. Logrando soluciones
+              para usuarios de beneficios de adulto mayor BEPS
               <br />
             </p>
 
@@ -223,56 +263,97 @@
               <h4>Logros</h4>
               <ol>
                 <li>
-                  Diseñar  y contruir nuevas herramientas técnologicas en la entidad
-                  </li>
-                  <li>
-                    Poner en producción dos aplicaciones basadas en microservicios
-                    </li>
-                    <li>
-                      Lograr integracion a nivel técnica y funcional de los procesos manuales para tramites en linea
-                      </li>
-                </ol>
-              </div>
-              <div class="experience-tools">
-                <h4>Técnologias usadas</h4>
-            <div class="icon-technologies">
-                <a href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)">
+                  Diseñar y contruir nuevas herramientas técnologicas en la
+                  entidad
+                </li>
+                <li>
+                  Poner en producción dos aplicaciones basadas en microservicios
+                </li>
+                <li>
+                  Lograr integracion a nivel técnica y funcional de los procesos
+                  manuales para tramites en linea
+                </li>
+              </ol>
+            </div>
+            <div class="experience-tools">
+              <h4>Técnologias usadas</h4>
+              <div class="icon-technologies">
+                <a
+                  href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)"
+                  target="_blank"
+                >
                   <i class="icon-java"><span>Java</span></i>
                 </a>
-                <a href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)">
+                <a
+                  href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)"
+                  target="_blank"
+                >
                   <i class="icon-spring"><span>Spring Boot</span></i>
                 </a>
-                <a href="https://es.wikipedia.org/wiki/Oracle_Database"><i class="icon-oracle"><span>Oracle BD</span></i></a>
-                  <a href="https://es.wikipedia.org/wiki/Docker_(software)"><i class="icon-docker"><span>Docker</span></i></a>
-                    <a href="https://www.ellucian.com/es/soluciones/ellucian-banner"><i class="icon-banner"><span>Banner</span></i></a>
-            </div> 
-          </div>
-
+                <a
+                  href="https://es.wikipedia.org/wiki/Oracle_Database"
+                  target="_blank"
+                  ><i class="icon-oracle"><span>Oracle BD</span></i></a
+                >
+                <a
+                  href="https://es.wikipedia.org/wiki/Docker_(software)"
+                  target="_blank"
+                  ><i class="icon-docker"><span>Docker</span></i></a
+                >
+                <a
+                  href="https://www.ellucian.com/es/soluciones/ellucian-banner"
+                  target="_blank"
+                  ><i class="icon-banner"><span>Banner</span></i></a
+                >
+              </div>
+            </div>
           </div>
           <div class="experience-sec2">
-          <figure class="experience-imageContainer">
-            <img
-              class="experience-image"
-              src="images/enterprise/enterprise_1_scrd.png"
-              alt="Consultor"
-            />
-          </figure>
- 
-          <h4 class="experience-info-enterprise"><a href="https://www.culturarecreacionydeporte.gov.co/"><small><strong>https://www.culturarecreacionydeporte.gov.co/</strong></small></a></h4>
-          <h4 class="experience-info-enterprise"><small><strong>Carrera 8 # 9 -83, Bogotá - Colombia </strong></small></h4>
-          <h4 class="experience-info-enterprise"><small><strong>+57-1-3274850</strong></small></h4>
+            <figure class="experience-imageContainer">
+              <img
+                class="experience-image"
+                src="images/enterprise/enterprise_1_scrd.png"
+                alt="Consultor"
+              />
+            </figure>
+
+            <h4 class="experience-info-enterprise">
+              <a
+                href="https://www.culturarecreacionydeporte.gov.co/"
+                target="_blank"
+                ><small
+                  ><strong
+                    >https://www.culturarecreacionydeporte.gov.co/</strong
+                  ></small
+                ></a
+              >
+            </h4>
+            <h4 class="experience-info-enterprise">
+              <small
+                ><strong>Carrera 8 # 9 -83, Bogotá - Colombia </strong></small
+              >
+            </h4>
+            <h4 class="experience-info-enterprise">
+              <small><strong>+57-1-3274850</strong></small>
+            </h4>
+          </div>
         </div>
         </article>
         <article class="experience">
+          <h3 class="experience-enterprise">
+            Ilumno
+          </h3>
+          <div class="experience-all-container">
           <div class="experience-details">
-            <h3 class="experience-enterprise">Ilumno</h2>
-            <h4 class="experience-title">Consultor de software</h3>
+            <h4 class="experience-title">Consultor de software</h4>
             <h6 class="experience-date-init">
-              Fecha inicio: Julio 2017
+              Fecha inicio: Febrero 2018
             </h6>
-            <h6 class="experience-date-end">Fecha fin: Noviembre 2019</h6>
+            <h6 class="experience-date-end">Fecha fin: Actualmente</h6>
             <p class="experience-desc">
-              Consultor de técnologia para la implementación del sistema académico y financiero de las instituciones universitarias Politécnico y la Fundación del área andina
+              Consultor en solución basada en microservicios para la Secretaria
+              distrital , recreación y deporte de Bogotá. Logrando soluciones
+              para usuarios de beneficios de adulto mayor BEPS
               <br />
             </p>
 
@@ -280,56 +361,93 @@
               <h4>Logros</h4>
               <ol>
                 <li>
-                  Establecer la arquitectura del modulo de certificaciones de Banner
-                  </li>
-                  <li>
-                    Experticie en consultoria de la herramienta Admin Pages de Banner
-                    </li>
-                    <li>
-                      Definiciones importantes en el proyecto
-                      </li>
-                </ol>
-              </div>
-              <div class="experience-tools">
-                <h4>Técnologias usadas</h4>
-            <div class="icon-technologies">
-                <a href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)">
+                  Diseñar y contruir nuevas herramientas técnologicas en la
+                  entidad
+                </li>
+                <li>
+                  Poner en producción dos aplicaciones basadas en microservicios
+                </li>
+                <li>
+                  Lograr integracion a nivel técnica y funcional de los procesos
+                  manuales para tramites en linea
+                </li>
+              </ol>
+            </div>
+            <div class="experience-tools">
+              <h4>Técnologias usadas</h4>
+              <div class="icon-technologies">
+                <a
+                  href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)"
+                  target="_blank"
+                >
                   <i class="icon-java"><span>Java</span></i>
                 </a>
-                <a href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)">
+                <a
+                  href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)"
+                  target="_blank"
+                >
                   <i class="icon-spring"><span>Spring Boot</span></i>
                 </a>
-                <a href="https://es.wikipedia.org/wiki/Oracle_Database"><i class="icon-postgresql"><span>Postgres</span></i></a>
-                <a href="https://es.wikipedia.org/wiki/Docker_(software)"><i class="icon-docker"><span>Docker</span></i></a>
-                  <a href="https://www.ellucian.com/es/soluciones/ellucian-banner"><i class="icon-kubernetes"><span>Kubernetes</span></i></a>
-            </div> 
-          </div>
-
+                <a
+                  href="https://es.wikipedia.org/wiki/Oracle_Database"
+                  target="_blank"
+                  ><i class="icon-oracle"><span>Oracle BD</span></i></a
+                >
+                <a
+                  href="https://es.wikipedia.org/wiki/Docker_(software)"
+                  target="_blank"
+                  ><i class="icon-docker"><span>Docker</span></i></a
+                >
+                <a
+                  href="https://www.ellucian.com/es/soluciones/ellucian-banner"
+                  target="_blank"
+                  ><i class="icon-banner"><span>Banner</span></i></a
+                >
+              </div>
+            </div>
           </div>
           <div class="experience-sec2">
-          <figure class="experience-imageContainer">
-            <img
-              class="experience-image"
-              src="images/enterprise/enterprise_2_ilumno.png"
-              alt="Consultor"
-            />
-          </figure>
-          <h4 class="experience-info-enterprise"><a href="https://www.ilumno.com/"><small><strong>https://www.ilumno.com/</strong></small></a></h4>
-          <h4 class="experience-info-enterprise"><small><strong>Carrera 12 No. 96 – 32 Bogota - Colombia</strong></small></h4>
-          <h4 class="experience-info-enterprise"><small><strong>+57-1-7452323</strong></small></h4>
+            <figure class="experience-imageContainer">
+              <img
+                class="experience-image"
+                src="images/enterprise/enterprise_2_ilumno.png"
+                alt="Consultor"
+              />
+            </figure>
+
+            <h4 class="experience-info-enterprise">
+              <a
+                href="https://www.culturarecreacionydeporte.gov.co/"
+                target="_blank"
+                ><small
+                  ><strong
+                    >https://www.culturarecreacionydeporte.gov.co/</strong
+                  ></small
+                ></a
+              >
+            </h4>
+            <h4 class="experience-info-enterprise">
+              <small
+                ><strong>Carrera 8 # 9 -83, Bogotá - Colombia </strong></small
+              >
+            </h4>
+            <h4 class="experience-info-enterprise">
+              <small><strong>+57-1-3274850</strong></small>
+            </h4>
+          </div>
         </div>
         </article>
       </div>
     </section>
 
-    <section id="certificaciones" class="knowledges">
+    <!--  <section id="certificaciones" class="knowledges">
       <div class="container">
         <h2>Certificaciones</h2>
         <div class="knowledge-detail">
           <article class="knowledge">
             <div class="knowledge-first">
               <img src="./images/certification/certification_3_platzi.png" alt="" />
-              <a href="https://platzi.com/@maes0186/"><strong>https://platzi.com/@maes0186/</strong></a>
+              <a href="https://platzi.com/@maes0186/" target="_blank"><strong>https://platzi.com/@maes0186/</strong></a>
             </div>
             <div class="knowledge-second">
               <p class="knowledge-exp">
@@ -374,10 +492,10 @@
  
           </div>
         </div>
-    </section>
+    </section>-->
     <!--##################################################KNOWLEDGES-->
-     <!--##################################################EDUCATION-->
-    <section id="conocimiento" class="knowledges">
+    <!--##################################################EDUCATION-->
+    <!--   <section id="educacion" class="knowledges">
       <div class="container">
         <h2>Educación</h2>
         <div class="knowledge-detail">
@@ -438,11 +556,11 @@
           
         </div>
       </div>
-    </section>
+    </section>-->
 
     <!--##################################################EDUCATION-->
-   <!--##################################################LANGUAGES-->
-    <section id="idiomas" class="languages">
+    <!--##################################################LANGUAGES-->
+    <!-- <section id="idiomas" class="languages">
       <div class="container">
         <h2>Idiomas</h2>
         <div class="languaje-container">
@@ -452,8 +570,8 @@
           <h4>Speaking</h4>
           <img src="images/languages/speaking.png" alt="">
           <div class="bar-fill-out">
-            <div class="bar-fill-in bar-fill-50">
-              <h4>50%</h4>
+            <div class="bar-fill-in bar-fill-80">
+              <h4>80%</h4>
             </div>
           </div>
         </article>
@@ -461,8 +579,8 @@
           <h4>Reading</h4>
           <img src="images/languages/reading.png" alt="">
           <div class="bar-fill-out">
-            <div class="bar-fill-in bar-fill-70">
-              <h4>70%</h4>
+            <div class="bar-fill-in bar-fill-80">
+              <h4>80%</h4>
             </div>
           </div>
         </article>
@@ -470,8 +588,8 @@
           <h4>Writing</h4>
           <img src="images/languages/writing.png" alt="">
           <div class="bar-fill-out">
-            <div class="bar-fill-in bar-fill-70">
-              <h4>70%</h4>
+            <div class="bar-fill-in bar-fill-80">
+              <h4>80%</h4>
             </div>
           </div>
         </article>
@@ -479,22 +597,19 @@
           <h4>Listening</h4>
           <img src="images/languages/listening.png" alt="">
           <div class="bar-fill-out">
-            <div class="bar-fill-in bar-fill-50">
-              <h4>50%</h4>
+            <div class="bar-fill-in bar-fill-80">
+              <h4>80%</h4>
             </div>
           </div>
         </article>
       </div>
           </div>
           </div>
-          </section>
-       <!--##################################################LANGUAGES-->
-       
-  
+          </section>-->
+    <!--##################################################LANGUAGES-->
 
-   
     <!--##################################################FOOTER-->
-    <footer class="footer">
+    <!--  <footer class="footer">
       <div class="container">
         <div>
           <p>
@@ -508,7 +623,7 @@
           </p>
         </div>
       </div>
-    </footer>
+    </footer>-->
     <!--##################################################FOOTER-->
   </body>
   <!--##################################################BODY-->
