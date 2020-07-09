@@ -1,0 +1,122 @@
+.experiences {
+    background-color: #fafafa;
+    padding: 20px;
+    display: block;
+    /*display: flex;*/ /*Usa el modo flex a los hijos*/
+    /*flex-direction: row;*/ /*Direccion de flex de los elementos*/
+    /*flex-wrap: wrap; */ /*Wap ayuda  saltar de linea si el espacio se acaba*/
+  }
+  .experiences h2{
+    margin-top:0.5em;
+    margin-bottom: 0.5em;
+  }
+  .experience {
+    /*flex-shrink: 0;*/ /*Esta propiedad nos ayuda a impedir la reduccion o reducir la reduccion del tamañano del elemento cuando se usa flex*/
+    /* align-self: flex-start;*/ /*Alinea un solo elemento hijo*/
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 1.2; /*Alto de la linea*/
+    /* box-sizing: border-box;*/ /*Para que tome el width y heigh como tamñaos maximos si importar margin y padding*/
+  }
+  .experience h4{
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+  }
+  .experience-achievements{
+    font-size: 2em;
+  }
+  
+  .experience-achievements ol {
+    display: block;
+    list-style: square;
+    padding-left: 1em;
+    padding-bottom: 0.5em;
+  }
+  
+  
+  
+  .experience-achievements ol li {
+    height: auto;
+    margin:10px 0;
+  }
+  .experience-imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70%;
+    justify-content: center;
+  }
+
+  .experience-image {
+    max-width: 100%;
+    width: 60%;
+  }
+  .experience-date-init,.experience-date-end{
+    margin: 0 0 0.2em 0;
+    font-size: 1.5em;
+  }
+  .experience-title {
+    font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 1em;
+  }
+  .experience-enterprise{
+    font-size: 4.5em;
+    font-weight: bold;
+    margin-bottom: em;
+    margin-top:0.5em;
+    color: slategrey;
+  }
+  .experience-desc {
+    margin: 10px 0px;
+    font-size: 2em;
+    text-align: justify;
+    font-weight: 500;
+  }
+  
+  .experience-details {
+    display: block;
+    width: 50%;
+  }
+  .experience-sec2{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .experience-sec2 h4{
+    margin-top:0;
+    margin-bottom: 0;
+    color:black;
+    margin-top: 0px;
+    margin-bottom:0px ;
+    font-size: 2em;
+  }
+
+  
+
+  .icon-technologies{
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+  }
+  .icon-technologies a {
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  .icon-technologies a:hover {
+    font-size: 200%;
+    opacity: 2;
+  }
+  .icon-technologies span{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }

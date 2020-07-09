@@ -1,0 +1,50 @@
+.hero {
+    height: auto;
+    background-color: #393939;
+    /*background-image: url("../images/mario.jpg");
+    background-size: 250px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+  }
+  .hero-title{
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: -0.2px; /*Espaciado de letras , 20 % menos de un pixel*/
+    /*text-transform: uppercase;*/ /*Pone texto en miniusculas o mayusculas*/
+    /*text-decoration: underline;*/ /*Decoracion del texto , por ejemplo subrayado*/
+    color: white;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: normal;
+    margin-bottom: 0px;
+  }
+
+  .hero-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    text-align: justify;
+    opacity: 0.9;
+    color: white;
+  }
+  .hero-detail-text{
+    width: 100%;
+  }
+  .hero-detail-text h5{
+    margin: 0;
+  }
+  .hero-imageContainer{
+    width: 50%;
+    height: auto;
+    text-align: right;
+  }
+.hero-image {
+  width: 70%;
+  height: auto;
+  }

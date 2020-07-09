@@ -1,0 +1,76 @@
+.languages{
+    background-color: #fafafa;
+    padding: 20px;
+    display: block;
+}
+.languajes-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.language{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 2em;
+    margin: 2em 0;
+    width: 30%;
+
+}
+.language h4{
+    margin-top:0;
+    margin-bottom: 0.3em;
+}
+.bar-fill-out{
+    border: 1px solid black;
+    width: 80%;
+    height: 5em;
+}
+
+.bar-fill-in{
+    border: 1px solid black;
+    height: inherit;
+    background-color: black;
+}
+.bar-fill-0{
+    width: 10%;
+}
+.bar-fill-10{
+    width: 10%;
+}
+.bar-fill-20{
+    width: 20%;
+}
+.bar-fill-30{
+    width: 30%;
+}
+.bar-fill-40{
+    width: 40%;
+}
+.bar-fill-50{
+    width: 50%;
+}
+.bar-fill-60{
+    width: 60%;
+}
+.bar-fill-70{
+    width: 70%;
+}
+.bar-fill-80{
+    width: 80%;
+}
+.bar-fill-90{
+    width: 90%;
+}
+.bar-fill-100{
+    width: 100%;
+}
+
+.bar-fill-in h4{
+    color:white;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}

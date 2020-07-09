@@ -1,0 +1,81 @@
+
+/*------------------------------------------------------------->GENERALES*/
+
+html {
+    font-size: 9px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: normal;
+    /*font-style: italic;*/
+  }
+  
+  h1 {
+    font-size: 6rem;
+  }
+  
+  h2 {
+    font-size: 5rem;
+    margin-bottom: 40px;
+  }
+  
+  h3{
+    font-size: 4rem;
+  }
+  h4{
+    font-size: 3rem;
+  }
+  h5{
+    font-size: 2rem;
+  }
+  h6{
+    font-size: 1rem;
+  }
+  .U {
+    font-weight: 100;
+    line-height: 1.5; /*Alto de la linea*/
+    letter-spacing: -0.2px; /*Espaciado de letras , 20 % menos de un pixel*/
+    /*text-transform: uppercase;*/ /*Pone texto en miniusculas o mayusculas*/
+    /*text-decoration: underline;*/ /*Decoracion del texto , por ejemplo subrayado*/
+    color: white;
+    margin-right: 10px;
+  }
+  .container {
+    /* border: 1px solid red; */
+    /*max-width: 1000px;*/
+    padding: 0 1em;
+    max-width: 1000px;
+    flex: 1;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    flex-direction: inherit;
+  }
+
+  figure {
+    margin: 0;
+  }
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  
+  
+  strong {
+    color: slategrey;
+  }
+  
+  /*------------------------------------------------------------->GENERALES*/
+
