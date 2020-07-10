@@ -32,7 +32,6 @@
   .linkContainer {
     /* .menu ol li hereda de .menu ol */
     height: 100%;
-    padding: 5em auto;
   }
   .linkContainer i{
     display: none;

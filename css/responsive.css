@@ -5,14 +5,22 @@
   }
   @media screen and (max-width: 767px) {
     html{
-      font-size: 8px;
+      font-size: 10px;
     }
     .linkContainer{
       display: flex;
+      margin-bottom: 5em;
     }
     .linkContainer i{
       display: flex;
-     
+     margin-left: 2em;
+     color: white;
+     opacity: 0.8;
+
+    }
+    .link{
+      font-size: 4em;
+      font-weight: bold;
     }
     /*Se reduce 1 solo pixel para que lo tome de medidas mas debajo del 768 que es un ipad*/
     /*------------------------------------->HEADER*/
@@ -37,6 +45,9 @@
     /*--------------------------->HEADER*/
 
    /*----------------------------------->HERO*/
+   .hero-title h2{
+    font-size: 2.5em;
+   }
         .hero {
           height: auto;
           position: relative;
@@ -65,9 +76,21 @@
  /*-------------------------------------->HERO*/
 
  /*Experiences*/
+ 
  .experience{
    display: block;
  }
+ .experience-sec2{
+   max-width: 100%;
+   width: 100%;
+ }
+ .experience-sec2 h4{
+  font-size: 1.5em;
+ }
+ .experience-info-enterprise a{
+   text-decoration: none;
+ }
+
 
  .experience-all-container{
   display: flex;
@@ -79,11 +102,30 @@
  }
  .experience-enterprise{
    text-align: center;
+   font-size: 2em;
  }
  .experience-image{
    width: 150px;
  }
+ .experience-title{
+   text-align:center
+ }
+ .experience-achievements h4{
+   text-align: center;
+ }
+ .icon-technologies{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: initial;
+ }
+ .icon-technologies a{
+   margin-top: 1em;
+ }
+ .icon-technologies i{
+   margin-right: 1em;
+ }
  /*Experiences*/
+
 
 /*Menu*/   
 .menu-container{
@@ -100,7 +142,7 @@
   top: 0;
   left: -100vw;
   width: 80vw;
-  /*height: 100vh;*/
+  height: auto;
   display: flex;
   align-items: center;
   justify-content: left;
@@ -116,6 +158,81 @@
 }
 
 /*Menu*/
+
+/*Certifications*/
+.knowledges{
+  display: block;
+}
+.knowledge{
+  width: 100%;
+  padding: 2em 0;
+  margin: 2em 0;
+  display: block;
+
+  
+}
+.knowledge-first {
+  width: 100%;
+  text-align: center;
+  display: block;
+  padding: 1em 0;
+}
+
+.knowledge-second {
+  width: 100%;
+  text-align: center;
+  display: block;
+  padding: 1em 0;
+}
+
+/**/
+
+/*Languages*/
+.languages{
+  height: auto;
+  display: felx;
+}
+.language-container{
+  display: block;
+}
+.languages-detail{
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  flex-wrap: wrap;
+
+}
+.language img{
+  width: 15vh;
+  height: 15vh;
+}
+.language{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 48%;
+  padding: 2em 0;
+  margin: 2em 0;
+}
+/*Languages*/
+
+/*Footer*/
+.footer {
+  text-align: center;
+}
+
+.footer-first{
+  width: 100%;
+  text-align:center;
+}
+.footer-second{
+  width: 100%;
+  text-align:center;
+}
+
+/*Footer*/
 
   }
   
