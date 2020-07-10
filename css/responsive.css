@@ -177,10 +177,20 @@
   
 }
 .knowledge-first {
+  display: block;
   width: 100%;
   text-align: center;
-  display: block;
   padding: 1em 0;
+}
+.knowledge-first img{
+
+  width: 75%;
+  height: 50%;
+  
+}
+.knowledge-first a{
+  width: 100%;
+  text-align: center;
 }
 
 .knowledge-second {
