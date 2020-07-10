@@ -105,8 +105,8 @@
    font-size: 2em;
  }
  .experience-image{
-   width: auto;
-   height: auto;
+   width: 50%;
+   height: 50%;
  }
  .experience-title{
    text-align:center
