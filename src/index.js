@@ -1,4 +1,17 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from './app'
+import './css/font-icons.css'
+import './css/global.css'
+import './css/body.css'
+import './css/menu.css'
+import './css/header.css'
+import './css/global.css'
+import './css/hero.css'
+import './css/experience.css'
+import './css/knowledges.css'
+import './css/languages.css'
+import './css/footer.css'
+import './css/responsive.css'
 
-ReactDOM.render(<h1>Seguimos con el curso avanzado!</h1>, document.getElementById('app'))
+ReactDOM.render(<App/>, document.getElementById('app'))
