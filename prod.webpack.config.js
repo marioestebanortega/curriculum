@@ -26,37 +26,10 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          'style-loader',
           {
-            loader: 'css-loader',
-            options: {
-              importLoaders: 1
-            }
-          }
-        ]
-      },
-      {
-        test: /\.less$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'less-loader',
-        ]
-      },
-      {
-        test: /\.scss$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader',
-        ]
-      },
-      {
-        test: /\.styl$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'stylus-loader',
+            loader: MiniCSSExtractPlugin.loader
+          },
+          'css-loader'
         ]
       },
       {

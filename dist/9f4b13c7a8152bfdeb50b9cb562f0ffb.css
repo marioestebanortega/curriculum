@@ -1,7 +1,0 @@
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = require("../../node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.id, ".languages{\r\n    background-color: #fafafa;\r\n    padding: 20px;\r\n    display: block;\r\n}\r\n.languages-detail{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    flex-wrap: wrap;\r\n}\r\n.language{\r\n    background-color: white;\r\n    border: 1px solid black;\r\n    border-radius: 10%;\r\n    padding: 2em;\r\n    margin: 2em 0;\r\n    width: 30%;\r\n\r\n}\r\n.language h4{\r\n    margin-top:0;\r\n    margin-bottom: 0.3em;\r\n}\r\n.bar-fill-out{\r\n    border: 1px solid black;\r\n    width: 80%;\r\n    height: 5em;\r\n}\r\n\r\n.bar-fill-in{\r\n    border: 1px solid black;\r\n    height: inherit;\r\n    background-color: black;\r\n}\r\n.bar-fill-0{\r\n    width: 10%;\r\n}\r\n.bar-fill-10{\r\n    width: 10%;\r\n}\r\n.bar-fill-20{\r\n    width: 20%;\r\n}\r\n.bar-fill-30{\r\n    width: 30%;\r\n}\r\n.bar-fill-40{\r\n    width: 40%;\r\n}\r\n.bar-fill-50{\r\n    width: 50%;\r\n}\r\n.bar-fill-60{\r\n    width: 60%;\r\n}\r\n.bar-fill-70{\r\n    width: 70%;\r\n}\r\n.bar-fill-80{\r\n    width: 80%;\r\n}\r\n.bar-fill-90{\r\n    width: 90%;\r\n}\r\n.bar-fill-100{\r\n    width: 100%;\r\n}\r\n\r\n.bar-fill-in h4{\r\n    color:white;\r\n    font-size: 3em;\r\n    margin: 0;\r\n    padding: 0;\r\n    text-align: center;\r\n}\r\n", ""]);
-// Exports
-module.exports = exports;
