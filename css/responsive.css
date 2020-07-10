@@ -39,7 +39,7 @@
     }
     .header .logoContainer {
       text-align: center;
-      margin-left: 10vw;
+      width: 100%;
     }
 
     /*--------------------------->HEADER*/
@@ -105,7 +105,8 @@
    font-size: 2em;
  }
  .experience-image{
-   width: 150px;
+   width: auto;
+   height: auto;
  }
  .experience-title{
    text-align:center
@@ -121,9 +122,9 @@
  .icon-technologies a{
    margin-top: 1em;
  }
- .icon-technologies i{
-   margin-right: 1em;
- }
+ .icon-technologies a:hover {
+  font-size: 120%;
+}
  /*Experiences*/
 
 
