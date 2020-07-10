@@ -109,6 +109,9 @@
    width: 50%;
    height: 50%;
  }
+ .experience-tools h4{
+   text-align: center;
+ }
  .experience-title{
    text-align:center
  }

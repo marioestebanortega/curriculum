@@ -77,6 +77,11 @@ html {
   strong {
     color: slategrey;
   }
+
+  .container h2{
+    color: steelblue;
+    text-align: center;
+  }
   
   /*------------------------------------------------------------->GENERALES*/
 

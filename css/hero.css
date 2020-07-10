@@ -24,6 +24,9 @@
     font-weight: normal;
     margin-bottom: 0px;
   }
+  .hero-title h2{
+    color:white;
+  }
 
   .hero-detail{
     display: flex;
