@@ -15,12 +15,13 @@
       display: flex;
      margin-left: 2em;
      color: white;
-     opacity: 0.8;
+     
 
     }
     .link{
       font-size: 4em;
       font-weight: bold;
+      opacity: 0.8;
     }
     /*Se reduce 1 solo pixel para que lo tome de medidas mas debajo del 768 que es un ipad*/
     /*------------------------------------->HEADER*/
