@@ -4,7 +4,7 @@
   "description": "\"# curriculum\"",
   "main": "index.js",
   "scripts": {
-    "build:prod": "webpack --mode production --config ./prod.webpack.config.js",
+    "build": "webpack --mode production --config ./prod.webpack.config.js",
     "build:dev": "webpack --mode development --config ./dev.webpack.config.js",
     "start": "webpack-dev-server --config ./dev.webpack.config.js --host localhost --open --mode development"
   },
