@@ -1,9 +1,11 @@
 import React from 'react'
 import './hero.css'
 import heroImage from '../../images/mario.jpg'
+import {getData,urlStatic} from '../../config'
 
 
 const Hero= () => {
+  const data =getData();
 return (
     <section id="encabezado" class="hero">
     <div class="container">
