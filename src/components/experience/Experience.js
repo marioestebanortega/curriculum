@@ -1,4 +1,4 @@
-import React from 'React'
+import React from 'react'
 import './experience.css'
 import experience1 from '../../images/enterprise/enterprise_1_scrd.png'
 import experience2 from '../../images/enterprise/enterprise_2_ilumno.png'
