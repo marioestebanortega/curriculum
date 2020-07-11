@@ -1,4 +1,4 @@
-import React from 'React'
+import React from 'react'
 import './hero.css'
 import heroImage from '../../images/mario.jpg'
 
