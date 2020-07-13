@@ -1,21 +1,24 @@
 import React from 'react'
 import './footer.css'
-import footerImage from './footer.css'
+import {getTextLang } from '../../config'
 
 
 const Footer = ()=>{
+  const text=getTextLang().footer;
 return (
-    <footer class="footer">
-    <div class="container">
-      <div class="footer-first">
+    <footer className="footer">
+    <div className="container">
+      <div className="footer-first">
         <p>
-          Hoja de vida
-          <img src={footerImage} alt="" />
+          {text.cvName}
+          <img
+           src="/public/images/logoSinNombre.png"
+            alt="" />
         </p>
       </div>
-      <div class="footer-second">
+      <div className="footer-second">
         <p>
-          Implementada por <strong><b>Mario Esteban Ortega Garcés</b></strong>
+          {text.implementedDesc} <strong><b>{text.developerName}</b></strong>
         </p>
       </div>
     </div>

@@ -1,50 +1,56 @@
 import React from 'react'
 import './languages.css'
-import speaking from '../../images/languages/speaking.png'
-import reading from '../../images/languages/reading.png'
-import writing from '../../images/languages/writing.png'
-import listening from '../../images/languages/listening.png'
+import {getTextLang } from '../../config'
 
 const Language =()=>{
+  const text=getTextLang().language;
     return (
-     <section id="idiomas" class="languages">
-     <div class="container">
-     <h2>Idiomas</h2>
-       <div class="language-container">
-         <h3><strong>Ingles</strong></h3>
-         <div class="languages-detail">
-         <article class="language">
-         <h4>Speaking</h4>
-         <img src={speaking} alt=""/>
-         <div class="bar-fill-out">
-           <div class="bar-fill-in bar-fill-80">
+     <section id="idiomas" className="languages">
+     <div className="container">
+     <h2>{text.title}</h2>
+       <div className="language-container">
+         <h3><strong>{text.englishName}</strong></h3>
+         <div className="languages-detail">
+         <article className="language">
+         <h4>{text.speaking}</h4>
+         <img 
+          src="/public/images/languages/speaking.png"
+          alt=""/>
+         <div className="bar-fill-out">
+           <div className="bar-fill-in bar-fill-80">
              <h4>80%</h4>
            </div>
          </div>
        </article>
-       <article class="language">
-         <h4>Reading</h4>
-         <img src={reading} alt=""/>
-         <div class="bar-fill-out">
-           <div class="bar-fill-in bar-fill-80">
+       <article className="language">
+         <h4>{text.reading}</h4>
+         <img 
+         src="/public/images/languages/reading.png"
+          alt=""/>
+         <div className="bar-fill-out">
+           <div className="bar-fill-in bar-fill-80">
              <h4>80%</h4>
            </div>
          </div>
        </article>
-       <article class="language">
-         <h4>Writing</h4>
-         <img src={writing} alt=""/>
-         <div class="bar-fill-out">
-           <div class="bar-fill-in bar-fill-80">
+       <article className="language">
+         <h4>{text.writing}</h4>
+         <img 
+         src="/public/images/languages/writing.png"
+          alt=""/>
+         <div className="bar-fill-out">
+           <div className="bar-fill-in bar-fill-80">
              <h4>80%</h4>
            </div>
          </div>
        </article>
-       <article class="language">
-         <h4>Listening</h4>
-         <img src={listening} alt=""/>
-         <div class="bar-fill-out">
-           <div class="bar-fill-in bar-fill-80">
+       <article className="language">
+         <h4>{text.listening}</h4>
+         <img 
+          src="/public/images/languages/listening.png" 
+         alt=""/>
+         <div className="bar-fill-out">
+           <div className="bar-fill-in bar-fill-80">
              <h4>80%</h4>
            </div>
          </div>

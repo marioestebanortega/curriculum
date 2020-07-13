@@ -55,13 +55,13 @@
   .experience-imageContainer {
     display: flex;
     flex-wrap: wrap;
-    height: 70%;
+    height: 100%;
     justify-content: center;
   }
 
   .experience-image {
     max-width: 100%;
-    width: 60%;
+    width: 100%;
   }
   .experience-date-init,.experience-date-end{
     margin: 0 0 0.2em 0;

@@ -1,0 +1,39 @@
+{
+    "hero":{
+        "mail":"Email: ",
+        "cellphone":"Celular: ",
+        "address":"Dirección: "
+    },
+    "experience":{
+        "title":"Experiencia laboral",
+        "dateIni":"Fecha inicio: ",
+        "dateEnd":"Fecha fin: ",
+        "ahievements": "Logros",
+        "usedTech":"Técnologias usadas"
+    },
+    "certification":{
+        "title":"Certificaciones",
+        "dateIni":"Fecha inicio: ",
+        "dateEnd":"Fecha fin: "
+
+    },
+    "education":{
+        "title":"Educacion",
+        "dateIni":"Fecha inicio: ",
+        "dateEnd":"Fecha fin: "
+
+    },
+    "language":{
+        "title":"Idiomas",
+        "speaking":"Speaking",
+        "reading":"Reading",
+        "writing":"Writing",
+        "listening":"Listening",
+        "englishName":"Ingles"
+    },
+    "footer":{
+        "cvName":"Hoja de vida",
+        "implementedDesc":"Implementada por",
+        "developerName":"Mario Esteban Ortega Garcés"
+    }
+}

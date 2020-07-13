@@ -9,7 +9,7 @@ import Language from './components/language/Language'
 import Footer from './components/footer/Footer'
 const App = ()=>{
 return (<>
-<i class="icon-menu burger-button" id="burger-menu"></i>
+<i className="icon-menu burger-button" id="burger-menu"></i>
     <Menu/>
     <Header/>
     <Hero/>
