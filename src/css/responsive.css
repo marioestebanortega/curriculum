@@ -162,6 +162,10 @@
   left: 0;
 }
 
+#buttonPrinter:hover{
+  font-size: 3em;
+}
+
 /*Menu*/
 
 /*Certifications*/

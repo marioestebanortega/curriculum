@@ -5,6 +5,12 @@ import './menu.css';
 
 
 const Menu=()=>{
+  
+
+  const onclickAction=(event)=>{
+      window.print();
+  }
+
 return (
     <section id="seccionMenu" className="menu-container arrow-hide">
     <nav className="menu">
@@ -37,6 +43,14 @@ return (
           <div className="linkContainer">
             <i className="icon-language"></i>
             <a className="link" href="#idiomas">Idiomas</a>
+          </div>
+        </li>
+
+        <li>
+           <div className="linkContainer-sec separator">
+             <button type="button" id="buttonPrinter" onClick={onclickAction}>
+            <i className="icon-printer"></i>
+            </button>
           </div>
         </li>
       </ol>
