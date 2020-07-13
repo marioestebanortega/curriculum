@@ -6,7 +6,7 @@ const Education = () =>{
   const data=getData();
   const text=getTextLang().education;
 return (
-    <section id="educacion" className="knowledges">
+    <section id="educacion" className="educations" className="knowledges">
     <div className="container">
       <h2>{text.title}</h2>
       <div className="knowledge-detail">

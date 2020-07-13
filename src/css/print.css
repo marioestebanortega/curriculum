@@ -1,0 +1,61 @@
+@media print {
+    @page {
+        margin: 0;
+        size: 8.3in 75in;
+     }
+    html {
+        -webkit-print-color-adjust: exact;
+     }
+     .experience-achievements ol li{
+         margin-bottom: 0;
+     }
+     .knowledge{
+         padding: 0.4em;
+     }
+  
+     .experiences{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-between;
+     }
+  
+     .experience{
+         font-size: 0.7em;
+         padding-top: 0;
+     }
+
+     .experience h4{
+         margin-top: 0.2em;
+         margin-bottom: 0.2em;
+     }
+     .knowledge-detail{
+         font-size: 0.6em;
+     }
+
+     .languages{
+        font-size: 0.7em;
+        padding-top: 0;
+    }
+    .language{
+        width: 20%;
+        padding: 0.2em;
+    }
+    .language img{
+        width: 20%;
+    }
+    
+     #burger-menu{
+         display: none;
+     }
+     #seccionMenu{
+         display: none;
+     }
+     #buttoPrint{
+         display: none;
+     }
+    #footerPage{
+         display: none;
+     }
+  
+  }
