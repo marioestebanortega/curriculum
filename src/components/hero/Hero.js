@@ -45,7 +45,7 @@ return (
           />
         </figure>
       </div>
-      <div className="tool-detail">
+      {data.general.show_technologies===true?<div className="tool-detail">
         {
            data.general.technologies.map((tech,i)  => {
             return <a key={"icon-tool"+i}
@@ -56,7 +56,7 @@ return (
            </a>}
            )
         }
-      </div>
+      </div>:<></>}
     </div>
   </section>
 )

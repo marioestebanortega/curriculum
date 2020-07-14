@@ -7,7 +7,7 @@ import { getData,getTextLang } from '../../config'
 
 const Experience = ({lang}) => {
   const data = getData(lang);
-  const text=getTextLang(lang).hero;
+  const text=getTextLang(lang).experience;
   return (
     <section id="experiencia" className="experiences">
       <div className="container">

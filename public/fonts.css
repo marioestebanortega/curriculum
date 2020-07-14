@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('./fonts/icomoon.eot?4u87zf');
-  src:  url('./fonts/icomoon.eot?4u87zf#iefix') format('embedded-opentype'),
-    url('./fonts/icomoon.ttf?4u87zf') format('truetype'),
-    url('./fonts/icomoon.woff?4u87zf') format('woff'),
-    url('./fonts/icomoon.svg?4u87zf#icomoon') format('svg');
+  src:  url('./fonts/icomoon.eot?xt5t46');
+  src:  url('./fonts/icomoon.eot?xt5t46#iefix') format('embedded-opentype'),
+    url('./fonts/icomoon.ttf?xt5t46') format('truetype'),
+    url('./fonts/icomoon.woff?xt5t46') format('woff'),
+    url('./fonts/icomoon.svg?xt5t46#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -39,6 +39,10 @@
 }
 .icon-platzi:before {
   content: "\e900";
+}
+.icon-nodejs:before {
+  content: "\e920";
+  color: #393;
 }
 .icon-css3:before {
   content: "\e912";

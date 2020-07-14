@@ -114,8 +114,10 @@
     font-size: 2em;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   .icon-technologies a {
+    margin-top:1em ;
     text-decoration: none;
     transition: 0.5s;
   }

@@ -6,7 +6,7 @@
       "email": "maes0186@gmail.com",
       "cellphone": "+57 3103096818",
       "address": "Carrera 11 # 140 -52, Bogotá - Colombia",
-      "show-technologies": true,
+      "show_technologies": true,
       "technologies": [
         {
           "tech": "java",
