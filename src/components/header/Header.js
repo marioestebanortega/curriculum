@@ -21,6 +21,7 @@ const Header=({lang,setLang})=>{
       ini='en';
     }
     document.getElementById('si-select-language').value=ini;
+    setLang(ini);
   },[])
   
 

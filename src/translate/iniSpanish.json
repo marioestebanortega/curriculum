@@ -1,9 +1,9 @@
 {
   "general": {
     "fullname": "Mario Esteban Ortega Garcés",
-    "role": "Arquitecto y consultor de software",
-    "role-description": "Soy una persona apasionada de la tecnología, quien busca constante crecimiento y quien nunca para de aprender. He desempeñado roles de alta responsabilidad en soluciones de ingeniería de software, liderando y definiendo arquitecturas de proyectos con variedad de necesidades tales como disponibilidad de usuarios, concurrencia, integraciones, entre otras. Me encuentro enfocado en brindar soluciones con arquitectura de microservicios que involucren tecnologías : React, Spring Boot, Docker , Kubernetes",
-    "email": "maes0186@gmail.com",
+    "role": "Ingeniero de software",
+    "role-description": "Ingeniero certificado de software con más de 12 años de experiencia en sistemas de información con fuertes conocimientos en Java y micro servicios (React, Docker, Jenkins) desempeñando responsabilidades de liderazgo, arquitectura e implementación de sistemas. He participado en definiciones de arquitectura junto a los requerimientos de usuario, funcionales, no funcionales, proyecto y riesgos, logrado sistemas robustos, escalables, interoperables y seguros para brindar soluciones efectivas a los stakeholders impactados.n",
+    "email": "mario.esteban.ortega@gmail.com",
     "cellphone": "+57 3103096818",
     "address": "Carrera 11 # 140 -52, Bogotá - Colombia",
     "show-technologies": true,
@@ -137,7 +137,7 @@
       "position": "Consultor de software",
       "dateIni": "Febrero 2018",
       "dateEnd": "Actualmente",
-      "expDesc": " Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS",
+      "expDesc": "Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS",
       "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
       "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
       "enterprisePhone": "+57-1-3274850",
