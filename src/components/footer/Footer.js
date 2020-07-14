@@ -3,8 +3,8 @@ import './footer.css'
 import {getTextLang } from '../../config'
 
 
-const Footer = ()=>{
-  const text=getTextLang().footer;
+const Footer = ({lang})=>{
+  const text=getTextLang(lang).footer;
 return (
     <footer className="footer" id="footerPage">
     <div className="container">

@@ -3,9 +3,9 @@ import '../certification/knowledges.css'
 import {getData,getTextLang} from "../../config"
 
 
-const Certification=()=>{
-  const data=getData();
-  const text=getTextLang().certification;
+const Certification=({lang})=>{
+  const data=getData(lang);
+  const text=getTextLang(lang).certification;
     return (
 <section id="certificaciones" className="knowledges">
 <div className="container">

@@ -1,0 +1,653 @@
+{
+    "general": {
+      "fullname": "Mario Esteban Ortega Garcés",
+      "role": "Arquitecto y consultor de software",
+      "role-description": "Soy una persona apasionada de la tecnología, quien busca constante crecimiento y quien nunca para de aprender. He desempeñado roles de alta responsabilidad en soluciones de ingeniería de software, liderando y definiendo arquitecturas de proyectos con variedad de necesidades tales como disponibilidad de usuarios, concurrencia, integraciones, entre otras. Me encuentro enfocado en brindar soluciones con arquitectura de microservicios que involucren tecnologías : React, Spring Boot, Docker , Kubernetes",
+      "email": "maes0186@gmail.com",
+      "cellphone": "+57 3103096818",
+      "address": "Carrera 11 # 140 -52, Bogotá - Colombia",
+      "show-technologies": true,
+      "technologies": [
+        {
+          "tech": "java",
+          "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)"
+        },
+        {
+          "tech": "spring",
+          "url": "https://es.wikipedia.org/wiki/Spring_Framework"
+        },
+        {
+          "tech": "eclipseide",
+          "url": "https://es.wikipedia.org/wiki/Eclipse_(software)"
+        },
+        {
+          "tech": "git",
+          "url": "https://es.wikipedia.org/wiki/Git"
+        },
+        {
+          "tech": "amazonaws",
+          "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services"
+        },
+        {
+          "tech": "oracle",
+          "url": "https://es.qwe.wiki/wiki/Oracle_Database"
+        },
+        {
+          "tech": "mysql",
+          "url": "https://es.wikipedia.org/wiki/MySQL"
+        },
+        {
+          "tech": "postgresql",
+          "url": "https://es.wikipedia.org/wiki/PostgreSQL"
+        },
+        {
+          "tech": "css3",
+          "url": "https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada"
+        },
+        {
+          "tech": "bootstrap",
+          "url": "https://es.wikipedia.org/wiki/Bootstrap_(framework)"
+        },
+        {
+          "tech": "html5",
+          "url": "https://es.wikipedia.org/wiki/HTML5"
+        },
+        {
+          "tech": "javascript",
+          "url": "https://es.wikipedia.org/wiki/JavaScript"
+        },
+        {
+          "tech": "react",
+          "url": "https://es.wikipedia.org/wiki/React"
+        },
+        {
+          "tech": "redux",
+          "url": "https://es.wikipedia.org/wiki/Redux_(JavaScript)"
+        },
+        {
+          "tech": "docker",
+          "url": "https://es.wikipedia.org/wiki/Docker_(software)"
+        },
+        {
+          "tech": "kubernetes",
+          "url": "https://es.wikipedia.org/wiki/Kubernetes"
+        },
+        {
+          "tech": "jenkins",
+          "url": "https://es.wikipedia.org/wiki/Jenkins"
+        },
+        {
+          "tech": "jest",
+          "url": "https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)"
+        },
+        {
+          "tech": "raspberrypi",
+          "url": "https://es.wikipedia.org/wiki/Raspberry_Pi"
+        }
+      ]
+    },
+    "experience": [
+      { "experienceId":"1",
+        "enterpriseName": "Secretaria distrital de arte cultura y patrimonio",
+        "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
+        "position": "Consultor de software",
+        "dateIni": "Febrero 2018",
+        "dateEnd": "Actualmente",
+        "expDesc": " Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS",
+        "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
+        "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
+        "enterprisePhone": "+57-1-3274850",
+        "achievements": [
+          "Diseñar y contruir nuevas herramientas técnologicas en la entidad",
+          "Poner en producción dos aplicaciones basadas en microservicios",
+          "Lograr integracion a nivel técnica y funcional de los procesos manuales para tramites en linea"
+        ],
+        "technologies": [
+          {
+            "tech": "java",
+            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+            "name": "Java"
+          },
+          {
+            "tech": "spring",
+            "url": "https://es.wikipedia.org/wiki/Spring_Framework",
+            "name": "Spring"
+          },
+          {
+            "tech": "eclipseide",
+            "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
+            "name": "Eclipse"
+          },
+          {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+          },
+          {
+            "tech": "amazonaws",
+            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "AWS"
+          }
+        ]
+      },
+      {
+        "enterpriseId":"2",  
+        "enterpriseName": "Ilumno",
+        "enterpriseImage": "https://www.ilumno.com/assets/images/logo_ilumno.svg",
+        "position": "Consultor de software",
+        "dateIni": "Febrero 2018",
+        "dateEnd": "Actualmente",
+        "expDesc": " Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS",
+        "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
+        "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
+        "enterprisePhone": "+57-1-3274850",
+        "achievements": [
+          "Diseñar y contruir nuevas herramientas técnologicas en la entidad",
+          "Poner en producción dos aplicaciones basadas en microservicios",
+          "Lograr integracion a nivel técnica y funcional de los procesos manuales para tramites en linea"
+        ],
+        "technologies": [
+          {
+            "tech": "java",
+            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+            "name": "Java"
+          },
+          {
+            "tech": "spring",
+            "url": "https://es.wikipedia.org/wiki/Spring_Framework",
+            "name": "Spring"
+          },
+          {
+            "tech": "eclipseide",
+            "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
+            "name": "Eclipse"
+          },
+          {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+          },
+          {
+            "tech": "amazonaws",
+            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "AWS"
+          }
+        ]
+      },
+      { "experienceId":"3",
+        "enterpriseName": "Secretaria distrital de arte cultura y patrimonio",
+        "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
+        "position": "Consultor de software",
+        "dateIni": "Febrero 2018",
+        "dateEnd": "Actualmente",
+        "expDesc": " Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS",
+        "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
+        "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
+        "enterprisePhone": "+57-1-3274850",
+        "achievements": [
+          "Diseñar y contruir nuevas herramientas técnologicas en la entidad",
+          "Poner en producción dos aplicaciones basadas en microservicios",
+          "Lograr integracion a nivel técnica y funcional de los procesos manuales para tramites en linea"
+        ],
+        "technologies": [
+          {
+            "tech": "java",
+            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+            "name": "Java"
+          },
+          {
+            "tech": "spring",
+            "url": "https://es.wikipedia.org/wiki/Spring_Framework",
+            "name": "Spring"
+          },
+          {
+            "tech": "eclipseide",
+            "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
+            "name": "Eclipse"
+          },
+          {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+          },
+          {
+            "tech": "amazonaws",
+            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "AWS"
+          }
+        ]
+      },
+      { "experienceId":"4",
+        "enterpriseName": "Secretaria distrital de arte cultura y patrimonio",
+        "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
+        "position": "Consultor de software",
+        "dateIni": "Febrero 2018",
+        "dateEnd": "Actualmente",
+        "expDesc": " Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS",
+        "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
+        "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
+        "enterprisePhone": "+57-1-3274850",
+        "achievements": [
+          "Diseñar y contruir nuevas herramientas técnologicas en la entidad",
+          "Poner en producción dos aplicaciones basadas en microservicios",
+          "Lograr integracion a nivel técnica y funcional de los procesos manuales para tramites en linea"
+        ],
+        "technologies": [
+          {
+            "tech": "java",
+            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+            "name": "Java"
+          },
+          {
+            "tech": "spring",
+            "url": "https://es.wikipedia.org/wiki/Spring_Framework",
+            "name": "Spring"
+          },
+          {
+            "tech": "eclipseide",
+            "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
+            "name": "Eclipse"
+          },
+          {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+          },
+          {
+            "tech": "amazonaws",
+            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "AWS"
+          }
+        ]
+      },
+      { "experienceId":"5",
+        "enterpriseName": "Secretaria distrital de arte cultura y patrimonio",
+        "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
+        "position": "Consultor de software",
+        "dateIni": "Febrero 2018",
+        "dateEnd": "Actualmente",
+        "expDesc": " Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS",
+        "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
+        "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
+        "enterprisePhone": "+57-1-3274850",
+        "achievements": [
+          "Diseñar y contruir nuevas herramientas técnologicas en la entidad",
+          "Poner en producción dos aplicaciones basadas en microservicios",
+          "Lograr integracion a nivel técnica y funcional de los procesos manuales para tramites en linea"
+        ],
+        "technologies": [
+          {
+            "tech": "java",
+            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+            "name": "Java"
+          },
+          {
+            "tech": "spring",
+            "url": "https://es.wikipedia.org/wiki/Spring_Framework",
+            "name": "Spring"
+          },
+          {
+            "tech": "eclipseide",
+            "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
+            "name": "Eclipse"
+          },
+          {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+          },
+          {
+            "tech": "amazonaws",
+            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "AWS"
+          }
+        ]
+      },
+      { "experienceId":"6",
+        "enterpriseName": "Secretaria distrital de arte cultura y patrimonio",
+        "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
+        "position": "Consultor de software",
+        "dateIni": "Febrero 2018",
+        "dateEnd": "Actualmente",
+        "expDesc": " Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS",
+        "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
+        "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
+        "enterprisePhone": "+57-1-3274850",
+        "achievements": [
+          "Diseñar y contruir nuevas herramientas técnologicas en la entidad",
+          "Poner en producción dos aplicaciones basadas en microservicios",
+          "Lograr integracion a nivel técnica y funcional de los procesos manuales para tramites en linea"
+        ],
+        "technologies": [
+          {
+            "tech": "java",
+            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+            "name": "Java"
+          },
+          {
+            "tech": "spring",
+            "url": "https://es.wikipedia.org/wiki/Spring_Framework",
+            "name": "Spring"
+          },
+          {
+            "tech": "eclipseide",
+            "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
+            "name": "Eclipse"
+          },
+          {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+          },
+          {
+            "tech": "amazonaws",
+            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "AWS"
+          }
+        ]
+      },
+      { "experienceId":"7",
+        "enterpriseName": "Secretaria distrital de arte cultura y patrimonio",
+        "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
+        "position": "Consultor de software",
+        "dateIni": "Febrero 2018",
+        "dateEnd": "Actualmente",
+        "expDesc": " Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS",
+        "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
+        "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
+        "enterprisePhone": "+57-1-3274850",
+        "achievements": [
+          "Diseñar y contruir nuevas herramientas técnologicas en la entidad",
+          "Poner en producción dos aplicaciones basadas en microservicios",
+          "Lograr integracion a nivel técnica y funcional de los procesos manuales para tramites en linea"
+        ],
+        "technologies": [
+          {
+            "tech": "java",
+            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+            "name": "Java"
+          },
+          {
+            "tech": "spring",
+            "url": "https://es.wikipedia.org/wiki/Spring_Framework",
+            "name": "Spring"
+          },
+          {
+            "tech": "eclipseide",
+            "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
+            "name": "Eclipse"
+          },
+          {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+          },
+          {
+            "tech": "amazonaws",
+            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "AWS"
+          }
+        ]
+      },
+      { "experienceId":"8",
+        "enterpriseName": "Secretaria distrital de arte cultura y patrimonio",
+        "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
+        "position": "Consultor de software",
+        "dateIni": "Febrero 2018",
+        "dateEnd": "Actualmente",
+        "expDesc": " Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS",
+        "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
+        "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
+        "enterprisePhone": "+57-1-3274850",
+        "achievements": [
+          "Diseñar y contruir nuevas herramientas técnologicas en la entidad",
+          "Poner en producción dos aplicaciones basadas en microservicios",
+          "Lograr integracion a nivel técnica y funcional de los procesos manuales para tramites en linea"
+        ],
+        "technologies": [
+          {
+            "tech": "java",
+            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+            "name": "Java"
+          },
+          {
+            "tech": "spring",
+            "url": "https://es.wikipedia.org/wiki/Spring_Framework",
+            "name": "Spring"
+          },
+          {
+            "tech": "eclipseide",
+            "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
+            "name": "Eclipse"
+          },
+          {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+          },
+          {
+            "tech": "amazonaws",
+            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "AWS"
+          }
+        ]
+      },
+      { "experienceId":"9",
+        "enterpriseName": "Secretaria distrital de arte cultura y patrimonio",
+        "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
+        "position": "Consultor de software",
+        "dateIni": "Febrero 2018",
+        "dateEnd": "Actualmente",
+        "expDesc": " Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS",
+        "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
+        "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
+        "enterprisePhone": "+57-1-3274850",
+        "achievements": [
+          "Diseñar y contruir nuevas herramientas técnologicas en la entidad",
+          "Poner en producción dos aplicaciones basadas en microservicios",
+          "Lograr integracion a nivel técnica y funcional de los procesos manuales para tramites en linea"
+        ],
+        "technologies": [
+          {
+            "tech": "java",
+            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+            "name": "Java"
+          },
+          {
+            "tech": "spring",
+            "url": "https://es.wikipedia.org/wiki/Spring_Framework",
+            "name": "Spring"
+          },
+          {
+            "tech": "eclipseide",
+            "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
+            "name": "Eclipse"
+          },
+          {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+          },
+          {
+            "tech": "amazonaws",
+            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "AWS"
+          }
+        ]
+      },
+      { "experienceId":"10",
+        "enterpriseName": "Secretaria distrital de arte cultura y patrimonio",
+        "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
+        "position": "Consultor de software",
+        "dateIni": "Febrero 2018",
+        "dateEnd": "Actualmente",
+        "expDesc": " Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS",
+        "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
+        "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
+        "enterprisePhone": "+57-1-3274850",
+        "achievements": [
+          "Diseñar y contruir nuevas herramientas técnologicas en la entidad",
+          "Poner en producción dos aplicaciones basadas en microservicios",
+          "Lograr integracion a nivel técnica y funcional de los procesos manuales para tramites en linea"
+        ],
+        "technologies": [
+          {
+            "tech": "java",
+            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+            "name": "Java"
+          },
+          {
+            "tech": "spring",
+            "url": "https://es.wikipedia.org/wiki/Spring_Framework",
+            "name": "Spring"
+          },
+          {
+            "tech": "eclipseide",
+            "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
+            "name": "Eclipse"
+          },
+          {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+          },
+          {
+            "tech": "amazonaws",
+            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "AWS"
+          }
+        ]
+      },
+      { "experienceId":"11",
+        "enterpriseName": "Secretaria distrital de arte cultura y patrimonio",
+        "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
+        "position": "Consultor de software",
+        "dateIni": "Febrero 2018",
+        "dateEnd": "Actualmente",
+        "expDesc": " Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS",
+        "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
+        "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
+        "enterprisePhone": "+57-1-3274850",
+        "achievements": [
+          "Diseñar y contruir nuevas herramientas técnologicas en la entidad",
+          "Poner en producción dos aplicaciones basadas en microservicios",
+          "Lograr integracion a nivel técnica y funcional de los procesos manuales para tramites en linea"
+        ],
+        "technologies": [
+          {
+            "tech": "java",
+            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+            "name": "Java"
+          },
+          {
+            "tech": "spring",
+            "url": "https://es.wikipedia.org/wiki/Spring_Framework",
+            "name": "Spring"
+          },
+          {
+            "tech": "eclipseide",
+            "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
+            "name": "Eclipse"
+          },
+          {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+          },
+          {
+            "tech": "amazonaws",
+            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "AWS"
+          }
+        ]
+      },
+      { "experienceId":"12",
+        "enterpriseName": "Secretaria distrital de arte cultura y patrimonio",
+        "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
+        "position": "Consultor de software",
+        "dateIni": "Febrero 2018",
+        "dateEnd": "Actualmente",
+        "expDesc": " Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS",
+        "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
+        "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
+        "enterprisePhone": "+57-1-3274850",
+        "achievements": [
+          "Diseñar y contruir nuevas herramientas técnologicas en la entidad",
+          "Poner en producción dos aplicaciones basadas en microservicios",
+          "Lograr integracion a nivel técnica y funcional de los procesos manuales para tramites en linea"
+        ],
+        "technologies": [
+          {
+            "tech": "java",
+            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+            "name": "Java"
+          },
+          {
+            "tech": "spring",
+            "url": "https://es.wikipedia.org/wiki/Spring_Framework",
+            "name": "Spring"
+          },
+          {
+            "tech": "eclipseide",
+            "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
+            "name": "Eclipse"
+          },
+          {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+          },
+          {
+            "tech": "amazonaws",
+            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "AWS"
+          }
+        ]
+      }
+    ],
+    "education":[
+        {  "educationId":"1",   
+            "educationName":"Universidad Jorge Tadeo Lozano",
+            "educationImage":"/public/images/education/education_1.png",
+            "educationTitle":"Especialista en desarrollo bases de datos",
+            "educationDateIni":"Enero 2010",
+            "educationDateEnd":"Febrero 2011"
+        },
+        {
+          "educationId":"2",    
+          "educationName":"Universidad Nacional de Colombia",
+          "educationImage":"/public/images/education/education_2.png",
+          "educationTitle":"Ingeniero electrónico",
+          "educationDateIni":"Junio 2002",
+          "educationDateEnd":"Septiembre 2007"
+      }
+    ],
+    "certification":[
+      {
+        "certificationId":"1",
+        "certificationImage":"/public/images/certification/certification_1.png",
+        "certificationUrl":"https://platzi.com/@maes0186/",
+        "certificationName":"Certificaciones microservicios",
+        "certificationDateIni":"Febrero 2020",
+        "certificationDateEnd":"Febrero 2020"
+  
+      },
+      {
+        "certificationId":"2",
+        "certificationImage":"/public/images/certification/certification_3.png",
+        "certificationName":"Java Programmer",
+        "certificationDateIni":"Mayo 2013",
+        "certificationDateEnd":"Mayo 2013"
+  
+      },
+      {
+        "certificationId":"3",
+        "certificationImage":"/public/images/certification/certification_2.png",
+        "certificationName":"Introduction SQL",
+        "certificationDateIni":"Marzo 2010",
+        "certificationDateEnd":"Marzo 2010"
+  
+      }
+    ]
+  }
+  

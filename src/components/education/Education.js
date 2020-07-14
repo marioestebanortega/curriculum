@@ -2,9 +2,9 @@ import React from 'react';
 import { getData,getTextLang } from '../../config'
 
 
-const Education = () =>{
-  const data=getData();
-  const text=getTextLang().education;
+const Education = ({lang}) =>{
+  const data=getData(lang);
+  const text=getTextLang(lang).education;
 return (
     <section id="educacion" className="educations" className="knowledges">
     <div className="container">

@@ -12,6 +12,12 @@
      .knowledge{
          padding: 0.4em;
      }
+     .experience-details{
+         width: 70%;
+     }
+     .experience-sec2{
+         width: 25%;
+     }
   
      .experiences{
        display: flex;
@@ -22,7 +28,8 @@
   
      .experience{
          font-size: 0.7em;
-         padding-top: 0;
+         padding-top: 0.5em;
+         line-height: 0.2em;
      }
 
      .experience h4{
@@ -55,6 +62,9 @@
          display: none;
      }
     #footerPage{
+         display: none;
+     }
+     .select-language{
          display: none;
      }
   

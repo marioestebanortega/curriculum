@@ -1,6 +1,9 @@
 {
+    "general":{
+        "language":"language"
+    },
     "hero":{
-        "mail":"Email: ",
+        "mail":"Mail: ",
         "cellphone":"Cellphone: ",
         "address":"Address: "
     },

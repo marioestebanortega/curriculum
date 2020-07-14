@@ -2,8 +2,8 @@ import React from 'react'
 import './languages.css'
 import {getTextLang } from '../../config'
 
-const Language =()=>{
-  const text=getTextLang().language;
+const Language =({lang})=>{
+  const text=getTextLang(lang).language;
     return (
      <section id="idiomas" className="languages">
      <div className="container">

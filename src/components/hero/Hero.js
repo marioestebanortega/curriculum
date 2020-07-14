@@ -1,13 +1,13 @@
-import React from 'react'
+import React,{useState} from 'react'
 import './hero.css'
 //import heroImage from '../../images/hero.jpg'
 import {getData,getTextLang} from '../../config'
 
 
 
-const Hero= () => {
-const data =getData();
-const text=getTextLang().hero;
+const Hero= ({lang}) => {
+const data =getData(lang);
+const text=getTextLang(lang).hero;
 return (
     <section id="encabezado" className="hero">
     <div className="container">
