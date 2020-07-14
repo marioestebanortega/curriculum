@@ -13,7 +13,14 @@ const Header=({lang,setLang})=>{
 
   useEffect(()=>{
     //Inicializa el valor del lenguaje
-    document.getElementById('si-select-language').value=navigator.language;
+    let ini=navigator.language;
+    if(ini.includes('es')){
+      ini='es';
+    }
+    else{
+      ini='en';
+    }
+    document.getElementById('si-select-language').value=ini;
   },[])
   
 

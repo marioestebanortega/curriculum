@@ -10,11 +10,6 @@ import Footer from './components/footer/Footer'
 
 const App = ()=>{
     const [lang,setLang]=useState({});
-
-    useEffect(()=>{
-        setLang(navigator.language);
-    },[])
-  //  setLang(navigator.language);
 return (<>
 <i className="icon-menu burger-button" id="burger-menu"></i>
 
