@@ -2,7 +2,7 @@
   "general": {
     "fullname": "Mario Esteban Ortega Garcés",
     "role": "Ingeniero de software",
-    "role-description": "Ingeniero certificado de software con más de 12 años de experiencia en sistemas de información con fuertes conocimientos en Java y micro servicios (React, Docker, Jenkins) desempeñando responsabilidades de liderazgo, arquitectura e implementación de sistemas. He participado en definiciones de arquitectura junto a los requerimientos de usuario, funcionales, no funcionales, proyecto y riesgos, logrado sistemas robustos, escalables, interoperables y seguros para brindar soluciones efectivas a los stakeholders impactados.",
+    "role-description": "Ingeniero certificado de software con más de 12 años de experiencia en sistemas de información con fuertes conocimientos en Java y micro servicios (React, Docker, Jenkins) desempeñando responsabilidades de liderazgo, arquitectura e implementación de sistemas. He realizado definiciones de arquitectura basados en requerimientos de usuario, funcionales, no funcionales, proyecto y riesgos, logrando sistemas robustos, escalables, interoperables y seguros para brindar soluciones efectivas a los stakeholders.",
     "email": "mario.esteban.ortega@gmail.com",
     "cellphone": "+57 3103096818",
     "address": "Carrera 11 # 140 -52, Bogotá - Colombia",
@@ -189,7 +189,7 @@
         "Realizar el diseño arquitectónico del sistema de certificaciones universitarias del Politécnico y la fundación del área andina",
         "Crear el primer equipo de implementación en Colombia del sistema Banner 9 cuyo Core está basado en Spring de Java, Node, Javascript , SCSS, mediante la definición de las métricas funcionales, no funcionales, técnicas y la creación de arquitectura y ambientes de desarrollo , pruebas y producción.",
         "Consultoría y líder del equipo capacitador de la tecnología Banner Admin Pages usado para la creación de nuevos artefactos del producto Banner de Ellucian para la universidad Politécnico, Área Andina y  empresas aliadas como Neoris Colombia",
-        "Diseño e implementación de la integración del sistema de certificación, con el sistema documental AZ-Digital",
+        "Diseño e implementación de la integración del sistema de certificación con el sistema documental AZ-Digital",
         "Diseño e implementación de la integración del sistema de certificación con el sistema de firma digital de Certicamara"
       ],
       "technologies": [
@@ -304,12 +304,12 @@
       "position": "Ingeniero Senior de software",
       "dateIni": "Septiembre 2013",
       "dateEnd": "Julio 2014",
-      "expDesc": "Consultor en solución basada en microservicios para la Secretaria distrital , recreación y deporte de Bogotá. Logrando soluciones para usuarios de beneficios de adulto mayor BEPS",
+      "expDesc": "Ingeniero líder de equipo de software para la implementación del nuevo sistema de autorizaciones médicas para la EPS colombiana EMSSANAR mediante el uso de plataformas basadas en Java, HTML5, CSS, Bootstrap ",
       "enterpriseUrl": "https://conexia.com/",
       "enterpriseAddress": "Cra. 9 N° 77-67, Piso 6, Ofic. 601, Bogotá - Colombia",
       "enterprisePhone": "+57-1-5528800",
       "achievements": [
-        "Liderar exitosamente equipo de software, estableciendo crecimiento en fortalezas de los miembros del equipo fomentado la importancia del concepto más valioso como es el trabajo en equipo, así como una comunicación asertiva de los stakeholder del proyecto.",
+        "Liderar exitosamente equipo de software estableciendo crecimiento en fortalezas técnicas en los miembros del equipo fomentado la importancia del concepto más valioso como es el trabajo en equipo, así como una comunicación asertiva con los stakeholder del proyecto.",
         "Entregar el proyecto en los tiempos establecidos en el cronograma con estrategias de puesta en producción y disponibilidad en soporte en las fases críticas y estratégicas de mitigación de riesgos mediante planes de prevención",
         "Diseñar un sistema robusto, confiable, seguro y escalable para el sistema de autorizaciones medicas de EMSSANAR EPS"
       ],
@@ -393,13 +393,14 @@
       "position": "Ingeniero de software",
       "dateIni": "Febrero 2012",
       "dateEnd": "Junio 2013",
-      "expDesc": "Ingeniero de Software, responsable del desarrollo y diseño de procesos de contabilidad de la gestión de aerolíneas argentinas que tiene a cargo el Proyecto DRACO de INDRA cuyo cliente se encuentra en la ciudad de Buenos Aires. Las tecnologías con las que se trabajan son J2EE ejecutado por servidores JBOSS y uso de Frameworks Spring MVC, RichFaces, MAVEN y motores de bases de datos Oracle 10g.",
+      "expDesc": "Ingeniero de Software, responsable del desarrollo y diseño en los procesos contables de la gestión de aerolíneas argentinas del proyecto DRACO de INDRA cuyo cliente se encuentra en la ciudad de Buenos Aires. Las tecnologías con las que se trabajan son J2EE ejecutado por servidores JBOSS y uso de Frameworks Spring MVC, RichFaces, MAVEN y motores de bases de datos Oracle 10g.",
       "enterpriseUrl": "https://www.indracompany.com/",
       "enterpriseAddress": "Calle 96 No. 13-11, Bogotá - Colombia",
       "enterprisePhone": "+57-1-6463600",
       "achievements": [
-        "Implementar proceso multihilo Batch para la ejecución de procesos contables",
-        "Proceso tunning mediante maven de compilación de todos los procesos del proyecto mejorando el rendimiento en un 300%"
+        "Liderazgo en el modulo contable para las correctas definiciones junto al equipo de calidad y requerimientos",
+        "Implementación de procesos multihilo Batch para la ejecución de servicios contables",
+        "Proceso tunning usando maven para la compilación de todos los procesos del proyecto mejorando el rendimiento en un 300%"
       ],
       "technologies": [
         {
@@ -430,7 +431,7 @@
       "position": "Programador master",
       "dateIni": "Julio 2011",
       "dateEnd": "Febrero 2012",
-      "expDesc": "Analista y programador en paginas JSP basadas en el modelo MVC, Frameworks (JSF, Hibernate) y arquitecturas J2EE 1.3 junto con el modelamiento de Base de Datos ORACLE y soporte en PLSQL. (Asignado a 2 clientes Alcaldía de Medellín y ALLUS)",
+      "expDesc": "Analista programador en paginas JSP basadas en el modelo MVC usando Frameworks (JSF, Hibernate) y arquitecturas J2EE junto con el modelamiento de Base de Datos ORACLE y soporte en PLSQL. (Asignado a 2 clientes Alcaldía de Medellín y ALLUS)",
       "enterpriseUrl": "https://ada.co/",
       "enterpriseAddress": "Carrera 51 # 9c Sur - 85 Of. 201, Medellín - Colombia",
       "enterprisePhone": "+57-4-4035241",
@@ -462,7 +463,7 @@
       "position": "Programador oracle",
       "dateIni": "Octubre 2010",
       "dateEnd": "Mayo 2011",
-      "expDesc": "Ingeniero de desarrollo en plsql de Oracle encargado de la migración del módulo pensión Gestión de Porvenir de esquema antiguo desarrollado en OWA de Oracle para ser renovado en la nueva plataforma basada en Java con diferente esquema de base de datos",
+      "expDesc": "Ingeniero de desarrollo en plsql de Oracle encargado de la migración del módulo pensión gestión de Porvenir del esquema antiguo desarrollado en OWA de Oracle para ser renovado en la nueva plataforma basada en Java con diferente esquema de base de datos",
       "enterpriseUrl": "https://stefanini.com/",
       "enterpriseAddress": "Ac 100 #19a-2, Bogotá - Colombia",
       "enterprisePhone": "+57-1-7454777",
@@ -491,7 +492,7 @@
       "expDesc": "Diseño y desarrollo del Proyecto SIAPPI encargado de la logística de los proyectos de INGEOMINAS otorgados por Planeación Nacional. Responsable del Análisis, diseño de la base de datos y líder del grupo de desarrollo del aplicativo basado en APEX de Oracle.",
       "enterpriseUrl": "https://unal.edu.co/",
       "enterpriseAddress": "Carrera 45 # 26-85, Bogotá - Colombia",
-      "enterprisePhone": "+57-1- 3165000",
+      "enterprisePhone": "+57-1-3165000",
       "achievements": [
         "Crear la arquitectura del modelo de datos y del sistema que se implementó en Ingeominas"
       ],
@@ -505,6 +506,33 @@
           "tech": "javascript",
           "url": "https://es.wikipedia.org/wiki/JavaScript",
           "name": "Javascript"
+        }
+      ]
+    },
+    { "experienceId":"10",
+      "enterpriseName": "Fondo de bienestar social de la Contraloria General de la republica",
+      "enterpriseImage": "/public/images/enterprise/fbs.png",
+      "position": "Administrador de sistemas",
+      "dateIni": "Abril 2008",
+      "dateEnd": "Febrero 2010",
+      "expDesc": "Soporte a la infraestructura de la entidad a servidores linux y windows, además de implementaciones en java y oracle para el sistema financiero TAO para la generación de reportes",
+      "enterpriseUrl": "https://www.fbscgr.gov.co/",
+      "enterpriseAddress": "Carrera 69 No. 44-35 Piso 4, Bogotá - Colombia",
+      "enterprisePhone": "+57-1-3779877",
+      "achievements": [
+        "Lograr interfaces basadas en Java AWT para comunicar documentos de correspondencia",
+        "Crear reportes financieros de tesorería y contabilidad en SQL conectándose a la base de datos Oracle del sistema financiero TAO"
+      ],
+      "technologies": [
+        {
+          "tech": "oracle",
+          "url": "https://es.qwe.wiki/wiki/Oracle_Database",
+          "name": "Oracle"
+        },
+        {
+          "tech": "java",
+          "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+          "name": "Java"
         }
       ]
     }
