@@ -14,7 +14,7 @@ return (<>
 <i className="icon-menu burger-button" id="burger-menu"></i>
 
 
-    <Menu/>
+    <Menu lang={lang}/>
     <Header lang={lang} setLang={setLang}/>
     <Hero lang={lang}/>
     <Experience lang={lang}/>

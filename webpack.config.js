@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCSSExtractPlugin = require('mini-css-extract-plugin')
+const CopyPlugin = require('copy-webpack-plugin');
 
 const path = require("path"); //Nos ayuda a crear mejores path's
 
@@ -9,7 +10,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'js/[name].js'
+    filename: '[name].js'
   },
   module: {
     rules: [
@@ -26,37 +27,10 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          'style-loader',
           {
-            loader: 'css-loader',
-            options: {
-              importLoaders: 1
-            }
-          }
-        ]
-      },
-      {
-        test: /\.less$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'less-loader',
-        ]
-      },
-      {
-        test: /\.scss$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader',
-        ]
-      },
-      {
-        test: /\.styl$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'stylus-loader',
+            loader: MiniCSSExtractPlugin.loader
+          },
+          'css-loader'
         ]
       },
       {
@@ -71,13 +45,20 @@ module.exports = {
     ]
   },
   plugins: [
+
     new HtmlWebpackPlugin({
+      favicon: "./public/favicon.png",
       title: 'Plugins',
       template: 'index_template.html',
       filename:'index.html'
     }),
     new MiniCSSExtractPlugin({
       filename: 'css/[name].css'
+    }),
+    new CopyPlugin({
+      patterns: [
+        { from: 'public', to: 'public' },
+      ]
     })
   ]
-}
+  }

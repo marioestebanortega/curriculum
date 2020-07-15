@@ -2,6 +2,14 @@
     "general":{
         "language":"lenguaje"
     },
+    "menu":{
+        "profile":"Perfil",
+        "exp":"Experiencia profesional",
+        "certif":"Certificaciones",
+        "education":"Educación",
+        "lang":"Lenguajes",
+        "portf":"Portafolio"
+    },
     "hero":{
         "mail":"Email: ",
         "cellphone":"Celular: ",
@@ -21,7 +29,7 @@
 
     },
     "education":{
-        "title":"Educacion",
+        "title":"Educación",
         "dateIni":"Fecha inicio: ",
         "dateEnd":"Fecha fin: "
 

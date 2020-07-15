@@ -2,6 +2,14 @@
     "general":{
         "language":"language"
     },
+    "menu":{
+        "profile":"Profile",
+        "exp":"Professional experience",
+        "certif":"Certification",
+        "education":"Education",
+        "lang":"Languages",
+        "portf":"Portfolio"
+    },
     "hero":{
         "mail":"Mail: ",
         "cellphone":"Cellphone: ",

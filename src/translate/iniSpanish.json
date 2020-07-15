@@ -2,7 +2,7 @@
   "general": {
     "fullname": "Mario Esteban Ortega Garcés",
     "role": "Ingeniero de software",
-    "role-description": "Ingeniero certificado de software con más de 12 años de experiencia en sistemas de información con fuertes conocimientos en Java y micro servicios (React, Docker, Jenkins) desempeñando responsabilidades de liderazgo, arquitectura e implementación de sistemas. He realizado definiciones de arquitectura basados en requerimientos de usuario, funcionales, no funcionales, proyecto y riesgos, logrando sistemas robustos, escalables, interoperables y seguros para brindar soluciones efectivas a los stakeholders.",
+    "role-description": "Ingeniero certificado de software con más de 12 años de experiencia en sistemas de información con fuertes conocimientos en Java y microservicios (React, Docker, Jenkins) desempeñando responsabilidades de liderazgo, arquitectura e implementación de sistemas. He realizado definiciones de arquitectura basados en requerimientos de usuario, funcionales, no funcionales, proyecto y riesgos, logrando sistemas robustos, escalables, interoperables y seguros para brindar soluciones efectivas a los stakeholders.",
     "email": "mario.esteban.ortega@gmail.com",
     "cellphone": "+57 3103096818",
     "address": "Carrera 11 # 140 -52, Bogotá - Colombia",
@@ -97,13 +97,13 @@
       "position": "Ingeniero y consultor de software",
       "dateIni": "Noviembre 2019",
       "dateEnd": "Actualmente",
-      "expDesc": "Consultoría e ingeniería de software en Java y micro servicios para los procesos misionales de la entidad. Responsable de definir, diseñar e implementar el cambio de los procesos manuales a sistemas virtuales de tramites",
+      "expDesc": "Consultoría e ingeniería de software en Java y microservicios para los procesos misionales de la entidad. Responsable de definir, diseñar e implementar el cambio de los procesos manuales a sistemas virtuales de trámites",
       "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
       "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
       "enterprisePhone": "+57-1-3274850",
       "achievements": [
-        "Liderar e implementar la arquitectura, diseño y requerimientos del nuevo proceso de virtualización de tramites virtuales para la inscripción de pensiones para adulto mayor BEPS.",
-        "Liderar e implementar la arquitectura, diseño y requerimientos del nuevo proceso de virtualización de tramites virtuales para la inscripción de solicitudes de inclusión, exclusión y cambio de categoría de bienes de interés común de Bogotá",
+        "Liderar e implementar la arquitectura, diseño y requerimientos del nuevo proceso de virtualización de trámites virtuales para la inscripción de pensiones para adulto mayor BEPS.",
+        "Liderar e implementar la arquitectura, diseño y requerimientos del nuevo proceso de virtualización de trámites virtuales para la inscripción de solicitudes de inclusión, exclusión y cambio de categoría de bienes de interés común de Bogotá",
         "Establecer un proceso de comunicación asertiva con los stakeholder debido al gran impacto de un nuevo proceso virtual sobre procesos manuales que llevan años funcionando en la entidad. "
       ],
       "technologies": [
@@ -181,7 +181,7 @@
       "position": "Consultor de software",
       "dateIni": "Julio 2017",
       "dateEnd": "Noviembre 2019",
-      "expDesc": "Consultor de software, encargado de liderar e implementar el modulo basado en Java y microservicios de certificaciones universitarias del Politécnico y la fundación del área Andina.",
+      "expDesc": "Consultor de software, encargado de liderar e implementar el módulo basado en Java y microservicios de certificaciones universitarias del Politécnico y la fundación del área Andina.",
       "enterpriseUrl": "https://www.ilumno.com/",
       "enterpriseAddress": "Carrera 12 No. 96 – 32, Bogotá - Colombia",
       "enterprisePhone": "+57-1-7452323",
@@ -253,7 +253,7 @@
       "achievements": [
         "Reingeniería proceso informe delegado, diagnosticando el estado actual del proceso para aumentar rendimiento, seguridad, accesibilidad, calidad logrando salidas a producción exitosas",
         "Reingeniería proceso informe rector, diagnosticando el estado actual del proceso para aumentar rendimiento, seguridad, accesibilidad y calidad mediante pruebas unitarias avanzadas con Maven y pruebas de cargas de estrés llevando al proceso a mejorar su salida a producción con un porcentaje del 300% de usuarios efectivos respecto a salidas productivos en cortes pasados",
-        "Debido a que el proceso de entrega de material de las pruebas saber 3, 5, 9 se tiene que implementar en infraestructuras no centralizadas en dispositivos portables en todo el espacio colombiano acreditado por el ICFES, el sistema tendría que tener un porcentaje de calidad del 100% (0 errores) ya que no se podía dar soporte una vez configurados los dispositivos. Gracias a la estrategia implementada analizando riesgos, y procesos adecuados a las condiciones del proyecto y del equipo se logró por primera vez ejecutar este proceso 100% exitoso"
+        "Debido a que el proceso de entrega de material de las pruebas saber 3, 5, 9 se tiene que implementar en infraestructuras no centralizadas en dispositivos portables en todo el espacio colombiano acreditado por el ICFES, el sistema tendría que tener un porcentaje de calidad del 100% (0 errores), ya que no se podía dar soporte una vez configurados los dispositivos. Gracias a la estrategia implementada analizando riesgos, y procesos adecuados a las condiciones del proyecto y del equipo se logró por primera vez ejecutar este proceso 100% exitoso"
       ],
       "technologies": [
         {
@@ -311,7 +311,7 @@
       "achievements": [
         "Liderar exitosamente equipo de software estableciendo crecimiento en fortalezas técnicas en los miembros del equipo fomentado la importancia del concepto más valioso como es el trabajo en equipo, así como una comunicación asertiva con los stakeholder del proyecto.",
         "Entregar el proyecto en los tiempos establecidos en el cronograma con estrategias de puesta en producción y disponibilidad en soporte en las fases críticas y estratégicas de mitigación de riesgos mediante planes de prevención",
-        "Diseñar un sistema robusto, confiable, seguro y escalable para el sistema de autorizaciones medicas de EMSSANAR EPS"
+        "Diseñar un sistema robusto, confiable, seguro y escalable para el sistema de autorizaciones médicas de EMSSANAR EPS"
       ],
       "technologies": [
         {
@@ -398,7 +398,7 @@
       "enterpriseAddress": "Calle 96 No. 13-11, Bogotá - Colombia",
       "enterprisePhone": "+57-1-6463600",
       "achievements": [
-        "Liderazgo en el modulo contable para las correctas definiciones junto al equipo de calidad y requerimientos",
+        "Liderazgo en el módulo contable para las correctas definiciones junto al equipo de calidad y requerimientos",
         "Implementación de procesos multihilo Batch para la ejecución de servicios contables",
         "Proceso tunning usando maven para la compilación de todos los procesos del proyecto mejorando el rendimiento en un 300%"
       ],
@@ -437,7 +437,7 @@
       "enterprisePhone": "+57-4-4035241",
       "achievements": [
         "Reingeniería del sistema de facturación de ALLUS mediante el diagnostico, pruebas e implementaciones de ajustes para la nueva puesta en producción",
-        "Creación sistema SIMPAD basado en java para la alcaldía de Medellin"
+        "Creación sistema SIMPAD basado en java para la alcaldía de Medellín"
       ],
       "technologies": [
         {
@@ -510,7 +510,7 @@
       ]
     },
     { "experienceId":"10",
-      "enterpriseName": "Fondo de bienestar social de la Contraloria General de la republica",
+      "enterpriseName": "Fondo de bienestar social de la Contraloría General de la republica",
       "enterpriseImage": "/public/images/enterprise/fbs.png",
       "position": "Administrador de sistemas",
       "dateIni": "Abril 2008",

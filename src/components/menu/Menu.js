@@ -1,15 +1,14 @@
 import React from 'react'
 import './menu.css';
-//import logoNombre from '../../images/marioLogoNombre2.png'
+import {getTextLang } from '../../config'
 
 
-
-const Menu=()=>{
-  
-
+const Menu=({lang}) => {
+  const text=getTextLang(lang).menu;
   const onclickAction=(event)=>{
-      window.print();
-  }
+    window.print();
+}
+
 
 return (
     <section id="seccionMenu" className="menu-container arrow-hide">
@@ -18,36 +17,42 @@ return (
         <li>
           <div className="linkContainer">
             <i className="icon-user"></i>
-            <a className="link" href="#encabezado">Perfil</a>
+            <a className="link" href="#encabezado">{text.profile}</a>
           </div>
         </li>
         <li>
           <div className="linkContainer">
             <i className="icon-job"></i>
-            <a className="link" href="#experiencia">Experiencia laboral</a>
+<a className="link" href="#experiencia">{text.exp}</a>
           </div>
         </li>
         <li>
           <div className="linkContainer">
             <i className="icon-tools"></i>
-            <a className="link" href="#certificaciones">Certificaciones</a>
+<a className="link" href="#certificaciones">{text.certif}</a>
           </div>
         </li>
         <li>
           <div className="linkContainer">
             <i className="icon-graduate"></i>
-            <a className="link" href="#educacion">Educación</a>
+            <a className="link" href="#educacion">{text.education}</a>
           </div>
         </li>
         <li>
           <div className="linkContainer">
             <i className="icon-language"></i>
-            <a className="link" href="#idiomas">Idiomas</a>
+            <a className="link" href="#idiomas">{text.lang}</a>
           </div>
         </li>
 
         <li>
-           <div className="linkContainer-sec separator">
+          <div className="linkContainer separator">
+            <i className="icon-job"></i>
+            <a className="link" href="https://marioestebanortega.github.io/portafolio/"  target="_blank">{text.portf}</a>
+          </div>
+        </li>
+        <li>
+           <div className="linkContainer-sec">
              <button type="button" id="buttonPrinter" onClick={onclickAction}>
             <i className="icon-printer"></i>
             </button>

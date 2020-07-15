@@ -95,7 +95,9 @@
   }
 
   .separator{
-    border-top: 2px solid rgba(255, 255, 255,0.5)
+    border-top: 2px solid rgba(255, 255, 255,0.5);
+    padding-top:1em;
+    width: 80%;
   }
   #buttonPrinter{
     margin-top: 1em;

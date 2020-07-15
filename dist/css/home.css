@@ -43,6 +43,23 @@
     color: black;
     opacity: 0.8;
   }
+
+  #si-select-language{
+    border-radius: 2em;
+    background-color: black;
+    color: white;
+    border: none;
+    opacity: 0.5;
+    font-size: 1.5em;
+    padding: 0.5em;
+    text-align: center;
+    right: 0;
+  }
+  .select-language{
+    width: 100%;
+    display: flex;
+   justify-content: flex-end;
+  }
 .menu-container{
     display: flex;
     justify-content: space-between;
@@ -73,18 +90,26 @@
     transition: 0.5s;
     transition: width 2s;
   }
+  
 
-  .linkContainer {
+  .linkContainer,.linkContainer-sec {
     /* .menu ol li hereda de .menu ol */
     height: 100%;
     margin-bottom: 1em;
   }
-  .linkContainer i{
+  .linkContainer i,.linkContainer-sec i{
     display: none;
     margin-top: 0.3em;
     font-size: 2.5em;
     margin-right: 0.2em;
     margin-left: 0.5em;
+  }
+
+  .linkContainer-sec i{
+    display: inline;
+    color: white;
+    opacity: 0.8;
+    font-size: 2em;
   }
   
 .link {
@@ -129,6 +154,16 @@
   }
   .arrow-hide{
        left: -180px; 
+  }
+
+  #buttonPrinter{
+    margin-top: 1em;
+    background-color: transparent;
+    border: 0;
+    transition: 0.4s;
+  }
+  #buttonPrinter:hover{
+    font-size: 1.2em;
   }
 
 
@@ -249,13 +284,13 @@
   .experience-imageContainer {
     display: flex;
     flex-wrap: wrap;
-    height: 70%;
+    height: 100%;
     justify-content: center;
   }
 
   .experience-image {
     max-width: 100%;
-    width: 60%;
+    width: 100%;
   }
   .experience-date-init,.experience-date-end{
     margin: 0 0 0.2em 0;
@@ -308,8 +343,10 @@
     font-size: 2em;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   .icon-technologies a {
+    margin-top:1em ;
     text-decoration: none;
     transition: 0.5s;
   }
@@ -768,6 +805,10 @@ html {
   left: 0;
 }
 
+#buttonPrinter:hover{
+  font-size: 3em;
+}
+
 /*Menu*/
 
 /*Certifications*/
@@ -853,6 +894,10 @@ html {
   text-align:center;
 }
 
+#si-select-language{
+  font-size: 1em;
+}
+
 /*Footer*/
 
   }
@@ -865,3 +910,74 @@ html {
    
   }
   
+@media print {
+    @page {
+        margin: 0;
+        size: 8.3in 75in;
+     }
+    html {
+        -webkit-print-color-adjust: exact;
+     }
+     .experience-achievements ol li{
+         margin-bottom: 0;
+     }
+     .knowledge{
+         padding: 0.4em;
+     }
+     .experience-details{
+         width: 70%;
+     }
+     .experience-sec2{
+         width: 25%;
+     }
+  
+     .experiences{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-between;
+     }
+  
+     .experience{
+         font-size: 0.7em;
+         padding-top: 0.5em;
+         line-height: 0.2em;
+     }
+
+     .experience h4{
+         margin-top: 0.2em;
+         margin-bottom: 0.2em;
+     }
+     .knowledge-detail{
+         font-size: 0.6em;
+     }
+
+     .languages{
+        font-size: 0.7em;
+        padding-top: 0;
+    }
+    .language{
+        width: 20%;
+        padding: 0.2em;
+    }
+    .language img{
+        width: 20%;
+    }
+    
+     #burger-menu{
+         display: none;
+     }
+     #seccionMenu{
+         display: none;
+     }
+     #buttoPrint{
+         display: none;
+     }
+    #footerPage{
+         display: none;
+     }
+     .select-language{
+         display: none;
+     }
+  
+  }

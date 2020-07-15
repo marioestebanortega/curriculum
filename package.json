@@ -4,9 +4,9 @@
   "description": "\"# curriculum\"",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production --config ./prod.webpack.config.js",
-    "build:dev": "webpack --mode development --config ./dev.webpack.config.js",
-    "start": "webpack-dev-server --config ./dev.webpack.config.js --host localhost --open --mode development"
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "start": "webpack-dev-server --host localhost --open --mode development"
   },
   "repository": {
     "type": "git",

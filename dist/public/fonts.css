@@ -1,16 +1,17 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('./fonts/icomoon.eot?b3kc6f');
-  src:  url('./fonts/icomoon.eot?b3kc6f#iefix') format('embedded-opentype'),
-    url('./fonts/icomoon.ttf?b3kc6f') format('truetype'),
-    url('./fonts/icomoon.woff?b3kc6f') format('woff'),
-    url('./fonts/icomoon.svg?b3kc6f#icomoon') format('svg');
+  src:  url('./fonts/icomoon.eot?xt5t46');
+  src:  url('./fonts/icomoon.eot?xt5t46#iefix') format('embedded-opentype'),
+    url('./fonts/icomoon.ttf?xt5t46') format('truetype'),
+    url('./fonts/icomoon.woff?xt5t46') format('woff'),
+    url('./fonts/icomoon.svg?xt5t46#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
 [class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
   font-style: normal;
@@ -19,6 +20,7 @@
   text-transform: none;
   line-height: 1;
 
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -37,6 +39,10 @@
 }
 .icon-platzi:before {
   content: "\e900";
+}
+.icon-nodejs:before {
+  content: "\e920";
+  color: #393;
 }
 .icon-css3:before {
   content: "\e912";
@@ -121,6 +127,9 @@
 }
 .icon-tools:before {
   content: "\e918";
+}
+.icon-printer:before {
+  content: "\e91f";
 }
 .icon-job:before {
   content: "\e916";
