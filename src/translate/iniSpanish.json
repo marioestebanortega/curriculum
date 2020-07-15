@@ -1,7 +1,7 @@
 {
   "general": {
     "fullname": "Mario Esteban Ortega Garcés",
-    "role": "Ingeniero de software",
+    "role": "Ingeniero consultor de software",
     "role-description": "Ingeniero certificado de software con más de 12 años de experiencia en sistemas de información con fuertes conocimientos en Java y microservicios (React, Docker, Jenkins) desempeñando responsabilidades de liderazgo, arquitectura e implementación de sistemas. He realizado definiciones de arquitectura basados en requerimientos de usuario, funcionales, no funcionales, proyecto y riesgos, logrando sistemas robustos, escalables, interoperables y seguros para brindar soluciones efectivas a los stakeholders.",
     "email": "mario.esteban.ortega@gmail.com",
     "cellphone": "+57 3103096818",
@@ -94,7 +94,7 @@
     { "experienceId":"1",
       "enterpriseName": "Secretaria de cultura, recreación y deporte",
       "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
-      "position": "Ingeniero y consultor de software",
+      "position": "Ingeniero consultor de software",
       "dateIni": "Noviembre 2019",
       "dateEnd": "Actualmente",
       "expDesc": "Consultoría e ingeniería de software en Java y microservicios para los procesos misionales de la entidad. Responsable de definir, diseñar e implementar el cambio de los procesos manuales a sistemas virtuales de trámites",
