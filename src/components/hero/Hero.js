@@ -35,6 +35,11 @@ return (
             {text.address}
             <small
               ><strong>{data.general.address}</strong></small>
+              <br />
+           
+            <a href={data.general.cv_url}>
+            <small
+              ><strong className="link-url">{data.general.cv_url}</strong></small></a>
           </h5>
         </div>
         <figure className="hero-imageContainer">

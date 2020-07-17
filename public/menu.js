@@ -77,6 +77,7 @@
     
     const validation = (event) => {
         if (event.matches) {
+            
             burgerMenu.addEventListener(
                 'click',
                 hideShow

@@ -13,7 +13,8 @@
     "hero":{
         "mail":"Email: ",
         "cellphone":"Celular: ",
-        "address":"Dirección: "
+        "address":"Dirección: ",
+        "cv_url":"CV: "
     },
     "experience":{
         "title":"Experiencia laboral",
