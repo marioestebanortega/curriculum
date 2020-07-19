@@ -557,7 +557,14 @@
   ],
   "certification":[
     {
-      "certificationId":"1",
+      "certificationId": "1",
+      "certificationImage": "/public/images/certification/scrum_certified.png",
+      "certificationName": "Scrum Foundations Professional Certificate (SFPC)",
+      "certificationDateIni": "July 2020",
+      "certificationDateEnd": "July 2020"
+   },
+    {
+      "certificationId":"2",
       "certificationImage":"/public/images/certification/certification_1.png",
       "certificationUrl":"https://platzi.com/@maes0186/",
       "certificationName":"Certificaciones microservicios",
@@ -566,7 +573,7 @@
 
     },
     {
-      "certificationId":"2",
+      "certificationId":"3",
       "certificationImage":"/public/images/certification/certification_3.png",
       "certificationName":"Java Programmer",
       "certificationDateIni":"Mayo 2013",
@@ -574,7 +581,7 @@
 
     },
     {
-      "certificationId":"3",
+      "certificationId":"4",
       "certificationImage":"/public/images/certification/certification_2.png",
       "certificationName":"Introduction SQL",
       "certificationDateIni":"Marzo 2010",
