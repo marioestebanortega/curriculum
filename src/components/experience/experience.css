@@ -122,7 +122,7 @@
     transition: 0.5s;
   }
   .icon-technologies a:hover {
-    font-size: 200%;
+    font-size: 120%;
     opacity: 2;
   }
   .icon-technologies span{
