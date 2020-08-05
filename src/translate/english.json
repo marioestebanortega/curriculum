@@ -21,7 +21,7 @@
         "dateIni":"Begin: ",
         "dateEnd":"End: ",
         "ahievements": "Achievements",
-        "usedTech":"Skills"
+        "usedTech":"Technologies in this job"
     },
     "certification":{
         "title":"Certifications",
