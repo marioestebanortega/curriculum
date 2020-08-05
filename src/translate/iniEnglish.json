@@ -94,19 +94,19 @@
   "experience": [
      {
         "experienceId": "One",
-        "enterpriseName": "Secretary of culture, recreation and sport",
+        "enterpriseName": "Secretaria de cultura, recreación y deporte",
         "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
         "position": "Engineer and consultant of software",
         "dateIni": "November 2019",
         "dateEnd": "Currently",
-        "expDesc": "Consulting and software engineering in Java and microservices for the processes of core activities of the entity. Responsible for define, design and implement the change from manual processes to systems virtual procedures",
+        "expDesc": "Consultancy and software engineering in Java and microservices to core process of state enterprise. Responsible to define, design and implement manual process shift to virtual system process.",
         "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
         "enterpriseAddress": "Race 8 # 9 -83, Bogotá - Colombia",
         "enterprisePhone": "+57-1-3274850",
         "achievements": [
-           "Lead and implement the architecture, design and requirements of the new process of virtualization of procedures virtual to the registration of pension for older adult BEPS.",
-           "Lead and implement the architecture, design and requirements of the new process of virtualization of procedures virtual for the registration of applications for inclusion, exclusion and change of category of properties of common interest of Bogotá",
-           "Establish a process of assertive communication with the stakeholders because of the huge impact of a new virtual process on manual processes that take years working in the entity. "
+           "Lead and implement architecture, design, requirements to new virtual process system for the registration of pension to older adult BEPS.",
+           "Lead and implement architecture, design, requirements to new virtual process for registration of request of inclusion, exclusion, and category shift of properties of Bogota’s common interest",
+           "Set an assertive communication process with the stakeholders thanks to highly impact of new virtual process to manual process that I It has worked for many years in the state enterpris"
         ],
         "technologies": [
            {
