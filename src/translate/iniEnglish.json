@@ -1,7 +1,7 @@
 {
   "general": {
      "fullname": "Mario Esteban Ortega Garcés",
-     "role": "Software engineer",
+     "role": "Software engineer and software consultant",
      "role-description": "Sofware engineer with more than 12 years of experience of information systems with strong knowledge’s in Java , microservices and continuous delivering (React, Docker, Jenkins). Performing responsibilities of leadership, architecture, and software implementations. Large experience as Team leader to leverage business strategies and drive digital transformation. Skills performing innovation projects and generations of efficiencies, management process and life cycle of solutions highly reliable.",
      "email": "mario.esteban.ortega@gmail.com",
      "cellphone": "+57 3103096818",
@@ -96,7 +96,7 @@
         "experienceId": "One",
         "enterpriseName": "Secretaria de cultura, recreación y deporte",
         "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
-        "position": "Engineer and consultant of software",
+        "position": "Engineer and software consultant",
         "dateIni": "November 2019",
         "dateEnd": "Currently",
         "expDesc": "Consultancy and software engineering in Java and microservices to core process of state enterprise. Responsible to define, design and implement manual process shift to virtual system process.",
@@ -180,19 +180,19 @@
         "enterpriseId": "Two",
         "enterpriseName": "Ilumno",
         "enterpriseImage": "https://www.ilumno.com/assets/images/logo_ilumno.svg",
-        "position": "Consultant software",
+        "position": "Software consultant",
         "dateIni": "July 2017",
         "dateEnd": "November 2019",
-        "expDesc": "Consultant of software, in charge of leading and implementing the module based on Java and microservicios of certifications-university at the Polytechnic university and the foundation of the Andean area.",
+        "expDesc": "Software consultant in charge to lead and implement module based in java and microservices of academic and financial certifications of Politecnico and Area Andina universities.",
         "enterpriseUrl": "https://www.ilumno.com/",
         "enterpriseAddress": "Race 12 No. 96 – 32, Bogotá - Colombia",
         "enterprisePhone": "+57-1-7452323",
         "achievements": [
-           "Perform the architectural design of the system of certifications-university at the Polytechnic university and the foundation of the Andean area",
-           "To create the first team implementation in Colombia of the system Banner 9 whose Core is based on Spring for Java, Node, Javascript , SCSS, using the definition of the functional metrics, non-functional, technical, and the creation of architecture and environments of development , testing and production.",
-           "Consulting and team leader trainer of the technology Banner Admin Pages used for the creation of new artifacts in the product Banner to Ellucian for the university Polytechnic, Andean region and partner companies like Neoris Colombia",
-           "Design and implementation of the integration of the certification system with the system documentary AZ-Digital",
-           "Design and implementation of the integration of the certification system with the system of signature digital Certicamara"
+           "Performing the architecture design of certifications system of Politecnico and Area andina universities",
+           "Create the first Colombia’s implementation team of Banner system 9 that their software core is based in Java Spring, Node, Javascript and SCSS thanks to definition of functional , no functional and techniques metrics in addition to creation of architectures and production, quality and development environments",
+           "Consultant and leadership to trainer team of Banner Admin Pages software using creation of new artifacts of Ellucian’s Banner product for Area Andina and Politecnico universities and other partner enterprises like Neoris Colombia",
+           "Design and implementation of system integration between new Certification system and AZ-Digital Documental system",
+           "Design and implementation of system integration between new certification system and Certicamara digital sign system"
         ],
         "technologies": [
            {
