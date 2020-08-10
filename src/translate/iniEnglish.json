@@ -1,8 +1,8 @@
 {
   "general": {
      "fullname": "Mario Esteban Ortega Garcés",
-     "role": "Software engineer and software consultant",
-     "role-description": "Sofware engineer with more than 12 years of experience of information systems with strong knowledge’s in Java , microservices and continuous delivering (React, Docker, Jenkins). Performing responsibilities of leadership, architecture, and software implementations. Large experience as Team leader to leverage business strategies and drive digital transformation. Skills performing innovation projects and generations of efficiencies, management process and life cycle of solutions highly reliable.",
+     "role": "Software engineer, and software consultant",
+     "role-description": "Sofware engineer with more than 12 years of experience of information systems with strong knowledge’s in Java , microservices, and continuous delivering (React, Docker, Jenkins). Performing responsibilities of leadership, architecture, and software implementations. Large experience as Team leader to leverage business strategies, and drive digital transformation. Skills performing innovation projects, and generations of efficiencies, management process, and life cycle of solutions highly reliable.",
      "email": "mario.esteban.ortega@gmail.com",
      "cellphone": "+57 3103096818",
      "address": "Cra 11 # 140 -52, Bogotá - Colombia",
@@ -96,16 +96,16 @@
         "experienceId": "One",
         "enterpriseName": "Secretaria de cultura, recreación y deporte",
         "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
-        "position": "Engineer and software consultant",
+        "position": "Engineer, and software consultant",
         "dateIni": "November 2019",
         "dateEnd": "Currently",
-        "expDesc": "Consultancy and software engineering in Java and microservices to core process. Responsible to define, design and implement manual process shift to virtual system process.",
+        "expDesc": "Consultancy, and software engineering in Java, and microservices to core process. Responsible to define, design, and implement manual process shift to virtual system process.",
         "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
         "enterpriseAddress": "Race 8 # 9 -83, Bogotá - Colombia",
         "enterprisePhone": "+57-1-3274850",
         "achievements": [
-           "Lead and implement architecture, design and requirements to new virtual process system for the registration of pension to older adult BEPS.",
-           "Lead and implement architecture, design and requirements to new virtual process for request registration of inclusion, exclusion, and category shift of common interest Bogota properties",
+           "Lead, and implement architecture, design, and requirements to new virtual process system for the registration of pension to older adult BEPS.",
+           "Lead, and implement architecture, design, and requirements to new virtual process for request registration of inclusion, exclusion, and category shift of common interest Bogota properties",
            "Set an assertive communication process with the stakeholders thanks to highly impact of new virtual process to manual process that has worked for many years in this enterprise"
         ],
         "technologies": [
@@ -183,16 +183,16 @@
         "position": "Software consultant",
         "dateIni": "July 2017",
         "dateEnd": "November 2019",
-        "expDesc": "Software consultant in charge to lead and implement module based in java and microservices of academic and financial certifications of Politecnico and Area Andina universities.",
+        "expDesc": "Software consultant in charge to lead, and implement module based in java, and microservices of academic, and financial certifications of Politecnico and Area Andina universities.",
         "enterpriseUrl": "https://www.ilumno.com/",
         "enterpriseAddress": "Race 12 No. 96 – 32, Bogotá - Colombia",
         "enterprisePhone": "+57-1-7452323",
         "achievements": [
-           "Performing the architecture design of certifications system of Politecnico and Area andina universities",
+           "Performing the architecture design of certifications system of Politecnico, and Area andina universities",
            "Create the first Colombia’s implementation team of Banner system 9 that their software core is based in Java Spring, Node, Javascript and SCSS thanks to definition of functional , no functional and techniques metrics in addition to creation of architectures and production, quality and development environments",
            "Consultancy and leadership to trainer team of Banner Admin Pages software using creation of new artifacts of Ellucian’s Banner product for Area Andina and Politecnico universities and other partner enterprises like Neoris Colombia",
-           "Design and implementation of system integration between new certification system and AZ-Digital documental system",
-           "Design and implementation of system integration between new certification system and Certicamara digital sign system"
+           "Design and implementation of system integration between new certification system, and AZ-Digital documental system",
+           "Design and implementation of system integration between new certification system, and Certicamara digital sign system"
         ],
         "technologies": [
            {
@@ -249,14 +249,14 @@
         "position": "Senior software engineer",
         "dateIni": "July 2014",
         "dateEnd": "July 2017",
-        "expDesc": "Leadership, design and implementation in systems based on Java EE, Rest Services, to testing processes to know 3, 5 and 9 such as Report delegate report-Rector, and the systematic presentation of results and delivery of material in all departments accredited by the ICFES.",
+        "expDesc": "Leadership, design, and system implementation based in Java EE, Rest Services for the process of “ICFES Saber Testing 3,5,9” such as delegated report, High school principal report, and systematization of “359 testing result”, and material delivering all over Colombian states that are accredited by ICFES.",
         "enterpriseUrl": "https://www.icfes.gov.co/",
         "enterpriseAddress": "Calle 26 No.69-76, Tower 2, Floor 15, Building Element, Bogotá - Colombia",
         "enterprisePhone": "+57-1-4841460",
         "achievements": [
-           "Reengineering process report delegate, diagnosing the current state of the process to increase performance, security, accessibility, quality achieving outputs to production successful",
-           "Reengineering process report rector, diagnosing the current state of the process to increase performance, security, accessibility and quality using unit tests advanced with Maven and testing loads of stress leading to the process to improve your output in production with a percentage of 300% of users effective with regard to the outputs production past",
-           "Because the process of delivery of material test know 3, 5, 9 will have to deploy infrastructure is not centralized on portable devices throughout the space colombian accredited by the ICFES, the system would have to have a percentage of 100% quality (0 bugs), since we could not give support after you have configured the devices. Thanks to the strategy implemented by analyzing risks, and processes appropriate to the conditions of the project and the team was achieved for the first time you run this process 100% successful"
+           "Reengineering of delegate report process, diagnosing actual sate to up performance , security, accessibility, and quality achieving going live successful.",
+           "Reengineering of principal high school report process, diagnosing the actual state to performance increment, security, accessibility, and quality through advanced unit test with Maven and stressing test bringing to process to improve going live with 300% of effective regarding past going live",
+           "Because delivery material process of “ICFES Saber Testing 3.5.9” had to implement in no centralized infrastructure in portable devices around Colombian space accredited by ICFES, the system would have a quality development percent of 100% (0 Bugs) because the support finishes when the devices were configured. Thanks to implemented strategy  the analyze of risks, and the adequate process to project conditions and the team, it was possible for first time execute this process 100% successful.       "
         ],
         "technologies": [
            {
@@ -531,7 +531,7 @@
         "enterprisePhone": "+57-1-3779877",
         "achievements": [
            "To achieve interfaces based on Java AWT to communicate documents of correspondence",
-           "Create financial reports, treasury and accounting in SQL by connecting to the Oracle database of the financial system TAO"
+           "Create financial reports, treasury, and accounting in SQL by connecting to the Oracle database of the financial system TAO"
         ],
         "technologies": [
            {
