@@ -31,6 +31,9 @@
          padding-top: 0.5em;
          line-height: 0.2em;
      }
+     .experience-enterprise{
+        line-height:initial;
+     }
 
      .experience h4{
          margin-top: 0.2em;
