@@ -59,4 +59,13 @@
   }
 .link-url{
   font-size: 0.6em;
+  transition: 1s;
+
+}
+.link-url:hover{
+  color: white;
+  font-size: 0.8em;
+}
+.hero-link-container{
+  text-decoration: none;
 }

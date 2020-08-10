@@ -37,7 +37,7 @@ return (
               ><strong>{data.general.address}</strong></small>
               <br />
            
-            <a href={data.general.cv_url}>
+            <a className="hero-link-container" href={data.general.cv_url}>
             <small
               ><strong className="link-url">{data.general.cv_url}</strong></small></a>
           </h5>
