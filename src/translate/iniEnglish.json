@@ -2,7 +2,7 @@
   "general": {
      "fullname": "Mario Esteban Ortega Garcés",
      "role": "Software engineer and software consultant",
-     "role-description": "Sofware engineer with more than 12 years of experience of information systems with strong knowledge’s in Java , microservices, and continuous delivering (React, Docker, Jenkins). Performing responsibilities of leadership, architecture, and software implementations. Large experience as Team leader to leverage business strategies, and drive digital transformation. Skills performing innovation projects, and generations of efficiencies, management process, and life cycle of solutions highly reliable.",
+     "role-description": "Sofware engineer with more than 12 years of experience of information systems with strong knowledge’s in Java , microservices, and continuous delivering (React, Docker, Jenkins). Performing responsibilities of leadership, architecture, and software implementations. Large experience as Team leader to encouraging business strategies, and drive digital transformation. Skills performing innovation projects, and generations of efficiencies, management process, and life cycle of solutions highly reliable.",
      "email": "mario.esteban.ortega@gmail.com",
      "cellphone": "+57 3103096818",
      "address": "Cra 11 # 140 -52, Bogotá - Colombia",
@@ -308,14 +308,14 @@
         "position": "Senior engineer software",
         "dateIni": "September 2013",
         "dateEnd": "July 2014",
-        "expDesc": "Engineer team leader of software for the implementation of the new system of medical clearances for the EPS colombian EMSSANAR through the use of platforms based on Java, HTML5, CSS, Bootstrap ",
+        "expDesc": "Software Leader Engineer to new system implementation of medical authorizations of Colombian EMSSANAR EPS through Java platforms based in Java, HTML 5, CSS, Bootstrap.",
         "enterpriseUrl": "https://conexia.com/",
         "enterpriseAddress": "Cra. 9 No. 77-67, Piso 6, Ofic. 601, Bogota - Colombia",
         "enterprisePhone": "+57-1-5528800",
         "achievements": [
-           "To lead successfully a team of software setting growth in technical strengths in team members promoted the importance of the concept more valuable as is the work in team, as well as an assertive communication with the stakeholders of the project.",
-           "To deliver the project in the time set out in the schedule with strategies for implementation in production and availability in support in the critical phases and strategic mitigation of risks by means of prevention plans",
-           "Design a system robust, reliable, secure and scalable system for the medical clearances of EMSSANAR EPS"
+           "Successful software team lead establishing growing up in technical strengths to the team encouraging the teamwork concept as well as assertive communication with project stakeholders",
+           "Finish the project in agreed times in schedule with going live strategies and support availability in critic phases and strategies to risk less through prevention plans",
+           "Design a robust system, reliable, secure and scalable for medical authorizing system of EMSSANAR EPS"
         ],
         "technologies": [
            {
