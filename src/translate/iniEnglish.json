@@ -367,12 +367,12 @@
         "position": "Software engineer expert",
         "dateIni": "June 2013",
         "dateEnd": "September 2013",
-        "expDesc": "Analysis and development of J2EE application based on PRIMEFACES, JSF 2.0, Web Services JAX-WS, for the bank of second floor of FINAGRO one of the projects core of the company",
+        "expDesc": "Analysis and development in applications JSEE, based in Primefaces, JSF 2.0, Web Services JAX-WS, to FINAGRO second tier bank one of the principal company projects",
         "enterpriseUrl": "https://itac.co/",
         "enterpriseAddress": "Ak 19 # 120 - 71, Bogota - Colombia",
         "enterprisePhone": "+57-1-7444822",
         "achievements": [
-           "Deploy artifacts: financial simulations credit"
+           "Implement financial artifacts in credits simulations"
         ],
         "technologies": [
            {
@@ -399,14 +399,14 @@
         "position": "Software engineer",
         "dateIni": "February 2012",
         "dateEnd": "June 2013",
-        "expDesc": "Software engineer, responsible for the development and design of accounting processes of the management of aerolíneas argentinas project DRACO INDRA whose client is located in the city of Buenos Aires. The technologies with which they work on are J2EE executed by JBOSS and use of Frameworks Spring MVC, RichFaces, MAVEN and database engines Oracle 10g.",
+        "expDesc": "Software engineer, responsible of design and develop of Argentina airline accounting process to DRACO INDRA project. The technologies used were J2EE Applications deployed in JBOSS server as well as the use of Spring MVC frameworks, RichFaces, Maven and Oracle 10g Database.",
         "enterpriseUrl": "https://www.indracompany.com/",
         "enterpriseAddress": "Calle 96 No. 13-11, Bogotá - Colombia",
         "enterprisePhone": "+57-1-6463600",
         "achievements": [
-           "Leadership in the accounting module to the correct definitions next to the team and quality requirements",
-           "Implementation of processes, multithreaded Batch for the execution of accounting services",
-           "Process tunning using maven for the compilation of all processes of the project to improve the performance in a 300%"
+           "Leader in accounting module to the correct definitions supported with quality and requirements teams",
+           "Implementation of Multithread Batch process for the execution of accounting services",
+           "Tuning process using Maven to compile all process of the project improving the performance in 30%"
         ],
         "technologies": [
            {

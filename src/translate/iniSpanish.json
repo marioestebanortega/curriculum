@@ -401,7 +401,7 @@
       "achievements": [
         "Liderazgo en el módulo contable para las correctas definiciones junto al equipo de calidad y requerimientos",
         "Implementación de procesos multihilo Batch para la ejecución de servicios contables",
-        "Proceso tunning usando maven para la compilación de todos los procesos del proyecto mejorando el rendimiento en un 300%"
+        "Proceso tuning usando maven para la compilación de todos los procesos del proyecto mejorando el rendimiento en un 300%"
       ],
       "technologies": [
         {
