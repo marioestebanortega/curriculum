@@ -438,13 +438,13 @@
         "position": "Programmer master",
         "dateIni": "July 2011",
         "dateEnd": "February 2012",
-        "expDesc": "Programmer analyst in pages JSP based on MVC model using Frameworks (JSF, Hibernate) architectures and J2EE along with the modeling of ORACLE Database and support in PLSQL. (Assigned to 2 customers Mayor's office of Medellín and ALLUS)",
+        "expDesc": "Software Java engineer who developed JSP pages based in MVC model using frameworks (JSF, Hibernate) and J2EE architectures with Oracle DataBase modeling supported in PLSQL. (I was assigned with two clients: Medellin Mayor’s Office and ALLUS)",
         "enterpriseUrl": "https://ada.co/",
         "enterpriseAddress": "Carrera 51 # 9c South - 85 Of. 201, Medellín - Colombia",
         "enterprisePhone": "+57-4-4035241",
         "achievements": [
-           "Re-engineering of the billing system of ALLUS by the diagnosis, testing, and implementation of adjustments to the new start production",
-           "Creation system SIMPAD is based on java for the mayor's office of Medellín"
+           "Reengineering of Billing system of ALLUS through the diagnostic, testing, and implementation of fixes to the new go alive",
+           "Developing of SIMPAD system based in java for Medellín Mayor's office"
         ],
         "technologies": [
            {

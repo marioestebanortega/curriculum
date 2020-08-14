@@ -56,6 +56,9 @@
     text-align: center;
     right: 0;
   }
+  #si-select-language:focus {
+    outline-width: 0;
+}
   .select-language{
     width: 100%;
     display: flex;
