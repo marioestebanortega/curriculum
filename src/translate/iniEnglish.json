@@ -471,12 +471,12 @@
         "position": "Programmer oracle",
         "dateIni": "October 2010",
         "dateEnd": "May 2011",
-        "expDesc": "Development engineer in plsql Oracle in charge of the migration of the module retired management of the scheme old developed in OWA Oracle to be renewed in the new Java-based platform with a different database schema",
+        "expDesc": "Software engineer in Oracle PLSQL charged to migration of Porvenir pension management between older system developed in Oracle OWA and new Java Platform  ",
         "enterpriseUrl": "https://stefanini.com/",
         "enterpriseAddress": "Ac 100 #19a-2, Bogotá - Colombia",
         "enterprisePhone": "+57-1-7454777",
         "achievements": [
-           "Completion of the block of migration between the different schemes with a structure ETL"
+           "Finishing migration block between different schemas with ETL design and PLSQL"
         ],
         "technologies": [
            {
@@ -495,15 +495,15 @@
         "experienceId": "Nine",
         "enterpriseName": "National university of Colombia",
         "enterpriseImage": "/public/images/enterprise/unal.png",
-        "position": "Software analyst",
+        "position": "Software developer analyst",
         "dateIni": "February 2010",
         "dateEnd": "September 2010",
-        "expDesc": "Design and development of the Project SIAPPI in charge of the logistics of the project of INGEOMINAS granted by National Planning. Responsible for the Analysis, design of the database and leader of the group development application based on APEX Oracle.",
+        "expDesc": "I designed and developed of SIAPPI Project charged to INGEOMINAS project´s logistic that was provided by Colombia Nacional Planning. Responsible to analysis, database design and Team lead of Oracle APEX applications",
         "enterpriseUrl": "https://unal.edu.co/",
         "enterpriseAddress": "Carrera 45 # 26-85, Bogotá - Colombia",
         "enterprisePhone": "+57-1-3165000",
         "achievements": [
-           "Create the architecture and data model of the system that was implemented in Ingeominas"
+           "I made the architecture of Database Model and new INGEOMINAS system"
         ],
         "technologies": [
            {
@@ -525,13 +525,13 @@
         "position": "Systems administrator",
         "dateIni": "April 2008",
         "dateEnd": "February 2010",
-        "expDesc": "Support to the infrastructure of the entity to servers linux and windows, in addition to implementations in java and oracle for the financial system TAO for the generation of reports",
+        "expDesc": "Support to infrastructure to the Enterprise that used Linux and Windows servers in addition to java and oracle sql / plsql implementations for TAO financial system to report’s generation.",
         "enterpriseUrl": "https://www.fbscgr.gov.co/",
         "enterpriseAddress": "Carrera 69 No. 44-35 Piso 4, Bogotá - Colombia",
         "enterprisePhone": "+57-1-3779877",
         "achievements": [
-           "To achieve interfaces based on Java AWT to communicate documents of correspondence",
-           "Create financial reports, treasury, and accounting in SQL by connecting to the Oracle database of the financial system TAO"
+           "I achieved interfaces based in Java AWT to send digital documents of correspondence",
+           "I Created financial reports of treasury and accounting in SQL linking Oracle data bases with TAO financial system"
         ],
         "technologies": [
            {
