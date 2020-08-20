@@ -38,7 +38,7 @@ const Language =({lang})=>{
          <img 
          src="/public/images/languages/writing.png"
           alt=""/>
-         <div className="bar-fill-out">
+       <div className="bar-fill-out">
            <div className="bar-fill-in bar-fill-80">
              <h4>80%</h4>
            </div>
