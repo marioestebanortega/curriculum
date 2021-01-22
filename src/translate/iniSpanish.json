@@ -92,12 +92,71 @@
     ]
   },
   "experience": [
+    {
+      "experienceId": "One",
+      "enterpriseName": "Michael Page",
+      "enterpriseImage": "https://www.michaelpage.com.co/profiles/mp_singapore/themes/mp_nextgen/logo.png",
+      "position": "Ingeniero de software AWS Java/Node",
+      "dateIni": "Septiembre 2020",
+      "dateEnd": "Currently",
+      "expDesc": "Ingenieria de software en Java, AWS , Node para Liberty seguros que es un cliente de  Michael Page",
+      "enterpriseUrl": "https://www.michaelpage.com.co/",
+      "enterpriseAddress": "Remoto",
+      "enterprisePhone": "",
+      "achievements": [
+         "Liderar e implementa el nuevo frontend y backend para el Content Manager de Liberty latam basado en Node, Express,React, AWS y Jenkins"
+      ],
+      "technologies": [
+         
+         {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+         },
+         {
+            "tech": "amazonaws",
+            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "AWS"
+         },
+         {
+            "tech": "nodejs",
+            "url": "https://es.wikipedia.org/wiki/Node.js",
+            "name": "NodeJS"
+         },
+         {
+            "tech": "react",
+            "url": "https://es.wikipedia.org/wiki/React",
+            "name": "React"
+         },
+         {
+            "tech": "redux",
+            "url": "https://es.wikipedia.org/wiki/Redux_(JavaScript)",
+            "name": "Redux"
+         },
+         {
+            "tech": "docker",
+            "url": "https://es.wikipedia.org/wiki/Docker_(software)",
+            "name": "Docker"
+         },
+         
+         {
+            "tech": "jenkins",
+            "url": "https://es.wikipedia.org/wiki/Jenkins",
+            "name": "Jenkins"
+         },
+         {
+            "tech": "jest",
+            "url": "https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)",
+            "name": "jest"
+         }
+      ]
+   },
     { "experienceId":"1",
       "enterpriseName": "Secretaria de cultura, recreación y deporte",
       "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
       "position": "Ingeniero consultor de software",
-      "dateIni": "Noviembre 2019",
-      "dateEnd": "Actualmente",
+      "dateIni": "Marzo 2018",
+      "dateEnd": "Diciembre 2020",
       "expDesc": "Consultoría e ingeniería de software en Java y microservicios para los procesos misionales de la entidad. Responsable de definir, diseñar e implementar el cambio de los procesos manuales a sistemas virtuales de trámites",
       "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
       "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",

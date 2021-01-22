@@ -2,10 +2,10 @@
   "general": {
      "fullname": "Mario Esteban Ortega Garcés",
      "role": "Software engineer and software consultant",
-     "role-description": "Sofware engineer with more than 12 years of experience of information systems with strong knowledge’s in Java , microservices, and continuous delivering (React, Docker, Jenkins). Performing responsibilities of leadership, architecture, and software implementations. Large experience as Team leader to encouraging business strategies, and drive digital transformation. Skills performing innovation projects, and generations of efficiencies, management process, and life cycle of solutions highly reliable.",
+     "role-description": "Software Engineer with more than 12 years of experience in information systems with strong knowledge in Java, microservices, and continuous delivery (React, Docker, Jenkins). Performing responsibilities of leadership, architecture, and software implementations. Large experience as Team leader in encouraging business strategies, and drive digital transformation. Skills performing innovation projects, and generations of efficiencies, management process, and life cycle of solutions highly reliable.",
      "email": "mario.esteban.ortega@gmail.com",
-     "cellphone": "+57 3103096818",
-     "address": "Cra 11 # 140 -52, Bogotá - Colombia",
+     "cellphone": "",
+     "address": "",
      "cv_url":"https://hoja-de-vida-mario-esteban-ortega-garces.marioestebanortega.vercel.app/",
      "show_technologies": true,
      "technologies": [
@@ -92,13 +92,72 @@
      ]
   },
   "experience": [
+   {
+      "experienceId": "One",
+      "enterpriseName": "Michael Page",
+      "enterpriseImage": "https://www.michaelpage.com.co/profiles/mp_singapore/themes/mp_nextgen/logo.png",
+      "position": "AWS Java/Node Engineer",
+      "dateIni": "September 2020",
+      "dateEnd": "Currently",
+      "expDesc": "Software engineering in Java, AWS , Node for Liberty seguros that is a Michael Page client",
+      "enterpriseUrl": "https://www.michaelpage.com.co/",
+      "enterpriseAddress": "Remote",
+      "enterprisePhone": "",
+      "achievements": [
+         "Lead and develop the new frontend to the content manager for liberty latam based in Node, Express,React, AWS and Jenkins"
+      ],
+      "technologies": [
+         
+         {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+         },
+         {
+            "tech": "amazonaws",
+            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
+            "name": "AWS"
+         },
+         {
+            "tech": "nodejs",
+            "url": "https://es.wikipedia.org/wiki/Node.js",
+            "name": "NodeJS"
+         },
+         {
+            "tech": "react",
+            "url": "https://es.wikipedia.org/wiki/React",
+            "name": "React"
+         },
+         {
+            "tech": "redux",
+            "url": "https://es.wikipedia.org/wiki/Redux_(JavaScript)",
+            "name": "Redux"
+         },
+         {
+            "tech": "docker",
+            "url": "https://es.wikipedia.org/wiki/Docker_(software)",
+            "name": "Docker"
+         },
+         
+         {
+            "tech": "jenkins",
+            "url": "https://es.wikipedia.org/wiki/Jenkins",
+            "name": "Jenkins"
+         },
+         {
+            "tech": "jest",
+            "url": "https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)",
+            "name": "jest"
+         }
+      ]
+   },
      {
         "experienceId": "One",
         "enterpriseName": "Secretaria de cultura, recreación y deporte",
         "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
         "position": "Engineer, and software consultant",
-        "dateIni": "November 2019",
-        "dateEnd": "Currently",
+        "dateIni": "March 2018",
+        "dateEnd": "December 2020",
         "expDesc": "Consultancy, and software engineering in Java, and microservices to core process. Responsible to define, design, and implement manual process shift to virtual system process.",
         "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
         "enterpriseAddress": "Race 8 # 9 -83, Bogotá - Colombia",
