@@ -2,7 +2,7 @@
   "general": {
     "fullname": "Mario Esteban Ortega Garcés",
     "role": "Ingeniero consultor de software",
-    "role-description": "Ingeniero certificado de software con más de 12 años de experiencia en sistemas de información con fuertes conocimientos en Java , microservicios e integración continua (React, Docker, Jenkins) desempeñando responsabilidades de liderazgo, arquitectura e implementación de sistemas. Amplia experiencia como líder de equipos para apalancar estrategias de negocio e impulsar la transformación digital. Habilidades realizando proyectos de innovación y generación de eficiencias, dirigiendo los proceso y ciclos de vida de soluciones altamente confiables.",
+    "role-description": "Ingeniero certificado de software con más de 12 años de experiencia en sistemas de información con fuertes conocimientos en Java , microservicios e integración continua (React, Docker, Jenkins) desempeñando responsabilidades de liderazgo, arquitectura e implementación de sistemas. Habilidades realizando proyectos de innovación y generación de eficiencias, dirigiendo los procesos y ciclos de vida de soluciones altamente confiables.",
     "email": "mario.esteban.ortega@gmail.com",
     "cellphone": "+57 3103096818",
     "address": "Carrera 11 # 140 -52, Bogotá - Colombia",
@@ -92,78 +92,19 @@
     ]
   },
   "experience": [
-    {
-      "experienceId": "One",
-      "enterpriseName": "Cafeto",
-      "enterpriseImage": "https://380qwhcubch24hta72ohpn8e-wpengine.netdna-ssl.com/wp-content/themes/cafeto_website_theme/static/images/Logo_rojo_Cafeto.png",
-      "position": "Ingeniero de software",
-      "dateIni": "Marzo 2021",
-      "dateEnd": "Currently",
-      "expDesc": "Apoyar los desarrollos para la plataforma 6Connex",
-      "enterpriseUrl": "https://cafeto.co/",
-      "enterpriseAddress": "Remoto",
-      "enterprisePhone": "",
-      "achievements": [
-         "Apoyar los desarrollos para la plataforma 6Connex"
-      ],
-      "technologies": [
-         
-         {
-            "tech": "git",
-            "url": "https://es.wikipedia.org/wiki/Git",
-            "name": "Git"
-         },
-         {
-            "tech": "amazonaws",
-            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
-            "name": "AWS"
-         },
-         {
-            "tech": "nodejs",
-            "url": "https://es.wikipedia.org/wiki/Node.js",
-            "name": "NodeJS"
-         },
-         {
-            "tech": "react",
-            "url": "https://es.wikipedia.org/wiki/React",
-            "name": "React"
-         },
-         {
-            "tech": "redux",
-            "url": "https://es.wikipedia.org/wiki/Redux_(JavaScript)",
-            "name": "Redux"
-         },
-         {
-            "tech": "docker",
-            "url": "https://es.wikipedia.org/wiki/Docker_(software)",
-            "name": "Docker"
-         },
-         
-         {
-            "tech": "jenkins",
-            "url": "https://es.wikipedia.org/wiki/Jenkins",
-            "name": "Jenkins"
-         },
-         {
-            "tech": "jest",
-            "url": "https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)",
-            "name": "jest"
-         }
-      ]
-   },
    {
     "experienceId": "One",
     "enterpriseName": "Michael Page",
-    "enterpriseImage": "https://www.michaelpage.com.co/profiles/mp_singapore/themes/mp_nextgen/logo.png",
+    "enterpriseImage": "https://www.michaelpage.com.co/themes/custom/mp_theme/logo.png",
     "position": "Ingeniero de software AWS Java/Node",
     "dateIni": "Septiembre 2020",
-    "dateEnd": "Marzo 2021",
-    "expDesc": "Ingenieria de software en Java, AWS , Node para Liberty seguros que es un cliente de  Michael Page",
+    "dateEnd": "Actual",
+    "expDesc": "Ingeniería de software en Java, AWS , Node para Liberty seguros que es un cliente de  Michael Page",
     "enterpriseUrl": "https://www.michaelpage.com.co/",
     "enterpriseAddress": "Remoto",
     "enterprisePhone": "",
     "achievements": [
-       "Liderar e implementa el nuevo frontend y backend para el Content Manager de Liberty latam basado en Node, Express,React, AWS y Jenkins"
+       "Implementar el nuevo frontend y backend para el Content Manager de Liberty latam basado en Node, Express,React, AWS y Jenkins"
     ],
     "technologies": [
        

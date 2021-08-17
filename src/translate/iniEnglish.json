@@ -2,10 +2,10 @@
   "general": {
      "fullname": "Mario Esteban Ortega Garcés",
      "role": "Software engineer and software consultant",
-     "role-description": "Software Engineer with more than 12 years of experience in information systems with strong knowledge in Java, microservices, and continuous delivery (React, Docker, Jenkins). Performing responsibilities of leadership, architecture, and software implementations. Large experience as Team leader in encouraging business strategies, and drive digital transformation. Skills performing innovation projects, and generations of efficiencies, management process, and life cycle of solutions highly reliable.",
+     "role-description": "Software Engineer with more than 12 years of experience in information systems with strong knowledge in Java, microservices, and continuous delivery (React, Docker, Jenkins). Performing responsibilities of leadership, architecture, and software implementations. Skills performing innovation projects, and generations of efficiencies, management process, and life cycle of solutions highly reliable.",
      "email": "mario.esteban.ortega@gmail.com",
-     "cellphone": "",
-     "address": "",
+     "cellphone": "+57 3103096818",
+     "address": "Carrera 11 # 140 -52",
      "cv_url":"https://hoja-de-vida-mario-esteban-ortega-garces.marioestebanortega.vercel.app/",
      "show_technologies": true,
      "technologies": [
@@ -95,7 +95,7 @@
    {
       "experienceId": "One",
       "enterpriseName": "Michael Page",
-      "enterpriseImage": "https://www.michaelpage.com.co/profiles/mp_singapore/themes/mp_nextgen/logo.png",
+      "enterpriseImage": "https://www.michaelpage.com.co/themes/custom/mp_theme/logo.png",
       "position": "AWS Java/Node Engineer",
       "dateIni": "September 2020",
       "dateEnd": "Currently",
@@ -104,7 +104,7 @@
       "enterpriseAddress": "Remote",
       "enterprisePhone": "",
       "achievements": [
-         "Lead and develop the new frontend to the content manager for liberty latam based in Node, Express,React, AWS and Jenkins"
+         "Implement the new frontend to the content manager for liberty latam based in Node, Express,React, AWS and Jenkins"
       ],
       "technologies": [
          
