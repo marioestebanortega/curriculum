@@ -2,7 +2,7 @@
   "general": {
      "fullname": "Mario Esteban Ortega Garcés",
      "role": "Software engineer and software consultant",
-     "role-description": "Software Engineer with more than 12 years of experience in information systems with strong knowledge in Java, microservices, and continuous delivery (React, Docker, Jenkins). Performing responsibilities of leadership, architecture, and software implementations. Skills performing innovation projects, and generations of efficiencies, management process, and life cycle of solutions highly reliable.",
+     "role-description": "Software Engineer with more than 12 years of experience in information systems with strong knowledge in Java, microservices, and continuous delivery (React, Docker, Jenkins). Performing responsibilities of software implementations. Skills performing innovation projects, and generations of efficiencies, management process, and life cycle of solutions highly reliable.",
      "email": "mario.esteban.ortega@gmail.com",
      "cellphone": "+57 3103096818",
      "address": "Carrera 11 # 140 -52",
@@ -94,11 +94,81 @@
   "experience": [
    {
       "experienceId": "One",
+      "enterpriseName": "Despegar",
+      "enterpriseImage": "https://media-exp1.licdn.com/dms/image/C4D0BAQEYuLi6DP5oGw/company-logo_200_200/0/1553884879968?e=1678320000&v=beta&t=8yqksgQGWQ6IVbo8sQ0Gw4DkepImTQgsTVyE7Yn80kM",
+      "position": "Java software engineer",
+      "dateIni": "August 2022",
+      "dateEnd": "Current",
+      "expDesc": "Developing java solutions to the Team",
+      "enterpriseUrl": "https://despegar.com/",
+      "enterpriseAddress": "Remote",
+      "enterprisePhone": "",
+      "achievements": [
+         "Fix Region Time problem when the user tries to search some packages in different countries",
+         "Develop new net rate rules service"
+      ],
+      "technologies": [
+         
+         {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+         },
+         {
+            "tech": "java",
+            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+            "name": "Java"
+         },
+         {
+            "tech": "jenkins",
+            "url": "https://es.wikipedia.org/wiki/Jenkins",
+            "name": "Jenkins"
+         }
+       
+      ]
+   },
+   {
+      "experienceId": "One",
+      "enterpriseName": "Comviva",
+      "enterpriseImage": "https://media-exp1.licdn.com/dms/image/C510BAQE3CVOcLuBxYQ/company-logo_200_200/0/1551062515854?e=1678320000&v=beta&t=oCXLIlUAUtfD4LPRXSiJlmkvdoigiGnvxz9XC67uQ9M",
+      "position": "Java software engineer",
+      "dateIni": "October 2021",
+      "dateEnd": "August 2022",
+      "expDesc": "Software engineering in full core Java to solve and develop backend problems in MGMS system",
+      "enterpriseUrl": "https://www.comviva.com/",
+      "enterpriseAddress": "Remote",
+      "enterprisePhone": "",
+      "achievements": [
+         "Find out critical problems in MGMS system based in Java",
+         "Develop monitoring system based in spring boot"
+      ],
+      "technologies": [
+         
+         {
+            "tech": "git",
+            "url": "https://es.wikipedia.org/wiki/Git",
+            "name": "Git"
+         },
+         {
+            "tech": "java",
+            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+            "name": "Java"
+         },
+         {
+            "tech": "docker",
+            "url": "https://es.wikipedia.org/wiki/Docker_(software)",
+            "name": "Docker"
+         }
+       
+      ]
+   },
+   {
+      "experienceId": "One",
       "enterpriseName": "Michael Page",
       "enterpriseImage": "https://www.michaelpage.com.co/themes/custom/mp_theme/logo.png",
       "position": "AWS Java/Node Engineer",
       "dateIni": "September 2020",
-      "dateEnd": "Currently",
+      "dateEnd": "June 2021",
       "expDesc": "Software engineering in Java, AWS , Node for Liberty seguros that is a Michael Page client",
       "enterpriseUrl": "https://www.michaelpage.com.co/",
       "enterpriseAddress": "Remote",
@@ -117,6 +187,11 @@
             "tech": "amazonaws",
             "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
             "name": "AWS"
+         },
+         {
+            "tech": "java",
+            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+            "name": "Java"
          },
          {
             "tech": "nodejs",
@@ -143,18 +218,13 @@
             "tech": "jenkins",
             "url": "https://es.wikipedia.org/wiki/Jenkins",
             "name": "Jenkins"
-         },
-         {
-            "tech": "jest",
-            "url": "https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)",
-            "name": "jest"
          }
       ]
    },
      {
         "experienceId": "One",
         "enterpriseName": "Secretaria de cultura, recreación y deporte",
-        "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
+        "enterpriseImage": "https://media-exp1.licdn.com/dms/image/C4E1BAQFYIO5hxNP5Bw/company-background_10000/0/1581716670442?e=1671040800&v=beta&t=OkA4ecBJqjGD3_qiItzIjAWX5ekxYwK1b1fsSQQZZGc",
         "position": "Engineer, and software consultant",
         "dateIni": "March 2018",
         "dateEnd": "December 2020",
@@ -363,7 +433,7 @@
      {
         "experienceId": "Four",
         "enterpriseName": "Conexia",
-        "enterpriseImage": "https://conexia.com/es/wp-content/uploads/2019/08/conexia-colorV4.png",
+        "enterpriseImage": "https://media-exp1.licdn.com/dms/image/D4D0BAQHXRZg5fUiDTQ/company-logo_200_200/0/1665064108550?e=1678320000&v=beta&t=5YZdUqN_Lo7K7n2Yw4dsAMI_92MYwN0Os2rUElYgxaU",
         "position": "Senior engineer software",
         "dateIni": "September 2013",
         "dateEnd": "July 2014",
