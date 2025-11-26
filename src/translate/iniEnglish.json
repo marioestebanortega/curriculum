@@ -1,728 +1,707 @@
 {
-  "general": {
-     "fullname": "Mario Esteban Ortega Garcés",
-     "role": "Software engineer and software consultant",
-     "role-description": "Software Engineer with more than 12 years of experience in information systems with strong knowledge in Java, microservices, and continuous delivery (React, Docker, Jenkins). Performing responsibilities of software implementations. Skills performing innovation projects, and generations of efficiencies, management process, and life cycle of solutions highly reliable.",
-     "email": "mario.esteban.ortega@gmail.com",
-     "cellphone": "+57 3103096818",
-     "address": "Carrera 11 # 140 -52",
-     "cv_url":"https://hoja-de-vida-mario-esteban-ortega-garces.marioestebanortega.vercel.app/",
-     "show_technologies": true,
-     "technologies": [
-        {
-           "tech": "java",
-           "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)"
-        },
-        {
-           "tech": "spring",
-           "url": "https://es.wikipedia.org/wiki/Spring_Framework"
-        },
-        {
-           "tech": "eclipseide",
-           "url": "https://es.wikipedia.org/wiki/Eclipse_(software)"
-        },
-        {
-           "tech": "git",
-           "url": "https://es.wikipedia.org/wiki/Git"
-        },
-        {
-           "tech": "amazonaws",
-           "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services"
-        },
-        {
-           "tech": "oracle",
-           "url": "https://es.qwe.wiki/wiki/Oracle_Database"
-        },
-        {
-           "tech": "mysql",
-           "url": "https://es.wikipedia.org/wiki/MySQL"
-        },
-        {
-           "tech": "postgresql",
-           "url": "https://es.wikipedia.org/wiki/PostgreSQL"
-        },
-        {
-           "tech": "nodejs",
-           "url": "https://es.wikipedia.org/wiki/Node.js"
-        },
-        {
-           "tech": "css3",
-           "url": "https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada"
-        },
-        {
-           "tech": "bootstrap",
-           "url": "https://es.wikipedia.org/wiki/Bootstrap_(framework)"
-        },
-        {
-           "tech": "html5",
-           "url": "https://es.wikipedia.org/wiki/HTML5"
-        },
-        {
-           "tech": "javascript",
-           "url": "https://es.wikipedia.org/wiki/JavaScript"
-        },
-        {
-           "tech": "react",
-           "url": "https://es.wikipedia.org/wiki/React"
-        },
-        {
-           "tech": "redux",
-           "url": "https://es.wikipedia.org/wiki/Redux_(JavaScript)"
-        },
-        {
-           "tech": "docker",
-           "url": "https://es.wikipedia.org/wiki/Docker_(software)"
-        },
-        {
-           "tech": "kubernetes",
-           "url": "https://es.wikipedia.org/wiki/Kubernetes"
-        },
-        {
-           "tech": "jenkins",
-           "url": "https://es.wikipedia.org/wiki/Jenkins"
-        },
-        {
-           "tech": "jest",
-           "url": "https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)"
-        },
-        {
-           "tech": "raspberrypi",
-           "url": "https://es.wikipedia.org/wiki/Raspberry_Pi"
-        }
-     ]
-  },
-  "experience": [
-   {
-      "experienceId": "One",
-      "enterpriseName": "Despegar",
-      "enterpriseImage": "https://media-exp1.licdn.com/dms/image/C4D0BAQEYuLi6DP5oGw/company-logo_200_200/0/1553884879968?e=1678320000&v=beta&t=8yqksgQGWQ6IVbo8sQ0Gw4DkepImTQgsTVyE7Yn80kM",
-      "position": "Java software engineer",
-      "dateIni": "August 2022",
-      "dateEnd": "Current",
-      "expDesc": "Developing java solutions to the Team",
-      "enterpriseUrl": "https://despegar.com/",
-      "enterpriseAddress": "Remote",
-      "enterprisePhone": "",
-      "achievements": [
-         "Fix Region Time problem when the user tries to search some packages in different countries",
-         "Develop new net rate rules service"
-      ],
+   "general": {
+      "fullname": "Mario Esteban Ortega Garcés",
+      "role": "Software Engineer",
+      "role-description": "Senior Software Engineer with 14+ years of experience specializing in backend development with Java Spring Boot. Expert in building robust, scalable microservices and RESTful APIs in complex enterprise environments, with a focus on concurrency and high performance. Skilled in Python for automation and scripting. Proven track record of designing efficient distributed systems and optimizing resource utilization.",
+      "email": "mario.esteban.ortega@gmail.com",
+      "cellphone": "+57 3103096818",
+      "address": "Carrera 11 # 140 -52",
+      "cv_url": "https://hoja-de-vida-mario-esteban-ortega-garces.marioestebanortega.vercel.app/",
+      "show_technologies": true,
       "technologies": [
-         
-         {
-            "tech": "git",
-            "url": "https://es.wikipedia.org/wiki/Git",
-            "name": "Git"
-         },
          {
             "tech": "java",
-            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
-            "name": "Java"
+            "url": "https://en.wikipedia.org/wiki/Java_(programming_language)"
          },
          {
-            "tech": "jenkins",
-            "url": "https://es.wikipedia.org/wiki/Jenkins",
-            "name": "Jenkins"
-         }
-       
-      ]
-   },
-   {
-      "experienceId": "One",
-      "enterpriseName": "Comviva",
-      "enterpriseImage": "https://media-exp1.licdn.com/dms/image/C510BAQE3CVOcLuBxYQ/company-logo_200_200/0/1551062515854?e=1678320000&v=beta&t=oCXLIlUAUtfD4LPRXSiJlmkvdoigiGnvxz9XC67uQ9M",
-      "position": "Java software engineer",
-      "dateIni": "October 2021",
-      "dateEnd": "August 2022",
-      "expDesc": "Software engineering in full core Java to solve and develop backend problems in MGMS system",
-      "enterpriseUrl": "https://www.comviva.com/",
-      "enterpriseAddress": "Remote",
-      "enterprisePhone": "",
-      "achievements": [
-         "Find out critical problems in MGMS system based in Java",
-         "Develop monitoring system based in spring boot"
-      ],
-      "technologies": [
-         
+            "tech": "spring",
+            "url": "https://en.wikipedia.org/wiki/Spring_Framework"
+         },
+         {
+            "tech": "eclipseide",
+            "url": "https://en.wikipedia.org/wiki/Eclipse_(software)"
+         },
          {
             "tech": "git",
-            "url": "https://es.wikipedia.org/wiki/Git",
-            "name": "Git"
-         },
-         {
-            "tech": "java",
-            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
-            "name": "Java"
-         },
-         {
-            "tech": "docker",
-            "url": "https://es.wikipedia.org/wiki/Docker_(software)",
-            "name": "Docker"
-         }
-       
-      ]
-   },
-   {
-      "experienceId": "One",
-      "enterpriseName": "Michael Page",
-      "enterpriseImage": "https://www.michaelpage.com.co/themes/custom/mp_theme/logo.png",
-      "position": "AWS Java/Node Engineer",
-      "dateIni": "September 2020",
-      "dateEnd": "June 2021",
-      "expDesc": "Software engineering in Java, AWS , Node for Liberty seguros that is a Michael Page client",
-      "enterpriseUrl": "https://www.michaelpage.com.co/",
-      "enterpriseAddress": "Remote",
-      "enterprisePhone": "",
-      "achievements": [
-         "Implement the new frontend to the content manager for liberty latam based in Node, Express,React, AWS and Jenkins"
-      ],
-      "technologies": [
-         
-         {
-            "tech": "git",
-            "url": "https://es.wikipedia.org/wiki/Git",
-            "name": "Git"
+            "url": "https://en.wikipedia.org/wiki/Git"
          },
          {
             "tech": "amazonaws",
-            "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
-            "name": "AWS"
+            "url": "https://en.wikipedia.org/wiki/Amazon_Web_Services"
          },
          {
-            "tech": "java",
-            "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
-            "name": "Java"
+            "tech": "oracle",
+            "url": "https://en.wikipedia.org/wiki/Oracle_Database"
+         },
+         {
+            "tech": "mysql",
+            "url": "https://en.wikipedia.org/wiki/MySQL"
+         },
+         {
+            "tech": "postgresql",
+            "url": "https://en.wikipedia.org/wiki/PostgreSQL"
          },
          {
             "tech": "nodejs",
-            "url": "https://es.wikipedia.org/wiki/Node.js",
-            "name": "NodeJS"
+            "url": "https://en.wikipedia.org/wiki/Node.js"
+         },
+         {
+            "tech": "css3",
+            "url": "https://en.wikipedia.org/wiki/CSS"
+         },
+         {
+            "tech": "bootstrap",
+            "url": "https://en.wikipedia.org/wiki/Bootstrap_(framework)"
+         },
+         {
+            "tech": "html5",
+            "url": "https://en.wikipedia.org/wiki/HTML5"
+         },
+         {
+            "tech": "javascript",
+            "url": "https://en.wikipedia.org/wiki/JavaScript"
          },
          {
             "tech": "react",
-            "url": "https://es.wikipedia.org/wiki/React",
-            "name": "React"
+            "url": "https://en.wikipedia.org/wiki/React"
          },
          {
             "tech": "redux",
-            "url": "https://es.wikipedia.org/wiki/Redux_(JavaScript)",
-            "name": "Redux"
+            "url": "https://en.wikipedia.org/wiki/Redux_(JavaScript_library)"
          },
          {
             "tech": "docker",
-            "url": "https://es.wikipedia.org/wiki/Docker_(software)",
-            "name": "Docker"
+            "url": "https://en.wikipedia.org/wiki/Docker_(software)"
          },
-         
+         {
+            "tech": "kubernetes",
+            "url": "https://en.wikipedia.org/wiki/Kubernetes"
+         },
          {
             "tech": "jenkins",
-            "url": "https://es.wikipedia.org/wiki/Jenkins",
-            "name": "Jenkins"
+            "url": "https://en.wikipedia.org/wiki/Jenkins"
+         },
+         {
+            "tech": "jest",
+            "url": "https://en.wikipedia.org/wiki/Jest_(test_framework)"
+         },
+         {
+            "tech": "raspberrypi",
+            "url": "https://en.wikipedia.org/wiki/Raspberry_Pi"
          }
       ]
    },
-     {
-        "experienceId": "One",
-        "enterpriseName": "Secretaria de cultura, recreación y deporte",
-        "enterpriseImage": "https://media-exp1.licdn.com/dms/image/C4E1BAQFYIO5hxNP5Bw/company-background_10000/0/1581716670442?e=1671040800&v=beta&t=OkA4ecBJqjGD3_qiItzIjAWX5ekxYwK1b1fsSQQZZGc",
-        "position": "Engineer, and software consultant",
-        "dateIni": "March 2018",
-        "dateEnd": "December 2020",
-        "expDesc": "Consultancy, and software engineering in Java, and microservices to core process. Responsible to define, design, and implement manual process shift to virtual system process.",
-        "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
-        "enterpriseAddress": "Race 8 # 9 -83, Bogotá - Colombia",
-        "enterprisePhone": "+57-1-3274850",
-        "achievements": [
-           "Lead, and implement architecture, design, and requirements to new virtual process system for the registration of pension to older adult BEPS.",
-           "Lead, and implement architecture, design, and requirements to new virtual process for request registration of inclusion, exclusion, and category shift of common interest Bogota properties",
-           "Set an assertive communication process with the stakeholders thanks to highly impact of new virtual process to manual process that has worked for many years in this enterprise"
-        ],
-        "technologies": [
-           {
-              "tech": "java",
-              "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
-              "name": "Java"
-           },
-           {
-              "tech": "spring",
-              "url": "https://es.wikipedia.org/wiki/Spring_Framework",
-              "name": "Spring"
-           },
-           {
-              "tech": "eclipseide",
-              "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
-              "name": "Eclipse"
-           },
-           {
-              "tech": "git",
-              "url": "https://es.wikipedia.org/wiki/Git",
-              "name": "Git"
-           },
-           {
-              "tech": "amazonaws",
-              "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
-              "name": "AWS"
-           },
-           {
-              "tech": "postgresql",
-              "url": "https://es.wikipedia.org/wiki/PostgreSQL",
-              "name": "Postgres"
-           },
-           {
-              "tech": "nodejs",
-              "url": "https://es.wikipedia.org/wiki/Node.js",
-              "name": "NodeJS"
-           },
-           {
-              "tech": "react",
-              "url": "https://es.wikipedia.org/wiki/React",
-              "name": "React"
-           },
-           {
-              "tech": "redux",
-              "url": "https://es.wikipedia.org/wiki/Redux_(JavaScript)",
-              "name": "Redux"
-           },
-           {
-              "tech": "docker",
-              "url": "https://es.wikipedia.org/wiki/Docker_(software)",
-              "name": "Docker"
-           },
-           {
-              "tech": "kubernetes",
-              "url": "https://es.wikipedia.org/wiki/Kubernetes",
-              "name": "Kubernetes"
-           },
-           {
-              "tech": "jenkins",
-              "url": "https://es.wikipedia.org/wiki/Jenkins",
-              "name": "Jenkins"
-           },
-           {
-              "tech": "jest",
-              "url": "https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)",
-              "name": "jest"
-           }
-        ]
-     },
-     {
-        "enterpriseId": "Two",
-        "enterpriseName": "Ilumno",
-        "enterpriseImage": "https://www.ilumno.com/assets/images/logo_ilumno.svg",
-        "position": "Software consultant",
-        "dateIni": "July 2017",
-        "dateEnd": "November 2019",
-        "expDesc": "Software consultant in charge to lead, and implement module based in java, and microservices of academic, and financial certifications of Politecnico and Area Andina universities.",
-        "enterpriseUrl": "https://www.ilumno.com/",
-        "enterpriseAddress": "Race 12 No. 96 – 32, Bogotá - Colombia",
-        "enterprisePhone": "+57-1-7452323",
-        "achievements": [
-           "Performing the architecture design of certifications system of Politecnico, and Area andina universities",
-           "Create the first Colombia’s implementation team of Banner system 9 that their software core is based in Java Spring, Node, Javascript and SCSS thanks to definition of functional , no functional and techniques metrics in addition to creation of architectures and production, quality and development environments",
-           "Consultancy and leadership to trainer team of Banner Admin Pages software using creation of new artifacts of Ellucian’s Banner product for Area Andina and Politecnico universities and other partner enterprises like Neoris Colombia",
-           "Design and implementation of system integration between new certification system, and AZ-Digital documental system",
-           "Design and implementation of system integration between new certification system, and Certicamara digital sign system"
-        ],
-        "technologies": [
-           {
-              "tech": "java",
-              "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
-              "name": "Java"
-           },
-           {
-              "tech": "spring",
-              "url": "https://es.wikipedia.org/wiki/Spring_Framework",
-              "name": "Spring"
-           },
-           {
-              "tech": "eclipseide",
-              "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
-              "name": "Eclipse"
-           },
-           {
-              "tech": "git",
-              "url": "https://es.wikipedia.org/wiki/Git",
-              "name": "Git"
-           },
-           {
-              "tech": "html5",
-              "url": "https://es.wikipedia.org/wiki/HTML5",
-              "name": "HTML5"
-           },
-           {
-              "tech": "css3",
-              "url": "https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada",
-              "name": "CSS"
-           },
-           {
-              "tech": "nodejs",
-              "url": "https://es.wikipedia.org/wiki/Node.js",
-              "name": "NodeJS"
-           },
-           {
-              "tech": "docker",
-              "url": "https://es.wikipedia.org/wiki/Docker_(software)",
-              "name": "Docker"
-           },
-           {
-              "tech": "banner",
-              "url": "https://www.ellucian.com/solutions/ellucian-banner",
-              "name": "Banner"
-           }
-        ]
-     },
-     {
-        "experienceId": "Three",
-        "enterpriseName": "ICFES",
-        "enterpriseImage": "/public/images/enterprise/icfes.png",
-        "position": "Senior software engineer",
-        "dateIni": "July 2014",
-        "dateEnd": "July 2017",
-        "expDesc": "Leadership, design, and system implementation based in Java EE, Rest Services for the process of “ICFES Saber Testing 3,5,9” such as delegated report, High school principal report, and systematization of “359 testing result”, and material delivering all over Colombian states that are accredited by ICFES.",
-        "enterpriseUrl": "https://www.icfes.gov.co/",
-        "enterpriseAddress": "Calle 26 No.69-76, Tower 2, Floor 15, Building Element, Bogotá - Colombia",
-        "enterprisePhone": "+57-1-4841460",
-        "achievements": [
-           "Reengineering of delegate report process, diagnosing actual state to up performance , security, accessibility, and quality achieving going live successful.",
-           "Reengineering of principal high school report process, diagnosing the actual state to performance increment, security, accessibility, and quality through advanced unit test with Maven and stressing test bringing to process to improve going live with 300% of effective regarding past going live",
-           "Because delivery material process of “ICFES Saber Testing 3.5.9” had to implement in no centralized infrastructure in portable devices around Colombian space accredited by ICFES, the system would have a quality development percent of 100% (0 Bugs) because the support finishes when the devices were configured. Thanks to implemented strategy  the analyze of risks, and the adequate process to project conditions and the team, it was possible for first time execute this process 100% successful.       "
-        ],
-        "technologies": [
-           {
-              "tech": "java",
-              "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
-              "name": "Java"
-           },
-           {
-              "tech": "eclipseide",
-              "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
-              "name": "Eclipse"
-           },
-           {
-              "tech": "git",
-              "url": "https://es.wikipedia.org/wiki/Git",
-              "name": "Git"
-           },
-           {
-              "tech": "oracle",
-              "url": "https://es.qwe.wiki/wiki/Oracle_Database",
-              "name": "Oracle"
-           },
-           {
-              "tech": "mysql",
-              "url": "https://es.wikipedia.org/wiki/MySQL",
-              "name": "Mysql"
-           },
-           {
-              "tech": "css3",
-              "url": "https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada",
-              "name": "CSS"
-           },
-           {
-              "tech": "html5",
-              "url": "https://es.wikipedia.org/wiki/HTML5",
-              "name": "HTML5"
-           },
-           {
-              "tech": "javascript",
-              "url": "https://es.wikipedia.org/wiki/JavaScript",
-              "name": "Javascript"
-           }
-        ]
-     },
-     {
-        "experienceId": "Four",
-        "enterpriseName": "Conexia",
-        "enterpriseImage": "https://media-exp1.licdn.com/dms/image/D4D0BAQHXRZg5fUiDTQ/company-logo_200_200/0/1665064108550?e=1678320000&v=beta&t=5YZdUqN_Lo7K7n2Yw4dsAMI_92MYwN0Os2rUElYgxaU",
-        "position": "Senior engineer software",
-        "dateIni": "September 2013",
-        "dateEnd": "July 2014",
-        "expDesc": "Software Leader Engineer to new system implementation of medical authorizations of Colombian EMSSANAR EPS through Java platforms based in Java, HTML 5, CSS, Bootstrap.",
-        "enterpriseUrl": "https://conexia.com/",
-        "enterpriseAddress": "Cra. 9 No. 77-67, Piso 6, Ofic. 601, Bogota - Colombia",
-        "enterprisePhone": "+57-1-5528800",
-        "achievements": [
-           "Successful software team lead establishing growing up in technical strengths to the team encouraging the teamwork concept as well as assertive communication with project stakeholders",
-           "Finish the project in agreed times in schedule with going live strategies and support availability in critic phases and strategies to risk less through prevention plans",
-           "Design a robust system, reliable, secure and scalable for medical authorizing system of EMSSANAR EPS"
-        ],
-        "technologies": [
-           {
-              "tech": "java",
-              "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
-              "name": "Java"
-           },
-           {
-              "tech": "spring",
-              "url": "https://es.wikipedia.org/wiki/Spring_Framework",
-              "name": "Spring"
-           },
-           {
-              "tech": "eclipseide",
-              "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
-              "name": "Eclipse"
-           },
-           {
-              "tech": "git",
-              "url": "https://es.wikipedia.org/wiki/Git",
-              "name": "Git"
-           },
-           {
-              "tech": "css3",
-              "url": "https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada",
-              "name": "CSS"
-           },
-           {
-              "tech": "html5",
-              "url": "https://es.wikipedia.org/wiki/HTML5",
-              "name": "HTML5"
-           },
-           {
-              "tech": "javascript",
-              "url": "https://es.wikipedia.org/wiki/JavaScript",
-              "name": "Javascript"
-           },
-           {
-              "tech": "postgresql",
-              "url": "https://es.wikipedia.org/wiki/PostgreSQL",
-              "name": "Postgres"
-           }
-        ]
-     },
-     {
-        "experienceId": "Five",
-        "enterpriseName": "ITAC",
-        "enterpriseImage": "/public/images/enterprise/itac.png",
-        "position": "Software engineer expert",
-        "dateIni": "June 2013",
-        "dateEnd": "September 2013",
-        "expDesc": "Analysis and development in applications JSEE, based in Primefaces, JSF 2.0, Web Services JAX-WS, to FINAGRO second tier bank one of the principal company projects",
-        "enterpriseUrl": "https://itac.co/",
-        "enterpriseAddress": "Ak 19 # 120 - 71, Bogota - Colombia",
-        "enterprisePhone": "+57-1-7444822",
-        "achievements": [
-           "Implement financial artifacts in credits simulations"
-        ],
-        "technologies": [
-           {
-              "tech": "java",
-              "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
-              "name": "Java"
-           },
-           {
-              "tech": "eclipseide",
-              "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
-              "name": "Eclipse"
-           },
-           {
-              "tech": "git",
-              "url": "https://es.wikipedia.org/wiki/Git",
-              "name": "Git"
-           }
-        ]
-     },
-     {
-        "experienceId": "Six",
-        "enterpriseName": "Indra",
-        "enterpriseImage": "https://www.indracompany.com/sites/all/themes/custom/indracompany_bs/logo.png",
-        "position": "Software engineer",
-        "dateIni": "February 2012",
-        "dateEnd": "June 2013",
-        "expDesc": "Software engineer, responsible of design and develop of Argentina airline accounting process to DRACO INDRA project. The technologies used were J2EE Applications deployed in JBOSS server as well as the use of Spring MVC frameworks, RichFaces, Maven and Oracle 10g Database.",
-        "enterpriseUrl": "https://www.indracompany.com/",
-        "enterpriseAddress": "Calle 96 No. 13-11, Bogotá - Colombia",
-        "enterprisePhone": "+57-1-6463600",
-        "achievements": [
-           "Leader in accounting module to the correct definitions supported with quality and requirements teams",
-           "Implementation of Multithread Batch process for the execution of accounting services",
-           "Tuning process using Maven to compile all process of the project improving the performance in 30%"
-        ],
-        "technologies": [
-           {
-              "tech": "java",
-              "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
-              "name": "Java"
-           },
-           {
-              "tech": "spring",
-              "url": "https://es.wikipedia.org/wiki/Spring_Framework",
-              "name": "Spring"
-           },
-           {
-              "tech": "eclipseide",
-              "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
-              "name": "Eclipse"
-           },
-           {
-              "tech": "oracle",
-              "url": "https://es.qwe.wiki/wiki/Oracle_Database",
-              "name": "Oracle"
-           }
-        ]
-     },
-     {
-        "experienceId": "Seven",
-        "enterpriseName": "ADA S. A",
-        "enterpriseImage": "/public/images/enterprise/ada.png",
-        "position": "Programmer master",
-        "dateIni": "July 2011",
-        "dateEnd": "February 2012",
-        "expDesc": "Software Java engineer who developed JSP pages based in MVC model using frameworks (JSF, Hibernate) and J2EE architectures with Oracle DataBase modeling supported in PLSQL. (I was assigned with two clients: Medellin Mayor’s Office and ALLUS)",
-        "enterpriseUrl": "https://ada.co/",
-        "enterpriseAddress": "Carrera 51 # 9c South - 85 Of. 201, Medellín - Colombia",
-        "enterprisePhone": "+57-4-4035241",
-        "achievements": [
-           "Reengineering of Billing system of ALLUS through the diagnostic, testing, and implementation of fixes to the new go alive",
-           "Developing of SIMPAD system based in java for Medellín Mayor's office"
-        ],
-        "technologies": [
-           {
-              "tech": "java",
-              "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
-              "name": "Java"
-           },
-           {
-              "tech": "eclipseide",
-              "url": "https://es.wikipedia.org/wiki/Eclipse_(software)",
-              "name": "Eclipse"
-           },
-           {
-              "tech": "oracle",
-              "url": "https://es.qwe.wiki/wiki/Oracle_Database",
-              "name": "Oracle"
-           }
-        ]
-     },
-     {
-        "experienceId": "Eight",
-        "enterpriseName": "Stefanini",
-        "enterpriseImage": "/public/images/enterprise/stefanini.png",
-        "position": "Programmer oracle",
-        "dateIni": "October 2010",
-        "dateEnd": "May 2011",
-        "expDesc": "Software engineer in Oracle PLSQL charged to migration of Porvenir pension management between older system developed in Oracle OWA and new Java Platform  ",
-        "enterpriseUrl": "https://stefanini.com/",
-        "enterpriseAddress": "Ac 100 #19a-2, Bogotá - Colombia",
-        "enterprisePhone": "+57-1-7454777",
-        "achievements": [
-           "Finishing migration block between different schemas with ETL design and PLSQL"
-        ],
-        "technologies": [
-           {
-              "tech": "java",
-              "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
-              "name": "Java"
-           },
-           {
-              "tech": "oracle",
-              "url": "https://es.qwe.wiki/wiki/Oracle_Database",
-              "name": "Oracle"
-           }
-        ]
-     },
-     {
-        "experienceId": "Nine",
-        "enterpriseName": "National university of Colombia",
-        "enterpriseImage": "/public/images/enterprise/unal.png",
-        "position": "Software developer analyst",
-        "dateIni": "February 2010",
-        "dateEnd": "September 2010",
-        "expDesc": "I designed and developed of SIAPPI Project charged to INGEOMINAS project´s logistic that was provided by Colombia Nacional Planning. Responsible to analysis, database design and Team lead of Oracle APEX applications",
-        "enterpriseUrl": "https://unal.edu.co/",
-        "enterpriseAddress": "Carrera 45 # 26-85, Bogotá - Colombia",
-        "enterprisePhone": "+57-1-3165000",
-        "achievements": [
-           "I made the architecture of Database Model and new INGEOMINAS system"
-        ],
-        "technologies": [
-           {
-              "tech": "oracle",
-              "url": "https://es.qwe.wiki/wiki/Oracle_Database",
-              "name": "Oracle"
-           },
-           {
-              "tech": "javascript",
-              "url": "https://es.wikipedia.org/wiki/JavaScript",
-              "name": "Javascript"
-           }
-        ]
-     },
-     {
-        "experienceId": "Ten",
-        "enterpriseName": "Fondo de bienestar social de la Contraloría General de la republica",
-        "enterpriseImage": "/public/images/enterprise/fbs.png",
-        "position": "Systems administrator",
-        "dateIni": "April 2008",
-        "dateEnd": "February 2010",
-        "expDesc": "Support to infrastructure to the Enterprise that used Linux and Windows servers in addition to java and oracle sql / plsql implementations for TAO financial system to report’s generation.",
-        "enterpriseUrl": "https://www.fbscgr.gov.co/",
-        "enterpriseAddress": "Carrera 69 No. 44-35 Piso 4, Bogotá - Colombia",
-        "enterprisePhone": "+57-1-3779877",
-        "achievements": [
-           "I achieved interfaces based in Java AWT to send digital documents of correspondence",
-           "I Created financial reports of treasury and accounting in SQL linking Oracle data bases with TAO financial system"
-        ],
-        "technologies": [
-           {
-              "tech": "oracle",
-              "url": "https://es.qwe.wiki/wiki/Oracle_Database",
-              "name": "Oracle"
-           },
-           {
-              "tech": "java",
-              "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
-              "name": "Java"
-           }
-        ]
-     }
-  ],
-  "education": [
-     {
-        "educationId": "One",
-        "educationName": "Universidad Jorge Tadeo Lozano",
-        "educationImage": "/public/images/education/education_1.png",
-        "educationTitle": "Specialist in development-databases",
-        "educationDateIni": "January 2010",
-        "educationDateEnd": "February 2011"
-     },
-     {
-        "educationId": "Two",
-        "educationName": "National university of Colombia",
-        "educationImage": "/public/images/education/education_2.png",
-        "educationTitle": "Electronic engineer",
-        "educationDateIni": "June 2002",
-        "educationDateEnd": "September 2007"
-     }
-  ],
-  "certification": [
-   {
-      "certificationId": "1",
-      "certificationImage": "/public/images/certification/scrum_certified|.png",
-      "certificationName": "Scrum Foundations Professional Certificate (SFPC)",
-      "certificationDateIni": "July 2020",
-      "certificationDateEnd": "July 2020"
-   },
-     {
-        "certificationId": "2",
-        "certificationImage": "/public/images/certification/certification_1.png",
-        "certificationUrl": "https://platzi.com/@maes0186/",
-        "certificationName": "Micorservices certifications",
-        "certificationDateIni": "February 2020",
-        "certificationDateEnd": "February 2020"
-     },
-     {
-        "certificationId": "3",
-        "certificationImage": "/public/images/certification/certification_3.png",
-        "certificationName": "Java Programmer",
-        "certificationDateIni": "May 2013",
-        "certificationDateEnd": "May 2013"
-     },
-     {
-        "certificationId": "4",
-        "certificationImage": "/public/images/certification/certification_2.png",
-        "certificationName": "Introduction SQL",
-        "certificationDateIni": "March 2010",
-        "certificationDateEnd": "March 2010"
-     }
-  ]
+   "experience": [
+      {
+         "experienceId": "One",
+         "enterpriseName": "Despegar",
+         "enterpriseImage": "https://logo.clearbit.com/despegar.com",
+         "position": "Senior Java Software Engineer",
+         "dateIni": "August 2022",
+         "dateEnd": "Current",
+         "expDesc": "Senior Developer (Java, Python, AI) focusing on high-performance backend solutions. Key contributor to Shopping and Payments projects, leveraging concurrency and asynchronous processing to ensure reliability and speed.",
+         "enterpriseUrl": "https://www.despegar.com/",
+         "enterpriseAddress": "Remote",
+         "enterprisePhone": "",
+         "achievements": [
+            "Implemented key components of the Shopping project, ensuring accurate real-time price synchronization across systems.",
+            "Developing secure and reliable integrations with multiple payment gateways for the Payments project.",
+            "Driving development in cross-functional Agile teams using advanced Java techniques.",
+            "Architecting scalable microservices within the Despegar cloud ecosystem."
+         ],
+         "technologies": [
+            {
+               "tech": "git",
+               "url": "https://en.wikipedia.org/wiki/Git",
+               "name": "Git"
+            },
+            {
+               "tech": "java",
+               "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+               "name": "Java"
+            },
+            {
+               "tech": "jenkins",
+               "url": "https://en.wikipedia.org/wiki/Jenkins_(software)",
+               "name": "Jenkins"
+            }
+         ]
+      },
+      {
+         "experienceId": "One",
+         "enterpriseName": "Comviva",
+         "enterpriseImage": "https://logo.clearbit.com/comviva.com",
+         "position": "Senior Java Software Engineer",
+         "dateIni": "October 2021",
+         "dateEnd": "August 2022",
+         "expDesc": "Senior Software Engineer focused on core Java development for the MGMS system. Solved complex backend challenges using asynchronous processing to ensure robust delivery.",
+         "enterpriseUrl": "https://www.comviva.com/",
+         "enterpriseAddress": "Remote",
+         "enterprisePhone": "",
+         "achievements": [
+            "Diagnosed and resolved critical performance bottlenecks in the Java-based MGMS system.",
+            "Designed and implemented a comprehensive monitoring system using Spring Boot."
+         ],
+         "technologies": [
+            {
+               "tech": "git",
+               "url": "https://en.wikipedia.org/wiki/Git",
+               "name": "Git"
+            },
+            {
+               "tech": "java",
+               "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+               "name": "Java"
+            },
+            {
+               "tech": "docker",
+               "url": "https://en.wikipedia.org/wiki/Docker_(software)",
+               "name": "Docker"
+            }
+         ]
+      },
+      {
+         "experienceId": "One",
+         "enterpriseName": "Michael Page",
+         "enterpriseImage": "https://logo.clearbit.com/michaelpage.co.uk",
+         "position": "Senior AWS Java/Node Engineer",
+         "dateIni": "September 2020",
+         "dateEnd": "June 2021",
+         "expDesc": "Senior Engineer for Liberty Seguros client. Specialized in full-stack development using Java, AWS, and Node.js.",
+         "enterpriseUrl": "https://www.michaelpage.com.co/",
+         "enterpriseAddress": "Remote",
+         "enterprisePhone": "",
+         "achievements": [
+            "Led the implementation of a new Content Manager frontend for Liberty Latam using React, Node.js, and AWS, with automated CI/CD pipelines via Jenkins."
+         ],
+         "technologies": [
+            {
+               "tech": "git",
+               "url": "https://en.wikipedia.org/wiki/Git",
+               "name": "Git"
+            },
+            {
+               "tech": "amazonaws",
+               "url": "https://en.wikipedia.org/wiki/Amazon_Web_Services",
+               "name": "AWS"
+            },
+            {
+               "tech": "java",
+               "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+               "name": "Java"
+            },
+            {
+               "tech": "nodejs",
+               "url": "https://en.wikipedia.org/wiki/Node.js",
+               "name": "Node.js"
+            },
+            {
+               "tech": "react",
+               "url": "https://en.wikipedia.org/wiki/React_(JavaScript_library)",
+               "name": "React"
+            },
+            {
+               "tech": "redux",
+               "url": "https://en.wikipedia.org/wiki/Redux_(JavaScript_library)",
+               "name": "Redux"
+            },
+            {
+               "tech": "docker",
+               "url": "https://en.wikipedia.org/wiki/Docker_(software)",
+               "name": "Docker"
+            },
+            {
+               "tech": "jenkins",
+               "url": "https://en.wikipedia.org/wiki/Jenkins_(software)",
+               "name": "Jenkins"
+            }
+         ]
+      },
+      {
+         "experienceId": "One",
+         "enterpriseName": "Secretaria de cultura, recreación y deporte",
+         "enterpriseImage": "/public/images/enterprise/enterprise_1_scrd.png",
+         "position": "Senior Software Engineer",
+         "dateIni": "March 2018",
+         "dateEnd": "December 2020",
+         "expDesc": "Worked as a software engineer at the Secretaria de Cultura, Recreación y Deporte, specializing in Java and microservices for core processes. Responsible for defining, designing, and implementing the shift from manual to virtual system processes.",
+         "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
+         "enterpriseAddress": "Race 8 #9-83, Bogotá - Colombia",
+         "enterprisePhone": "+57-1-3274850",
+         "achievements": [
+            "Led and implemented the architecture, design, and requirements for a new virtual process system for the registration of pensions for older adults (BEPS).",
+            "Led and implemented the architecture, design, and requirements for a new virtual process for registration requests related to inclusion, exclusion, and category shifts of common interest Bogota properties.",
+            "Established effective communication processes with stakeholders due to the significant impact of the new virtual processes on the previously manual processes that had been in use for many years."
+         ],
+         "technologies": [
+            {
+               "tech": "java",
+               "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+               "name": "Java"
+            },
+            {
+               "tech": "spring",
+               "url": "https://en.wikipedia.org/wiki/Spring_Framework",
+               "name": "Spring"
+            },
+            {
+               "tech": "eclipseide",
+               "url": "https://en.wikipedia.org/wiki/Eclipse_(software)",
+               "name": "Eclipse"
+            },
+            {
+               "tech": "git",
+               "url": "https://en.wikipedia.org/wiki/Git",
+               "name": "Git"
+            },
+            {
+               "tech": "amazonaws",
+               "url": "https://en.wikipedia.org/wiki/Amazon_Web_Services",
+               "name": "AWS"
+            },
+            {
+               "tech": "postgresql",
+               "url": "https://en.wikipedia.org/wiki/PostgreSQL",
+               "name": "PostgreSQL"
+            },
+            {
+               "tech": "nodejs",
+               "url": "https://en.wikipedia.org/wiki/Node.js",
+               "name": "Node.js"
+            },
+            {
+               "tech": "react",
+               "url": "https://en.wikipedia.org/wiki/React_(JavaScript_library)",
+               "name": "React"
+            },
+            {
+               "tech": "redux",
+               "url": "https://en.wikipedia.org/wiki/Redux_(JavaScript_library)",
+               "name": "Redux"
+            },
+            {
+               "tech": "docker",
+               "url": "https://en.wikipedia.org/wiki/Docker_(software)",
+               "name": "Docker"
+            },
+            {
+               "tech": "kubernetes",
+               "url": "https://en.wikipedia.org/wiki/Kubernetes",
+               "name": "Kubernetes"
+            },
+            {
+               "tech": "jenkins",
+               "url": "https://en.wikipedia.org/wiki/Jenkins_(software)",
+               "name": "Jenkins"
+            },
+            {
+               "tech": "jest",
+               "url": "https://en.wikipedia.org/wiki/Jest_(test_framework)",
+               "name": "Jest"
+            }
+         ]
+      },
+      {
+         "experienceId": "Two",
+         "enterpriseName": "Ilumno",
+         "enterpriseImage": "/public/images/enterprise/enterprise_2_ilumno.png",
+         "position": "Software Engineer",
+         "dateIni": "July 2017",
+         "dateEnd": "November 2019",
+         "expDesc": "Worked as a software engineer at Ilumno, leading the design and implementation of modules in Java and microservices for academic and financial certifications for Politecnico and Area Andina universities.",
+         "enterpriseUrl": "https://www.ilumno.com/",
+         "enterpriseAddress": "Race 12 No. 96 - 32, Bogotá - Colombia",
+         "enterprisePhone": "+57-1-7452323",
+         "achievements": [
+            "Performed the architecture design of the certifications system for Politecnico and Area Andina universities.",
+            "Created the first implementation team in Colombia for the Banner system 9, which uses Java Spring, Node, JavaScript, and SCSS. Defined functional, non-functional, and technical metrics, as well as created architectures and environments for production, quality, and development.",
+            "Provided consultancy and leadership to the trainer team of the Banner Admin Pages software, creating new artifacts for the Ellucian's Banner product for Area Andina and Politecnico universities and other education institutions in Colombia and Peru."
+         ],
+         "technologies": [
+            {
+               "tech": "java",
+               "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+               "name": "Java"
+            },
+            {
+               "tech": "spring",
+               "url": "https://en.wikipedia.org/wiki/Spring_Framework",
+               "name": "Spring"
+            },
+            {
+               "tech": "nodejs",
+               "url": "https://en.wikipedia.org/wiki/Node.js",
+               "name": "Node.js"
+            },
+            {
+               "tech": "javascript",
+               "url": "https://en.wikipedia.org/wiki/JavaScript",
+               "name": "JavaScript"
+            },
+            {
+               "tech": "scss",
+               "url": "https://sass-lang.com/guide",
+               "name": "SCSS"
+            },
+            {
+               "tech": "docker",
+               "url": "https://en.wikipedia.org/wiki/Docker_(software)",
+               "name": "Docker"
+            }
+         ]
+      },
+      {
+         "experienceId": "Three",
+         "enterpriseName": "ICFES",
+         "enterpriseImage": "/public/images/enterprise/icfes.png",
+         "position": "Senior software engineer",
+         "dateIni": "July 2014",
+         "dateEnd": "July 2017",
+         "expDesc": "Leadership, design, and system implementation based in Java EE, Rest Services for the process of “ICFES Saber Testing 3,5,9” such as delegated report, High school principal report, and systematization of “359 testing result”, and material delivering all over Colombian states that are accredited by ICFES.",
+         "enterpriseUrl": "https://www.icfes.gov.co/",
+         "enterpriseAddress": "Calle 26 No.69-76, Tower 2, Floor 15, Building Element, Bogotá - Colombia",
+         "enterprisePhone": "+57-1-4841460",
+         "achievements": [
+            "Reengineering of delegate report process, diagnosing actual state to up performance , security, accessibility, and quality achieving going live successful.",
+            "Reengineering of principal high school report process, diagnosing the actual state to performance increment, security, accessibility, and quality through advanced unit test with Maven and stressing test bringing to process to improve going live with 300% of effective regarding past going live",
+            "Because delivery material process of “ICFES Saber Testing 3.5.9” had to implement in no centralized infrastructure in portable devices around Colombian space accredited by ICFES, the system would have a quality development percent of 100% (0 Bugs) because the support finishes when the devices were configured. Thanks to implemented strategy  the analyze of risks, and the adequate process to project conditions and the team, it was possible for first time execute this process 100% successful.       "
+         ],
+         "technologies": [
+            {
+               "tech": "java",
+               "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+               "name": "Java"
+            },
+            {
+               "tech": "eclipseide",
+               "url": "https://en.wikipedia.org/wiki/Eclipse_(software)",
+               "name": "Eclipse"
+            },
+            {
+               "tech": "git",
+               "url": "https://en.wikipedia.org/wiki/Git",
+               "name": "Git"
+            },
+            {
+               "tech": "oracle",
+               "url": "https://en.wikipedia.org/wiki/Oracle_Database",
+               "name": "Oracle"
+            },
+            {
+               "tech": "mysql",
+               "url": "https://en.wikipedia.org/wiki/MySQL",
+               "name": "Mysql"
+            },
+            {
+               "tech": "css3",
+               "url": "https://en.wikipedia.org/wiki/CSS",
+               "name": "CSS"
+            },
+            {
+               "tech": "html5",
+               "url": "https://en.wikipedia.org/wiki/HTML5",
+               "name": "HTML5"
+            },
+            {
+               "tech": "javascript",
+               "url": "https://en.wikipedia.org/wiki/JavaScript",
+               "name": "Javascript"
+            }
+         ]
+      },
+      {
+         "experienceId": "Four",
+         "enterpriseName": "Conexia",
+         "enterpriseImage": "https://logo.clearbit.com/conexia.com",
+         "position": "Senior engineer software",
+         "dateIni": "September 2013",
+         "dateEnd": "July 2014",
+         "expDesc": "Software Leader Engineer to new system implementation of medical authorizations of Colombian EMSSANAR EPS through Java platforms based in Java, HTML 5, CSS, Bootstrap.",
+         "enterpriseUrl": "https://conexia.com/",
+         "enterpriseAddress": "Cra. 9 No. 77-67, Piso 6, Ofic. 601, Bogota - Colombia",
+         "enterprisePhone": "+57-1-5528800",
+         "achievements": [
+            "Successful software team lead establishing growing up in technical strengths to the team encouraging the teamwork concept as well as assertive communication with project stakeholders",
+            "Finish the project in agreed times in schedule with going live strategies and support availability in critic phases and strategies to risk less through prevention plans",
+            "Design a robust system, reliable, secure and scalable for medical authorizing system of EMSSANAR EPS"
+         ],
+         "technologies": [
+            {
+               "tech": "java",
+               "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+               "name": "Java"
+            },
+            {
+               "tech": "spring",
+               "url": "https://en.wikipedia.org/wiki/Spring_Framework",
+               "name": "Spring"
+            },
+            {
+               "tech": "eclipseide",
+               "url": "https://en.wikipedia.org/wiki/Eclipse_(software)",
+               "name": "Eclipse"
+            },
+            {
+               "tech": "git",
+               "url": "https://en.wikipedia.org/wiki/Git",
+               "name": "Git"
+            },
+            {
+               "tech": "css3",
+               "url": "https://en.wikipedia.org/wiki/CSS",
+               "name": "CSS"
+            },
+            {
+               "tech": "html5",
+               "url": "https://en.wikipedia.org/wiki/HTML5",
+               "name": "HTML5"
+            },
+            {
+               "tech": "javascript",
+               "url": "https://en.wikipedia.org/wiki/JavaScript",
+               "name": "Javascript"
+            },
+            {
+               "tech": "postgresql",
+               "url": "https://en.wikipedia.org/wiki/PostgreSQL",
+               "name": "Postgres"
+            }
+         ]
+      },
+      {
+         "experienceId": "Five",
+         "enterpriseName": "ITAC",
+         "enterpriseImage": "/public/images/enterprise/itac.png",
+         "position": "Software engineer expert",
+         "dateIni": "June 2013",
+         "dateEnd": "September 2013",
+         "expDesc": "Analysis and development in applications JSEE, based in Primefaces, JSF 2.0, Web Services JAX-WS, to FINAGRO second tier bank one of the principal company projects",
+         "enterpriseUrl": "https://itac.co/",
+         "enterpriseAddress": "Ak 19 # 120 - 71, Bogota - Colombia",
+         "enterprisePhone": "+57-1-7444822",
+         "achievements": [
+            "Implement financial artifacts in credits simulations"
+         ],
+         "technologies": [
+            {
+               "tech": "java",
+               "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+               "name": "Java"
+            },
+            {
+               "tech": "eclipseide",
+               "url": "https://en.wikipedia.org/wiki/Eclipse_(software)",
+               "name": "Eclipse"
+            },
+            {
+               "tech": "git",
+               "url": "https://en.wikipedia.org/wiki/Git",
+               "name": "Git"
+            }
+         ]
+      },
+      {
+         "experienceId": "Six",
+         "enterpriseName": "Indra",
+         "enterpriseImage": "https://logo.clearbit.com/indracompany.com",
+         "position": "Software engineer",
+         "dateIni": "February 2012",
+         "dateEnd": "June 2013",
+         "expDesc": "Software engineer, responsible of design and develop of Argentina airline accounting process to DRACO INDRA project. The technologies used were J2EE Applications deployed in JBOSS server as well as the use of Spring MVC frameworks, RichFaces, Maven and Oracle 10g Database.",
+         "enterpriseUrl": "https://www.indracompany.com/",
+         "enterpriseAddress": "Calle 96 No. 13-11, Bogotá - Colombia",
+         "enterprisePhone": "+57-1-6463600",
+         "achievements": [
+            "Leader in accounting module to the correct definitions supported with quality and requirements teams",
+            "Implementation of Multithread Batch process for the execution of accounting services",
+            "Tuning process using Maven to compile all process of the project improving the performance in 30%"
+         ],
+         "technologies": [
+            {
+               "tech": "java",
+               "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+               "name": "Java"
+            },
+            {
+               "tech": "spring",
+               "url": "https://en.wikipedia.org/wiki/Spring_Framework",
+               "name": "Spring"
+            },
+            {
+               "tech": "eclipseide",
+               "url": "https://en.wikipedia.org/wiki/Eclipse_(software)",
+               "name": "Eclipse"
+            },
+            {
+               "tech": "oracle",
+               "url": "https://en.wikipedia.org/wiki/Oracle_Database",
+               "name": "Oracle"
+            }
+         ]
+      },
+      {
+         "experienceId": "Seven",
+         "enterpriseName": "ADA S. A",
+         "enterpriseImage": "/public/images/enterprise/ada.png",
+         "position": "Programmer master",
+         "dateIni": "July 2011",
+         "dateEnd": "February 2012",
+         "expDesc": "Software Java engineer who developed JSP pages based in MVC model using frameworks (JSF, Hibernate) and J2EE architectures with Oracle DataBase modeling supported in PLSQL. (I was assigned with two clients: Medellin Mayor’s Office and ALLUS)",
+         "enterpriseUrl": "https://ada.co/",
+         "enterpriseAddress": "Carrera 51 # 9c South - 85 Of. 201, Medellín - Colombia",
+         "enterprisePhone": "+57-4-4035241",
+         "achievements": [
+            "Reengineering of Billing system of ALLUS through the diagnostic, testing, and implementation of fixes to the new go alive",
+            "Developing of SIMPAD system based in java for Medellín Mayor's office"
+         ],
+         "technologies": [
+            {
+               "tech": "java",
+               "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+               "name": "Java"
+            },
+            {
+               "tech": "eclipseide",
+               "url": "https://en.wikipedia.org/wiki/Eclipse_(software)",
+               "name": "Eclipse"
+            },
+            {
+               "tech": "oracle",
+               "url": "https://en.wikipedia.org/wiki/Oracle_Database",
+               "name": "Oracle"
+            }
+         ]
+      },
+      {
+         "experienceId": "Eight",
+         "enterpriseName": "Stefanini",
+         "enterpriseImage": "/public/images/enterprise/stefanini.png",
+         "position": "Programmer oracle",
+         "dateIni": "October 2010",
+         "dateEnd": "May 2011",
+         "expDesc": "Software engineer in Oracle PLSQL charged to migration of Porvenir pension management between older system developed in Oracle OWA and new Java Platform  ",
+         "enterpriseUrl": "https://stefanini.com/",
+         "enterpriseAddress": "Ac 100 #19a-2, Bogotá - Colombia",
+         "enterprisePhone": "+57-1-7454777",
+         "achievements": [
+            "Finishing migration block between different schemas with ETL design and PLSQL"
+         ],
+         "technologies": [
+            {
+               "tech": "java",
+               "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+               "name": "Java"
+            },
+            {
+               "tech": "oracle",
+               "url": "https://en.wikipedia.org/wiki/Oracle_Database",
+               "name": "Oracle"
+            }
+         ]
+      },
+      {
+         "experienceId": "Nine",
+         "enterpriseName": "National university of Colombia",
+         "enterpriseImage": "/public/images/enterprise/unal.png",
+         "position": "Software developer analyst",
+         "dateIni": "February 2010",
+         "dateEnd": "September 2010",
+         "expDesc": "I designed and developed of SIAPPI Project charged to INGEOMINAS project´s logistic that was provided by Colombia Nacional Planning. Responsible to analysis, database design and Team lead of Oracle APEX applications",
+         "enterpriseUrl": "https://unal.edu.co/",
+         "enterpriseAddress": "Carrera 45 # 26-85, Bogotá - Colombia",
+         "enterprisePhone": "+57-1-3165000",
+         "achievements": [
+            "I made the architecture of Database Model and new INGEOMINAS system"
+         ],
+         "technologies": [
+            {
+               "tech": "oracle",
+               "url": "https://en.wikipedia.org/wiki/Oracle_Database",
+               "name": "Oracle"
+            },
+            {
+               "tech": "javascript",
+               "url": "https://en.wikipedia.org/wiki/JavaScript",
+               "name": "Javascript"
+            }
+         ]
+      },
+      {
+         "experienceId": "Ten",
+         "enterpriseName": "Fondo de bienestar social de la Contraloría General de la republica",
+         "enterpriseImage": "/public/images/enterprise/fbs.png",
+         "position": "Systems administrator",
+         "dateIni": "April 2008",
+         "dateEnd": "February 2010",
+         "expDesc": "Support to infrastructure to the Enterprise that used Linux and Windows servers in addition to java and oracle sql / plsql implementations for TAO financial system to report’s generation.",
+         "enterpriseUrl": "https://www.fbscgr.gov.co/",
+         "enterpriseAddress": "Carrera 69 No. 44-35 Piso 4, Bogotá - Colombia",
+         "enterprisePhone": "+57-1-3779877",
+         "achievements": [
+            "I achieved interfaces based in Java AWT to send digital documents of correspondence",
+            "I Created financial reports of treasury and accounting in SQL linking Oracle data bases with TAO financial system"
+         ],
+         "technologies": [
+            {
+               "tech": "oracle",
+               "url": "https://en.wikipedia.org/wiki/Oracle_Database",
+               "name": "Oracle"
+            },
+            {
+               "tech": "java",
+               "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+               "name": "Java"
+            }
+         ]
+      }
+   ],
+   "education": [
+      {
+         "educationId": "One",
+         "educationName": "Universidad Jorge Tadeo Lozano",
+         "educationImage": "/public/images/education/education_1.png",
+         "educationTitle": "Specialist in development-databases",
+         "educationDateIni": "January 2010",
+         "educationDateEnd": "February 2011"
+      },
+      {
+         "educationId": "Two",
+         "educationName": "National university of Colombia",
+         "educationImage": "/public/images/education/education_2.png",
+         "educationTitle": "Electronic engineer",
+         "educationDateIni": "June 2002",
+         "educationDateEnd": "September 2007"
+      }
+   ],
+   "certification": [
+      {
+         "certificationId": "1",
+         "certificationImage": "/public/images/certification/scrum_certified.png",
+         "certificationName": "Scrum Foundations Professional Certificate (SFPC)",
+         "certificationDateIni": "July 2020",
+         "certificationDateEnd": "July 2020"
+      },
+      {
+         "certificationId": "2",
+         "certificationImage": "/public/images/certification/certification_1.png",
+         "certificationUrl": "https://platzi.com/@maes0186/",
+         "certificationName": "Micorservices certifications",
+         "certificationDateIni": "February 2020",
+         "certificationDateEnd": "February 2020"
+      },
+      {
+         "certificationId": "3",
+         "certificationImage": "/public/images/certification/certification_3.png",
+         "certificationName": "Java Programmer",
+         "certificationDateIni": "May 2013",
+         "certificationDateEnd": "May 2013"
+      },
+      {
+         "certificationId": "4",
+         "certificationImage": "/public/images/certification/certification_2.png",
+         "certificationName": "Introduction SQL",
+         "certificationDateIni": "March 2010",
+         "certificationDateEnd": "March 2010"
+      }
+   ]
 }

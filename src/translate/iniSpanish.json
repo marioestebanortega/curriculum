@@ -1,12 +1,12 @@
 {
   "general": {
     "fullname": "Mario Esteban Ortega Garcés",
-    "role": "Ingeniero consultor de software",
-    "role-description": "Ingeniero certificado de software con más de 12 años de experiencia en sistemas de información con fuertes conocimientos en Java , microservicios e integración continua (React, Docker, Jenkins) desempeñando responsabilidades de liderazgo, arquitectura e implementación de sistemas. Habilidades realizando proyectos de innovación y generación de eficiencias, dirigiendo los procesos y ciclos de vida de soluciones altamente confiables.",
-    "email": "mario.esteban.ortega@gmail.com",
-    "cellphone": "+57 3103096818",
-    "address": "Carrera 11 # 140 -52, Bogotá - Colombia",
-    "cv_url":"https://hoja-de-vida-mario-esteban-ortega-garces.marioestebanortega.vercel.app/",
+    "role": "Ingeniero de Software",
+    "role-description": "Ingeniero de Software Senior con más de 14 años de experiencia, especializado en backend con Java Spring Boot y Python para IA. Experto en arquitectura de microservicios y sistemas de alto rendimiento. Amplia experiencia en Inteligencia Artificial, integrando LLMs (OpenAI, Meta) y arquitecturas RAG utilizando LangChain y el ecosistema Azure (Azure Search, OpenAI). Enfocado en crear soluciones escalables e inteligentes que transforman datos empresariales en valor.",
+    "email": "ing.mario.esteban@gmail.com",
+    "cellphone": "3103096818",
+    "address": "Bogotá",
+    "cv_url": "https://hoja-de-vida-mario-esteban-ortega-garces.marioestebanortega.vercel.app/",
     "show_technologies": true,
     "technologies": [
       {
@@ -31,7 +31,7 @@
       },
       {
         "tech": "oracle",
-        "url": "https://es.qwe.wiki/wiki/Oracle_Database"
+        "url": "https://es.wikipedia.org/wiki/Oracle_Database"
       },
       {
         "tech": "mysql",
@@ -62,12 +62,8 @@
         "url": "https://es.wikipedia.org/wiki/JavaScript"
       },
       {
-        "tech": "react",
-        "url": "https://es.wikipedia.org/wiki/React"
-      },
-      {
-        "tech": "redux",
-        "url": "https://es.wikipedia.org/wiki/Redux_(JavaScript)"
+        "tech": "python",
+        "url": "https://es.wikipedia.org/wiki/Python"
       },
       {
         "tech": "docker",
@@ -82,82 +78,135 @@
         "url": "https://es.wikipedia.org/wiki/Jenkins"
       },
       {
-        "tech": "jest",
-        "url": "https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)"
-      },
-      {
         "tech": "raspberrypi",
         "url": "https://es.wikipedia.org/wiki/Raspberry_Pi"
+      },
+      {
+        "tech": "angular",
+        "url": "https://es.wikipedia.org/wiki/Angular_(framework)"
       }
     ]
   },
   "experience": [
-   {
-    "experienceId": "One",
-    "enterpriseName": "Michael Page",
-    "enterpriseImage": "https://www.michaelpage.com.co/themes/custom/mp_theme/logo.png",
-    "position": "Ingeniero de software AWS Java/Node",
-    "dateIni": "Septiembre 2020",
-    "dateEnd": "Actual",
-    "expDesc": "Ingeniería de software en Java, AWS , Node para Liberty seguros que es un cliente de  Michael Page",
-    "enterpriseUrl": "https://www.michaelpage.com.co/",
-    "enterpriseAddress": "Remoto",
-    "enterprisePhone": "",
-    "achievements": [
-       "Implementar el nuevo frontend y backend para el Content Manager de Liberty latam basado en Node, Express,React, AWS y Jenkins"
-    ],
-    "technologies": [
-       
-       {
+    {
+      "experienceId": "One",
+      "enterpriseName": "Despegar",
+      "enterpriseImage": "https://logo.clearbit.com/despegar.com",
+      "position": "Software engineer II",
+      "dateIni": "Agosto 2022",
+      "dateEnd": "Actual",
+      "expDesc": "Ingeniero de Software (Java, Python, IA) en el equipo de Payments. Desarrollo de soluciones backend de alto rendimiento para la intermediación y procesamiento de pagos.",
+      "enterpriseUrl": "https://www.despegar.com.co/",
+      "enterpriseAddress": "Remoto",
+      "enterprisePhone": "",
+      "achievements": [
+        "Implementación de servicios críticos de pago utilizando Java y Python, optimizando la fiabilidad y seguridad de las transacciones."
+      ],
+      "technologies": [
+        {
           "tech": "git",
           "url": "https://es.wikipedia.org/wiki/Git",
           "name": "Git"
-       },
-       {
+        },
+        {
+          "tech": "java",
+          "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+          "name": "Java"
+        },
+        {
+          "tech": "python",
+          "url": "https://es.wikipedia.org/wiki/Python",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "experienceId": "One",
+      "enterpriseName": "Comviva",
+      "enterpriseImage": "https://logo.clearbit.com/comviva.com",
+      "position": "Backend developer senior",
+      "dateIni": "Octubre 2021",
+      "dateEnd": "Agosto 2022",
+      "expDesc": "Desarrollador Backend Senior (Java, Python). Responsable de la optimización y mantenimiento del sistema de alertas MGMS.",
+      "enterpriseUrl": "https://www.comviva.com/",
+      "enterpriseAddress": "Remoto",
+      "enterprisePhone": "",
+      "achievements": [
+        "Resolución de incidencias críticas y mejora del rendimiento en el sistema de alertas MGMS."
+      ],
+      "technologies": [
+        {
+          "tech": "git",
+          "url": "https://es.wikipedia.org/wiki/Git",
+          "name": "Git"
+        },
+        {
+          "tech": "java",
+          "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
+          "name": "Java"
+        },
+        {
+          "tech": "python",
+          "url": "https://es.wikipedia.org/wiki/Python",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "experienceId": "One",
+      "enterpriseName": "Michael Page",
+      "enterpriseImage": "https://logo.clearbit.com/michaelpage.co.uk",
+      "position": "Ingeniero de software AWS Java/Node/Python",
+      "dateIni": "Septiembre 2020",
+      "dateEnd": "Octubre 2021",
+      "expDesc": "Ingeniero de Software Full Stack (Java, AWS, Node, Python) asignado al cliente Liberty Seguros.",
+      "enterpriseUrl": "https://www.michaelpage.com.co/",
+      "enterpriseAddress": "Remoto",
+      "enterprisePhone": "",
+      "achievements": [
+        "Desarrollo integral (frontend y backend) del Content Manager para Liberty Latam, utilizando Node.js, Angular y AWS, con despliegue automatizado en Jenkins."
+      ],
+      "technologies": [
+        {
+          "tech": "git",
+          "url": "https://es.wikipedia.org/wiki/Git",
+          "name": "Git"
+        },
+        {
           "tech": "amazonaws",
           "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
           "name": "AWS"
-       },
-       {
+        },
+        {
           "tech": "nodejs",
           "url": "https://es.wikipedia.org/wiki/Node.js",
           "name": "NodeJS"
-       },
-       {
-          "tech": "react",
-          "url": "https://es.wikipedia.org/wiki/React",
-          "name": "React"
-       },
-       {
-          "tech": "redux",
-          "url": "https://es.wikipedia.org/wiki/Redux_(JavaScript)",
-          "name": "Redux"
-       },
-       {
+        },
+        {
+          "tech": "python",
+          "url": "https://es.wikipedia.org/wiki/Python",
+          "name": "Python"
+        },
+        {
           "tech": "docker",
           "url": "https://es.wikipedia.org/wiki/Docker_(software)",
           "name": "Docker"
-       },
-       
-       {
+        },
+        {
           "tech": "jenkins",
           "url": "https://es.wikipedia.org/wiki/Jenkins",
           "name": "Jenkins"
-       },
-       {
-          "tech": "jest",
-          "url": "https://en.wikipedia.org/wiki/Jest_(JavaScript_framework)",
-          "name": "jest"
-       }
-    ]
- },
-    { "experienceId":"1",
+        }
+      ]
+    },
+    {
+      "experienceId": "1",
       "enterpriseName": "Secretaria de cultura, recreación y deporte",
-      "enterpriseImage": "https://www.culturarecreacionydeporte.gov.co/sites/all/themes/scrd2018/Logo-secretaria-cultura-recreacion-deporte-morado.svg",
-      "position": "Ingeniero consultor de software",
+      "enterpriseImage": "/public/images/enterprise/enterprise_1_scrd.png",
+      "position": "Ingeniero de software",
       "dateIni": "Marzo 2018",
       "dateEnd": "Diciembre 2020",
-      "expDesc": "Consultoría e ingeniería de software en Java y microservicios para los procesos misionales de la entidad. Responsable de definir, diseñar e implementar el cambio de los procesos manuales a sistemas virtuales de trámites",
+      "expDesc": "Ingeniería de software en Java y microservicios para los procesos misionales de la entidad. Responsable de definir, diseñar e implementar el cambio de los procesos manuales a sistemas virtuales de trámites",
       "enterpriseUrl": "https://www.culturarecreacionydeporte.gov.co/",
       "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
       "enterprisePhone": "+57-1-3274850",
@@ -190,12 +239,12 @@
         {
           "tech": "amazonaws",
           "url": "https://es.wikipedia.org/wiki/Amazon_Web_Services",
-          "name":"AWS"
+          "name": "AWS"
         },
         {
           "tech": "postgresql",
           "url": "https://es.wikipedia.org/wiki/PostgreSQL",
-          "name":"Postgres"
+          "name": "Postgres"
         },
         {
           "tech": "nodejs",
@@ -203,9 +252,9 @@
           "name": "NodeJS"
         },
         {
-          "tech": "react",
-          "url": "https://es.wikipedia.org/wiki/React",
-          "name":"React"
+          "tech": "angular",
+          "url": "https://es.wikipedia.org/wiki/Angular_(framework)",
+          "name": "Angular"
         },
         {
           "tech": "redux",
@@ -225,7 +274,7 @@
         {
           "tech": "jenkins",
           "url": "https://es.wikipedia.org/wiki/Jenkins",
-          "name":"Jenkins"
+          "name": "Jenkins"
         },
         {
           "tech": "jest",
@@ -235,20 +284,20 @@
       ]
     },
     {
-      "enterpriseId":"2",  
+      "enterpriseId": "2",
       "enterpriseName": "Ilumno",
-      "enterpriseImage": "https://www.ilumno.com/assets/images/logo_ilumno.svg",
-      "position": "Consultor de software",
+      "enterpriseImage": "/public/images/enterprise/enterprise_2_ilumno.png",
+      "position": "Ingeniero de software",
       "dateIni": "Julio 2017",
       "dateEnd": "Noviembre 2019",
-      "expDesc": "Consultor de software, encargado de liderar e implementar el módulo basado en Java y microservicios de certificaciones académicas y financieras de las universidades Politécnico y la fundación del área Andina",
+      "expDesc": "Ingeniero de software, encargado de liderar e implementar el módulo basado en Java y microservicios de certificaciones académicas y financieras de las universidades Politécnico y la fundación del área Andina",
       "enterpriseUrl": "https://www.ilumno.com/",
       "enterpriseAddress": "Carrera 12 No. 96 – 32, Bogotá - Colombia",
       "enterprisePhone": "+57-1-7452323",
       "achievements": [
         "Realizar el diseño arquitectónico del sistema de certificaciones universitarias del Politécnico y la área andina",
         "Crear el primer equipo de implementación en Colombia del sistema Banner 9 cuyo Core está basado en Spring de Java, Node, Javascript , SCSS, mediante la definición de las métricas funcionales, no funcionales y técnicas además de la creación de arquitectura y ambientes de desarrollo , pruebas y producción.",
-        "Consultoría y líder del equipo capacitador de la tecnología Banner Admin Pages usado para la creación de nuevos artefactos del producto Banner de Ellucian para la universidad Politécnico, Área Andina y  empresas aliadas como Neoris Colombia",
+        "Liderazgo del equipo capacitador de la tecnología Banner Admin Pages usado para la creación de nuevos artefactos del producto Banner de Ellucian para la universidad Politécnico, Área Andina y  empresas aliadas como Neoris Colombia",
         "Diseño e implementación de la integración del sistema de certificación con el sistema documental AZ-Digital",
         "Diseño e implementación de la integración del sistema de certificación con el sistema de firma digital de Certicamara"
       ],
@@ -300,7 +349,8 @@
         }
       ]
     },
-    { "experienceId":"3",
+    {
+      "experienceId": "3",
       "enterpriseName": "ICFES",
       "enterpriseImage": "/public/images/enterprise/icfes.png",
       "position": "Ingeniero de software Senior",
@@ -333,7 +383,7 @@
         },
         {
           "tech": "oracle",
-          "url": "https://es.qwe.wiki/wiki/Oracle_Database",
+          "url": "https://es.wikipedia.org/wiki/Oracle_Database",
           "name": "Oracle"
         },
         {
@@ -358,9 +408,10 @@
         }
       ]
     },
-    { "experienceId":"4",
+    {
+      "experienceId": "4",
       "enterpriseName": "Conexia",
-      "enterpriseImage": "https://conexia.com/es/wp-content/uploads/2019/08/conexia-colorV4.png",
+      "enterpriseImage": "https://logo.clearbit.com/conexia.com",
       "position": "Ingeniero Senior de software",
       "dateIni": "Septiembre 2013",
       "dateEnd": "Julio 2014",
@@ -412,11 +463,12 @@
         {
           "tech": "postgresql",
           "url": "https://es.wikipedia.org/wiki/PostgreSQL",
-          "name":"Postgres"
+          "name": "Postgres"
         }
       ]
     },
-    { "experienceId":"5",
+    {
+      "experienceId": "5",
       "enterpriseName": "ITAC",
       "enterpriseImage": "/public/images/enterprise/itac.png",
       "position": "Ingeniero de software experto",
@@ -447,9 +499,10 @@
         }
       ]
     },
-    { "experienceId":"6",
+    {
+      "experienceId": "6",
       "enterpriseName": "Indra",
-      "enterpriseImage": "https://www.indracompany.com/sites/all/themes/custom/indracompany_bs/logo.png",
+      "enterpriseImage": "https://logo.clearbit.com/indracompany.com",
       "position": "Ingeniero de software",
       "dateIni": "Febrero 2012",
       "dateEnd": "Junio 2013",
@@ -480,12 +533,13 @@
         },
         {
           "tech": "oracle",
-          "url": "https://es.qwe.wiki/wiki/Oracle_Database",
+          "url": "https://es.wikipedia.org/wiki/Oracle_Database",
           "name": "Oracle"
         }
       ]
     },
-    { "experienceId":"7",
+    {
+      "experienceId": "7",
       "enterpriseName": "ADA S.A",
       "enterpriseImage": "/public/images/enterprise/ada.png",
       "position": "Programador master",
@@ -512,12 +566,13 @@
         },
         {
           "tech": "oracle",
-          "url": "https://es.qwe.wiki/wiki/Oracle_Database",
+          "url": "https://es.wikipedia.org/wiki/Oracle_Database",
           "name": "Oracle"
         }
       ]
     },
-    { "experienceId":"8",
+    {
+      "experienceId": "8",
       "enterpriseName": "Stefanini",
       "enterpriseImage": "/public/images/enterprise/stefanini.png",
       "position": "Programador oracle",
@@ -538,12 +593,13 @@
         },
         {
           "tech": "oracle",
-          "url": "https://es.qwe.wiki/wiki/Oracle_Database",
+          "url": "https://es.wikipedia.org/wiki/Oracle_Database",
           "name": "Oracle"
         }
       ]
     },
-    { "experienceId":"9",
+    {
+      "experienceId": "9",
       "enterpriseName": "Universidad Nacional de Colombia",
       "enterpriseImage": "/public/images/enterprise/unal.png",
       "position": "Analista de software",
@@ -559,7 +615,7 @@
       "technologies": [
         {
           "tech": "oracle",
-          "url": "https://es.qwe.wiki/wiki/Oracle_Database",
+          "url": "https://es.wikipedia.org/wiki/Oracle_Database",
           "name": "Oracle"
         },
         {
@@ -569,7 +625,8 @@
         }
       ]
     },
-    { "experienceId":"10",
+    {
+      "experienceId": "10",
       "enterpriseName": "Fondo de bienestar social de la Contraloría General de la republica",
       "enterpriseImage": "/public/images/enterprise/fbs.png",
       "position": "Administrador de sistemas",
@@ -586,7 +643,7 @@
       "technologies": [
         {
           "tech": "oracle",
-          "url": "https://es.qwe.wiki/wiki/Oracle_Database",
+          "url": "https://es.wikipedia.org/wiki/Oracle_Database",
           "name": "Oracle"
         },
         {
@@ -597,55 +654,53 @@
       ]
     }
   ],
-  "education":[
-      {  "educationId":"1",   
-          "educationName":"Universidad Jorge Tadeo Lozano",
-          "educationImage":"/public/images/education/education_1.png",
-          "educationTitle":"Especialista en desarrollo bases de datos",
-          "educationDateIni":"Enero 2010",
-          "educationDateEnd":"Febrero 2011"
-      },
-      {
-        "educationId":"2",    
-        "educationName":"Universidad Nacional de Colombia",
-        "educationImage":"/public/images/education/education_2.png",
-        "educationTitle":"Ingeniero electrónico",
-        "educationDateIni":"Junio 2002",
-        "educationDateEnd":"Septiembre 2007"
+  "education": [
+    {
+      "educationId": "1",
+      "educationName": "Universidad Jorge Tadeo Lozano",
+      "educationImage": "/public/images/education/education_1.png",
+      "educationTitle": "Especialista en desarrollo bases de datos",
+      "educationDateIni": "Enero 2010",
+      "educationDateEnd": "Febrero 2011"
+    },
+    {
+      "educationId": "2",
+      "educationName": "Universidad Nacional de Colombia",
+      "educationImage": "/public/images/education/education_2.png",
+      "educationTitle": "Ingeniero electrónico",
+      "educationDateIni": "Junio 2002",
+      "educationDateEnd": "Septiembre 2007"
     }
   ],
-  "certification":[
+  "certification": [
     {
       "certificationId": "1",
       "certificationImage": "/public/images/certification/scrum_certified.png",
       "certificationName": "Scrum Foundations Professional Certificate (SFPC)",
       "certificationDateIni": "July 2020",
       "certificationDateEnd": "July 2020"
-   },
-    {
-      "certificationId":"2",
-      "certificationImage":"/public/images/certification/certification_1.png",
-      "certificationUrl":"https://platzi.com/@maes0186/",
-      "certificationName":"Certificaciones microservicios",
-      "certificationDateIni":"Febrero 2020",
-      "certificationDateEnd":"Febrero 2020"
-
     },
     {
-      "certificationId":"3",
-      "certificationImage":"/public/images/certification/certification_3.png",
-      "certificationName":"Java Programmer",
-      "certificationDateIni":"Mayo 2013",
-      "certificationDateEnd":"Mayo 2013"
-
+      "certificationId": "2",
+      "certificationImage": "/public/images/certification/certification_1.png",
+      "certificationUrl": "https://platzi.com/@maes0186/",
+      "certificationName": "Certificaciones microservicios",
+      "certificationDateIni": "Febrero 2020",
+      "certificationDateEnd": "Febrero 2020"
     },
     {
-      "certificationId":"4",
-      "certificationImage":"/public/images/certification/certification_2.png",
-      "certificationName":"Introduction SQL",
-      "certificationDateIni":"Marzo 2010",
-      "certificationDateEnd":"Marzo 2010"
-
+      "certificationId": "3",
+      "certificationImage": "/public/images/certification/certification_3.png",
+      "certificationName": "Java Programmer",
+      "certificationDateIni": "Mayo 2013",
+      "certificationDateEnd": "Mayo 2013"
+    },
+    {
+      "certificationId": "4",
+      "certificationImage": "/public/images/certification/certification_2.png",
+      "certificationName": "Introduction SQL",
+      "certificationDateIni": "Marzo 2010",
+      "certificationDateEnd": "Marzo 2010"
     }
   ]
 }

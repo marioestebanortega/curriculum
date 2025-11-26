@@ -45,7 +45,19 @@
     opacity: 0.8;
   }
 
-
+  #si-select-language{
+    border-radius: 2em;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.5em;
+    padding: 0.5em;
+    text-align: center;
+    right: 0;
+  }
+  #si-select-language:focus {
+    outline-width: 0;
+}
   .select-language{
     width: 100%;
     display: flex;

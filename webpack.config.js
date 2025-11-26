@@ -1,16 +1,16 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCSSExtractPlugin = require('mini-css-extract-plugin')
 const CopyPlugin = require('copy-webpack-plugin');
-
-const path = require("path"); //Nos ayuda a crear mejores path's
+const path = require("path");
 
 module.exports = {
   entry: {
-    home: path.resolve(__dirname,'src/index.js'),
+    home: path.resolve(__dirname, 'src/index.js'),
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].js'
+    filename: '[name].js',
+    clean: true,
   },
   module: {
     rules: [
@@ -27,30 +27,22 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          {
-            loader: MiniCSSExtractPlugin.loader
-          },
+          MiniCSSExtractPlugin.loader,
           'css-loader'
         ]
       },
       {
-        test: /\.jpg|png|gif|woff|eot|ttf|svg|mp4|webm$/,
-        use: {
-          loader: 'url-loader',
-          options: {
-            limit: 90000,
-          }
-        }
+        test: /\.(jpg|png|gif|woff|eot|ttf|svg|mp4|webm)$/,
+        type: 'asset/resource',
       },
     ]
   },
   plugins: [
-
     new HtmlWebpackPlugin({
       favicon: "./public/favicon.png",
-      title: 'Plugins',
+      title: 'Curriculum',
       template: 'index_template.html',
-      filename:'index.html'
+      filename: 'index.html'
     }),
     new MiniCSSExtractPlugin({
       filename: 'css/[name].css'
@@ -60,5 +52,12 @@ module.exports = {
         { from: 'public', to: 'public' },
       ]
     })
-  ]
+  ],
+  devServer: {
+    historyApiFallback: true,
+    open: true,
+    compress: true,
+    hot: true,
+    port: 8080,
   }
+}
