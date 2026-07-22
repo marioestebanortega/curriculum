@@ -1,8 +1,8 @@
 {
   "general": {
     "fullname": "Mario Esteban Ortega Garcés",
-    "role": "Ingeniero de Software",
-    "role-description": "Ingeniero de Software Senior con más de 14 años de experiencia, especializado en backend con Java Spring Boot y Python para IA. Experto en arquitectura de microservicios y sistemas de alto rendimiento. Amplia experiencia en Inteligencia Artificial, integrando LLMs (OpenAI, Meta) y arquitecturas RAG utilizando LangChain y el ecosistema Azure (Azure Search, OpenAI). Enfocado en crear soluciones escalables e inteligentes que transforman datos empresariales en valor.",
+    "role": "Ingeniero de Software Senior — Java · Microservicios · IA",
+    "role-description": "Ingeniero de Software Senior con más de 14 años de experiencia, especializado en backend con Java (8–21) y Spring Boot, arquitectura de microservicios y sistemas distribuidos de alto rendimiento. Actualmente enfocado en la intermediación y orquestación de servicios de cobros a escala regional, integrando múltiples proveedores y medios (tarjeta, wallets, efectivo/transferencia y pagos instantáneos) con foco en idempotencia, resiliencia y consistencia transaccional. Experiencia práctica en inteligencia artificial aplicada —RAG, embeddings, bases vectoriales, Azure AI Search y agentes— integrando LLMs en flujos de negocio reales. Aplico ingeniería asistida por IA con Claude Code, MCP (Model Context Protocol) y desarrollo guiado por especificaciones (Spec-Driven Development) para acelerar la entrega y elevar la calidad. Combino desarrollo técnico, visión de arquitectura y comprensión del negocio para convertir problemas complejos en soluciones escalables y observables. En transición natural de Senior Developer hacia Technical Lead / Software Architect / AI Solutions Architect.",
     "email": "ing.mario.esteban@gmail.com",
     "cellphone": "3103096818",
     "address": "Bogotá",
@@ -85,38 +85,71 @@
         "tech": "angular",
         "url": "https://es.wikipedia.org/wiki/Angular_(framework)"
       }
-    ]
+    ],
+    "location": "Bogotá, Colombia",
+    "linkedin": "https://www.linkedin.com/in/maes0186/",
+    "portfolio": ""
   },
   "experience": [
     {
       "experienceId": "One",
       "enterpriseName": "Despegar",
       "enterpriseImage": "https://logo.clearbit.com/despegar.com",
-      "position": "Software engineer II",
+      "position": "Ingeniero de Software Senior · Payments Services",
       "dateIni": "Agosto 2022",
       "dateEnd": "Actual",
-      "expDesc": "Ingeniero de Software (Java, Python, IA) en el equipo de Payments. Desarrollo de soluciones backend de alto rendimiento para la intermediación y procesamiento de pagos.",
+      "expDesc": "Ingeniero de Software Senior (Java, Python, IA) en el equipo de Pagos. Responsable de la operación y evolución de los servicios de orquestación de cobros y devoluciones de la plataforma de pagos, con foco en resiliencia, idempotencia y consistencia transaccional, trabajando en coordinación con los equipos de proveedores y medios de pago.",
       "enterpriseUrl": "https://www.despegar.com.co/",
       "enterpriseAddress": "Remoto",
       "enterprisePhone": "",
       "achievements": [
-        "Implementación de servicios críticos de pago utilizando Java y Python, optimizando la fiabilidad y seguridad de las transacciones."
+        "Operación en producción de ~55 mil cobros diarios (~20 millones al año) cubriendo 10 países de la región (LATAM y Estados Unidos) e integrando ~40 proveedores de pago (tarjeta, wallets, efectivo/transferencia y pagos instantáneos).",
+        "Desarrollo de soluciones apoyadas en IA (LLMs, RAG, Azure AI Search) para la automatización y mejora de procesos del equipo, integrando modelos de lenguaje en flujos operativos.",
+        "Integración de múltiples medios y proveedores de pago con autenticación segura (3DS) y cumplimiento de estándares de la industria, garantizando transacciones confiables.",
+        "Diseño de servicios desacoplados y orientados a eventos sobre una plataforma de mensajería, con máquinas de estados, reintentos y persistencia de eventos fallidos para asegurar la consistencia entre servicios.",
+        "Implementación de idempotencia y estrategias de reintento que eliminan la duplicidad de operaciones en pagos, devoluciones y contracargos.",
+        "Diagnóstico y resolución de incidentes en producción apoyado en observabilidad (New Relic, Grafana, NRQL), reduciendo los tiempos de recuperación."
       ],
       "technologies": [
-        {
-          "tech": "git",
-          "url": "https://es.wikipedia.org/wiki/Git",
-          "name": "Git"
-        },
         {
           "tech": "java",
           "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
           "name": "Java"
         },
         {
+          "tech": "spring",
+          "url": "https://es.wikipedia.org/wiki/Spring_Framework",
+          "name": "Spring Boot"
+        },
+        {
           "tech": "python",
           "url": "https://es.wikipedia.org/wiki/Python",
           "name": "Python"
+        },
+        {
+          "tech": "docker",
+          "url": "https://es.wikipedia.org/wiki/Docker_(software)",
+          "name": "Docker"
+        },
+        {
+          "tech": "kubernetes",
+          "url": "https://es.wikipedia.org/wiki/Kubernetes",
+          "name": "Kubernetes"
+        },
+        {
+          "tech": "git",
+          "url": "https://es.wikipedia.org/wiki/Git",
+          "name": "Git"
+        },
+        {
+          "tech": "azure",
+          "url": "https://es.wikipedia.org/wiki/Microsoft_Azure",
+          "name": "Azure AI Search"
+        },
+        {
+          "tech": "openai",
+          "url": "https://es.wikipedia.org/wiki/OpenAI",
+          "name": "LLMs / RAG"
         }
       ]
     },
@@ -124,14 +157,16 @@
       "experienceId": "One",
       "enterpriseName": "Comviva",
       "enterpriseImage": "https://logo.clearbit.com/comviva.com",
-      "position": "Backend developer senior",
+      "position": "Ingeniero de Software Senior (Java)",
       "dateIni": "Octubre 2021",
       "dateEnd": "Agosto 2022",
-      "expDesc": "Desarrollador Backend Senior (Java, Python). Responsable de la optimización y mantenimiento del sistema de alertas MGMS.",
+      "expDesc": "Ingeniero de Software Senior (Java) responsable de implementaciones en los módulos Telecom Slim y MGMS para las operaciones de Argentina e India.",
       "enterpriseUrl": "https://www.comviva.com/",
       "enterpriseAddress": "Remoto",
       "enterprisePhone": "",
       "achievements": [
+        "Desarrollo de implementaciones y soluciones en Java 8 y 9 sobre los módulos Telecom Slim y MGMS, aplicando servicios, controladores y patrones de arquitectura de software.",
+        "Optimización del uso de memoria de la JVM: gestión eficiente del garbage collector y del stack para mejorar el rendimiento y la estabilidad del sistema.",
         "Resolución de incidencias críticas y mejora del rendimiento en el sistema de alertas MGMS."
       ],
       "technologies": [
@@ -156,7 +191,7 @@
       "experienceId": "One",
       "enterpriseName": "Michael Page",
       "enterpriseImage": "https://logo.clearbit.com/michaelpage.co.uk",
-      "position": "Ingeniero de software AWS Java/Node/Python",
+      "position": "Ingeniero de Software Senior Full Stack (Java, AWS, Node, Python)",
       "dateIni": "Septiembre 2020",
       "dateEnd": "Octubre 2021",
       "expDesc": "Ingeniero de Software Full Stack (Java, AWS, Node, Python) asignado al cliente Liberty Seguros.",
@@ -203,7 +238,7 @@
       "experienceId": "1",
       "enterpriseName": "Secretaria de cultura, recreación y deporte",
       "enterpriseImage": "/public/images/enterprise/enterprise_1_scrd.png",
-      "position": "Ingeniero de software",
+      "position": "Ingeniero de Software Senior",
       "dateIni": "Marzo 2018",
       "dateEnd": "Diciembre 2020",
       "expDesc": "Ingeniería de software en Java y microservicios para los procesos misionales de la entidad. Responsable de definir, diseñar e implementar el cambio de los procesos manuales a sistemas virtuales de trámites",
@@ -211,9 +246,9 @@
       "enterpriseAddress": "Carrera 8 # 9 -83, Bogotá - Colombia",
       "enterprisePhone": "+57-1-3274850",
       "achievements": [
-        "Liderar e implementar la arquitectura, diseño y requerimientos del nuevo proceso de virtualización de trámites virtuales para la inscripción de pensiones para adulto mayor BEPS.",
-        "Liderar e implementar la arquitectura, diseño y requerimientos del nuevo proceso de virtualización de trámites para la inscripción de solicitudes de inclusión, exclusión y cambio de categoría de bienes de interés común de Bogotá",
-        "Establecer un proceso de comunicación asertiva con los stakeholder gracias al alto impacto del nuevo proceso virtual sobre procesos manuales que llevan años funcionando en la entidad. "
+        "Lideré e implementé la arquitectura, diseño y requerimientos del nuevo trámite virtual para la inscripción de pensiones de adulto mayor (BEPS).",
+        "Lideré e implementé la arquitectura y diseño del trámite virtual para solicitudes de inclusión, exclusión y cambio de categoría de bienes de interés cultural de Bogotá.",
+        "Coordiné con los stakeholders la transición de procesos manuales de años a los nuevos trámites digitales, gestionando el alto impacto del cambio."
       ],
       "technologies": [
         {
@@ -287,7 +322,7 @@
       "enterpriseId": "2",
       "enterpriseName": "Ilumno",
       "enterpriseImage": "/public/images/enterprise/enterprise_2_ilumno.png",
-      "position": "Ingeniero de software",
+      "position": "Ingeniero de Software Senior",
       "dateIni": "Julio 2017",
       "dateEnd": "Noviembre 2019",
       "expDesc": "Ingeniero de software, encargado de liderar e implementar el módulo basado en Java y microservicios de certificaciones académicas y financieras de las universidades Politécnico y la fundación del área Andina",
@@ -295,11 +330,11 @@
       "enterpriseAddress": "Carrera 12 No. 96 – 32, Bogotá - Colombia",
       "enterprisePhone": "+57-1-7452323",
       "achievements": [
-        "Realizar el diseño arquitectónico del sistema de certificaciones universitarias del Politécnico y la área andina",
-        "Crear el primer equipo de implementación en Colombia del sistema Banner 9 cuyo Core está basado en Spring de Java, Node, Javascript , SCSS, mediante la definición de las métricas funcionales, no funcionales y técnicas además de la creación de arquitectura y ambientes de desarrollo , pruebas y producción.",
-        "Liderazgo del equipo capacitador de la tecnología Banner Admin Pages usado para la creación de nuevos artefactos del producto Banner de Ellucian para la universidad Politécnico, Área Andina y  empresas aliadas como Neoris Colombia",
-        "Diseño e implementación de la integración del sistema de certificación con el sistema documental AZ-Digital",
-        "Diseño e implementación de la integración del sistema de certificación con el sistema de firma digital de Certicamara"
+        "Diseñé la arquitectura del sistema de certificaciones universitarias del Politécnico y Área Andina.",
+        "Formé el primer equipo de implementación en Colombia de Banner 9 (núcleo en Java Spring, Node, JavaScript, SCSS), definiendo métricas funcionales, no funcionales y técnicas y montando los ambientes de desarrollo, pruebas y producción.",
+        "Lideré el equipo capacitador de Banner Admin Pages para crear nuevos artefactos del producto Banner de Ellucian (Politécnico, Área Andina y aliados como Neoris).",
+        "Diseñé e implementé la integración del sistema de certificación con el gestor documental AZ-Digital.",
+        "Diseñé e implementé la integración con la firma digital de Certicámara."
       ],
       "technologies": [
         {
@@ -353,7 +388,7 @@
       "experienceId": "3",
       "enterpriseName": "ICFES",
       "enterpriseImage": "/public/images/enterprise/icfes.png",
-      "position": "Ingeniero de software Senior",
+      "position": "Ingeniero de Software Senior",
       "dateIni": "Julio 2014",
       "dateEnd": "Julio 2017",
       "expDesc": "Liderazgo, diseño e implementación en sistemas basados en Java EE, Servicios Rest, para procesos de pruebas saber 3, 5 y 9 tales como Informe delegado, informe Rector, y la sistematización de presentación de resultados y entrega material en todos los departamentos acreditados por el ICFES.",
@@ -412,7 +447,7 @@
       "experienceId": "4",
       "enterpriseName": "Conexia",
       "enterpriseImage": "https://logo.clearbit.com/conexia.com",
-      "position": "Ingeniero Senior de software",
+      "position": "Ingeniero de Software Senior",
       "dateIni": "Septiembre 2013",
       "dateEnd": "Julio 2014",
       "expDesc": "Ingeniero líder de equipo de software para la implementación del nuevo sistema de autorizaciones médicas para la EPS colombiana EMSSANAR mediante el uso de plataformas basadas en Java, HTML5, CSS, Bootstrap ",
@@ -420,9 +455,9 @@
       "enterpriseAddress": "Cra. 9 N° 77-67, Piso 6, Ofic. 601, Bogotá - Colombia",
       "enterprisePhone": "+57-1-5528800",
       "achievements": [
-        "Liderar exitosamente equipo de software estableciendo crecimiento en fortalezas técnicas en los miembros del equipo fomentado la importancia del concepto más valioso como es el trabajo en equipo, así como una comunicación asertiva con los stakeholder del proyecto.",
-        "Entregar el proyecto en los tiempos establecidos en el cronograma con estrategias de puesta en producción y disponibilidad en soporte en las fases críticas y estratégicas de mitigación de riesgos mediante planes de prevención",
-        "Diseñar un sistema robusto, confiable, seguro y escalable para el sistema de autorizaciones médicas de EMSSANAR EPS"
+        "Lideré el equipo de software, desarrollando las fortalezas técnicas de sus miembros y la comunicación con los stakeholders del proyecto.",
+        "Entregué el proyecto en los plazos del cronograma, con estrategias de puesta en producción y planes de mitigación de riesgos en las fases críticas.",
+        "Diseñé e implementé el sistema de autorizaciones médicas de EMSSANAR EPS."
       ],
       "technologies": [
         {
@@ -471,7 +506,7 @@
       "experienceId": "5",
       "enterpriseName": "ITAC",
       "enterpriseImage": "/public/images/enterprise/itac.png",
-      "position": "Ingeniero de software experto",
+      "position": "Ingeniero de Software Senior",
       "dateIni": "Junio 2013",
       "dateEnd": "Septiembre 2013",
       "expDesc": "Análisis y desarrollo de aplicaciones J2EE, basadas en PRIMEFACES, JSF 2.0, Web Services JAX-WS, para el banco de segundo piso de FINAGRO uno de los proyectos core de la empresa",
@@ -497,13 +532,14 @@
           "url": "https://es.wikipedia.org/wiki/Git",
           "name": "Git"
         }
-      ]
+      ],
+      "compact": true
     },
     {
       "experienceId": "6",
       "enterpriseName": "Indra",
       "enterpriseImage": "https://logo.clearbit.com/indracompany.com",
-      "position": "Ingeniero de software",
+      "position": "Ingeniero de Software Senior",
       "dateIni": "Febrero 2012",
       "dateEnd": "Junio 2013",
       "expDesc": "Ingeniero de Software, responsable del desarrollo y diseño en los procesos contables de la gestión de aerolíneas argentinas del proyecto DRACO de INDRA cuyo cliente se encuentra en la ciudad de Buenos Aires. Las tecnologías con las que se trabajan son J2EE ejecutado por servidores JBOSS y uso de Frameworks Spring MVC, RichFaces, MAVEN y motores de bases de datos Oracle 10g.",
@@ -536,13 +572,14 @@
           "url": "https://es.wikipedia.org/wiki/Oracle_Database",
           "name": "Oracle"
         }
-      ]
+      ],
+      "compact": true
     },
     {
       "experienceId": "7",
       "enterpriseName": "ADA S.A",
       "enterpriseImage": "/public/images/enterprise/ada.png",
-      "position": "Programador master",
+      "position": "Ingeniero de Software",
       "dateIni": "Julio 2011",
       "dateEnd": "Febrero 2012",
       "expDesc": "Analista programador en paginas JSP basadas en el modelo MVC usando Frameworks (JSF, Hibernate) y arquitecturas J2EE junto con el modelamiento de Base de Datos ORACLE y soporte en PLSQL. (Asignado a 2 clientes Alcaldía de Medellín y ALLUS)",
@@ -569,13 +606,14 @@
           "url": "https://es.wikipedia.org/wiki/Oracle_Database",
           "name": "Oracle"
         }
-      ]
+      ],
+      "compact": true
     },
     {
       "experienceId": "8",
       "enterpriseName": "Stefanini",
       "enterpriseImage": "/public/images/enterprise/stefanini.png",
-      "position": "Programador oracle",
+      "position": "Ingeniero de Software",
       "dateIni": "Octubre 2010",
       "dateEnd": "Mayo 2011",
       "expDesc": "Ingeniero de desarrollo en plsql de Oracle encargado de la migración del módulo pensión gestión de Porvenir del esquema antiguo desarrollado en OWA de Oracle para ser renovado en la nueva plataforma basada en Java con diferente esquema de base de datos",
@@ -596,13 +634,14 @@
           "url": "https://es.wikipedia.org/wiki/Oracle_Database",
           "name": "Oracle"
         }
-      ]
+      ],
+      "compact": true
     },
     {
       "experienceId": "9",
       "enterpriseName": "Universidad Nacional de Colombia",
       "enterpriseImage": "/public/images/enterprise/unal.png",
-      "position": "Analista de software",
+      "position": "Ingeniero de Software",
       "dateIni": "Febrero 2010",
       "dateEnd": "Septiembre 2010",
       "expDesc": "Diseño y desarrollo del Proyecto SIAPPI encargado de la logística de los proyectos de INGEOMINAS otorgados por Planeación Nacional. Responsable del Análisis, diseño de la base de datos y líder del grupo de desarrollo del aplicativo basado en APEX de Oracle.",
@@ -623,13 +662,14 @@
           "url": "https://es.wikipedia.org/wiki/JavaScript",
           "name": "Javascript"
         }
-      ]
+      ],
+      "compact": true
     },
     {
       "experienceId": "10",
       "enterpriseName": "Fondo de bienestar social de la Contraloría General de la republica",
       "enterpriseImage": "/public/images/enterprise/fbs.png",
-      "position": "Administrador de sistemas",
+      "position": "Ingeniero de Software",
       "dateIni": "Abril 2008",
       "dateEnd": "Febrero 2010",
       "expDesc": "Soporte a la infraestructura de la entidad a servidores linux y windows, además de implementaciones en java y oracle para el sistema financiero TAO para la generación de reportes",
@@ -651,7 +691,8 @@
           "url": "https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)",
           "name": "Java"
         }
-      ]
+      ],
+      "compact": true
     }
   ],
   "education": [
@@ -674,33 +715,168 @@
   ],
   "certification": [
     {
-      "certificationId": "1",
-      "certificationImage": "/public/images/certification/scrum_certified.png",
-      "certificationName": "Scrum Foundations Professional Certificate (SFPC)",
-      "certificationDateIni": "July 2020",
-      "certificationDateEnd": "July 2020"
+      "certificationId": "c1",
+      "certificationName": "Claude 101",
+      "certificationIssuer": "Anthropic",
+      "certificationDateEnd": "Febrero 2026"
     },
     {
-      "certificationId": "2",
-      "certificationImage": "/public/images/certification/certification_1.png",
+      "certificationId": "c2",
+      "certificationName": "Claude Code in Action",
+      "certificationIssuer": "Anthropic",
+      "certificationDateEnd": "Febrero 2026"
+    },
+    {
+      "certificationId": "c3",
+      "certificationName": "Curso de Claude Code",
+      "certificationIssuer": "Platzi",
+      "certificationDateEnd": "Febrero 2026"
+    },
+    {
+      "certificationId": "c4",
+      "certificationName": "Jenkins Master",
+      "certificationIssuer": "Udemy",
+      "certificationDateEnd": "Julio 2020"
+    },
+    {
+      "certificationId": "c5",
+      "certificationName": "Scrum Foundations Professional Certificate (SFPC)",
+      "certificationIssuer": "CertiProf",
+      "certificationDateEnd": "Julio 2020"
+    },
+    {
+      "certificationId": "c6",
+      "certificationName": "Certificación en Microservicios",
+      "certificationIssuer": "Platzi",
       "certificationUrl": "https://platzi.com/@maes0186/",
-      "certificationName": "Certificaciones microservicios",
-      "certificationDateIni": "Febrero 2020",
       "certificationDateEnd": "Febrero 2020"
     },
     {
-      "certificationId": "3",
-      "certificationImage": "/public/images/certification/certification_3.png",
+      "certificationId": "c7",
       "certificationName": "Java Programmer",
-      "certificationDateIni": "Mayo 2013",
+      "certificationIssuer": "",
       "certificationDateEnd": "Mayo 2013"
     },
     {
-      "certificationId": "4",
-      "certificationImage": "/public/images/certification/certification_2.png",
-      "certificationName": "Introduction SQL",
-      "certificationDateIni": "Marzo 2010",
+      "certificationId": "c8",
+      "certificationName": "Introducción a SQL",
+      "certificationIssuer": "",
       "certificationDateEnd": "Marzo 2010"
+    }
+  ],
+  "skills": {
+    "categories": [
+      {
+        "name": "Backend y APIs",
+        "items": [
+          "Java 8 / 11 / 17 / 21",
+          "Spring Boot",
+          "Spring Framework",
+          "APIs REST",
+          "Feign",
+          "WebClient",
+          "Procesamiento asíncrono",
+          "Virtual Threads",
+          "Idempotencia y reintentos"
+        ]
+      },
+      {
+        "name": "Microservicios, arquitectura y sistemas distribuidos",
+        "items": [
+          "Arquitectura de microservicios",
+          "Webhooks",
+          "Máquinas de estados",
+          "Reintentos y reprocesamiento",
+          "Sagas",
+          "Consistencia eventual",
+          "Event-driven architecture",
+          "Arquitectura hexagonal",
+          "DDD"
+        ]
+      },
+      {
+        "name": "Plataformas de pagos",
+        "items": [
+          "Orquestación de cobros y devoluciones",
+          "Integración de proveedores y medios de pago",
+          "Tarjeta, wallets, efectivo y pagos instantáneos",
+          "Idempotencia y resiliencia transaccional",
+          "Flujos de devoluciones y contracargos",
+          "Integración con autenticación 3DS",
+          "Coordinación con equipos de pagos y conciliación",
+          "Operación multi-país (LATAM + US)"
+        ]
+      },
+      {
+        "name": "Cloud, DevOps y observabilidad",
+        "items": [
+          "Azure App Service",
+          "Azure DevOps",
+          "AWS",
+          "Docker",
+          "Kubernetes",
+          "Jenkins",
+          "New Relic",
+          "Grafana",
+          "Prometheus",
+          "Elastic / NRQL"
+        ]
+      },
+      {
+        "name": "Bases de datos",
+        "items": [
+          "Oracle",
+          "PostgreSQL",
+          "MySQL / MariaDB",
+          "SQL",
+          "Modelado de datos",
+          "Índices y optimización de consultas"
+        ]
+      },
+      {
+        "name": "Inteligencia artificial aplicada",
+        "items": [
+          "RAG",
+          "Embeddings",
+          "Bases vectoriales",
+          "Azure AI Search",
+          "LLMs (OpenAI, Meta)",
+          "Agentes",
+          "LangChain",
+          "Automatización de procesos",
+          "Claude Code",
+          "MCP (Model Context Protocol)",
+          "Spec-Driven Development (SDD)"
+        ]
+      },
+      {
+        "name": "Frontend",
+        "items": [
+          "Angular",
+          "React",
+          "Integración frontend-backend",
+          "Consumo de APIs"
+        ]
+      }
+    ],
+    "soft": [
+      "Liderazgo técnico de equipos",
+      "Evaluación técnica y entrevistas",
+      "Comunicación con negocio y stakeholders",
+      "Análisis de incidentes en producción",
+      "Decisiones de arquitectura",
+      "Resolución de problemas complejos",
+      "Mentoría técnica"
+    ]
+  },
+  "languages": [
+    {
+      "name": "Español",
+      "level": "Nativo"
+    },
+    {
+      "name": "Inglés",
+      "level": "B2 · Intermedio-alto"
     }
   ]
 }

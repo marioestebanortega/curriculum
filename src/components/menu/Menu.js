@@ -1,109 +1,63 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import './menu.css';
 import { useLanguage } from '../../context/LanguageContext';
 
 const Menu = () => {
   const { text: rootText } = useLanguage();
   const text = rootText.menu;
-  const [isActive, setIsActive] = useState(false);
-  const [isArrowHidden, setIsArrowHidden] = useState(true); // Default to hidden/collapsed as per original class 'arrow-hide'
+  const [isOpen, setIsOpen] = useState(false);
 
-  const onclickAction = (event) => {
-    window.print();
-  }
+  const links = [
+    { href: '#perfil', label: text.profile },
+    { href: '#experiencia', label: text.exp },
+    { href: '#habilidades', label: text.skills },
+    { href: '#educacion', label: text.education },
+    { href: '#idiomas', label: text.lang },
+    { href: '#certificaciones', label: text.certif }
+  ];
 
-  const toggleMenu = () => {
-    setIsActive(!isActive);
-  }
+  const handlePrint = () => window.print();
+  const close = () => setIsOpen(false);
 
-  const toggleDesktopMenu = () => {
-    setIsArrowHidden(!isArrowHidden);
-  }
-
-  // Close menu when clicking outside (simple implementation)
   useEffect(() => {
-    const closeMenu = (e) => {
-      if (isActive && !e.target.closest('.menu') && !e.target.closest('#burger-menu')) {
-        setIsActive(false);
+    const onClickOutside = (e) => {
+      if (isOpen && !e.target.closest('.nav') && !e.target.closest('.nav-toggle')) {
+        setIsOpen(false);
       }
-    }
-    if (isActive) {
-      document.body.addEventListener('click', closeMenu);
-    }
-    return () => {
-      document.body.removeEventListener('click', closeMenu);
-    }
-  }, [isActive]);
+    };
+    document.body.addEventListener('click', onClickOutside);
+    return () => document.body.removeEventListener('click', onClickOutside);
+  }, [isOpen]);
 
   return (
     <>
-      <i
-        className="icon-menu burger-button"
-        id="burger-menu"
-        onClick={toggleMenu}
-      ></i>
-
-      <section
-        id="seccionMenu"
-        className={`menu-container ${isArrowHidden ? 'arrow-hide' : ''}`}
+      <button
+        type='button'
+        className='nav-toggle'
+        aria-label='Menu'
+        onClick={() => setIsOpen(!isOpen)}
       >
-        <nav className={`menu ${isActive ? 'is-active' : ''}`}>
-          <ol>
-            <li>
-              <div className="linkContainer">
-                <i className="icon-user"></i>
-                <a className="link" href="#encabezado" onClick={() => setIsActive(false)}>{text.profile}</a>
-              </div>
-            </li>
-            <li>
-              <div className="linkContainer">
-                <i className="icon-job"></i>
-                <a className="link" href="#experiencia" onClick={() => setIsActive(false)}>{text.exp}</a>
-              </div>
-            </li>
-            <li>
-              <div className="linkContainer">
-                <i className="icon-tools"></i>
-                <a className="link" href="#certificaciones" onClick={() => setIsActive(false)}>{text.certif}</a>
-              </div>
-            </li>
-            <li>
-              <div className="linkContainer">
-                <i className="icon-graduate"></i>
-                <a className="link" href="#educacion" onClick={() => setIsActive(false)}>{text.education}</a>
-              </div>
-            </li>
-            <li>
-              <div className="linkContainer">
-                <i className="icon-language"></i>
-                <a className="link" href="#idiomas" onClick={() => setIsActive(false)}>{text.lang}</a>
-              </div>
-            </li>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
-            <li>
-              <div className="linkContainer separator">
-                <i className="icon-job"></i>
-                <a className="link" href="#" target="_self" onClick={() => setIsActive(false)}>{text.portf}</a>
-              </div>
+      <nav className={`nav ${isOpen ? 'is-open' : ''}`}>
+        <ul>
+          {links.map((link) => (
+            <li key={link.href}>
+              <a href={link.href} onClick={close}>
+                {link.label}
+              </a>
             </li>
-            <li>
-              <div className="linkContainer-sec">
-                <button type="button" id="buttonPrinter" onClick={onclickAction}>
-                  <i className="icon-printer"></i>
-                </button>
-              </div>
-            </li>
-          </ol>
-        </nav>
-        <div className="arrowContainer" onClick={toggleDesktopMenu}>
-          <i
-            className={`arrow ${isArrowHidden ? 'arrow-right' : 'arrow-left'}`}
-            id="arrow-menu"
-          ></i>
-        </div>
-      </section>
+          ))}
+        </ul>
+        <button type='button' className='nav-print' onClick={handlePrint}>
+          {text.print}
+        </button>
+      </nav>
     </>
-  )
-}
+  );
+};
 
 export default Menu;

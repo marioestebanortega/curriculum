@@ -1,51 +1,46 @@
 {
-    "general":{
-        "language":"language"
-    },
-    "menu":{
-        "profile":"Profile",
-        "exp":"Professional experience",
-        "certif":"Certification",
-        "education":"Education",
-        "lang":"Languages",
-        "portf":"Portfolio"
-    },
-    "hero":{
-        "mail":"Mail: ",
-        "cellphone":"Cellphone: ",
-        "address":"Address: ",
-        "cv_url":"CV: "
-    },
-    "experience":{
-        "title":"Professional experience",
-        "dateIni":"Begin: ",
-        "dateEnd":"End: ",
-        "ahievements": "Achievements",
-        "usedTech":"Technologies in this job"
-    },
-    "certification":{
-        "title":"Certifications",
-        "dateIni":"Begin: ",
-        "dateEnd":"End: "
-
-    },
-    "education":{
-        "title":"Education",
-        "dateIni":"Begin: ",
-        "dateEnd":"End: "
-
-    },
-    "language":{
-        "title":"Languages",
-        "speaking":"Speaking",
-        "reading":"Reading",
-        "writing":"Writing",
-        "listening":"Listening",
-        "englishName":"English"
-    },
-    "footer":{
-        "cvName":"Curriculum vitae",
-        "implementedDesc":"Implemented by",
-        "developerName":"Mario Esteban Ortega Garcés"
-    }
+  "general": {
+    "language": "Language"
+  },
+  "menu": {
+    "profile": "Profile",
+    "exp": "Experience",
+    "skills": "Skills",
+    "education": "Education",
+    "lang": "Languages",
+    "certif": "Certifications",
+    "print": "Print CV"
+  },
+  "contact": {
+    "location": "Location",
+    "linkedin": "LinkedIn",
+    "portfolio": "Portfolio",
+    "cv": "Online CV"
+  },
+  "profile": {
+    "title": "Professional profile"
+  },
+  "experience": {
+    "title": "Professional experience",
+    "present": "Present",
+    "achievements": "Achievements",
+    "usedTech": "Technologies"
+  },
+  "skills": {
+    "title": "Skills",
+    "hard": "Technical skills",
+    "soft": "Soft skills"
+  },
+  "education": {
+    "title": "Education"
+  },
+  "certification": {
+    "title": "Certifications"
+  },
+  "language": {
+    "title": "Languages"
+  },
+  "footer": {
+    "developerName": "Mario Esteban Ortega Garcés"
+  }
 }
