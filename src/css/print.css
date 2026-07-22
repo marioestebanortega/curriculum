@@ -4,10 +4,21 @@
     --text: #000;
     --muted: #333;
     --line: #bbb;
+    --gap: 0.85rem;
+  }
+
+  /* Compacta todo el documento para caer en menos páginas */
+  html {
+    font-size: 11px;
   }
 
   body {
     background: #fff;
+    line-height: 1.4;
+  }
+
+  @page {
+    margin: 12mm 14mm;
   }
 
   /* Oculta la navegación y el selector de idioma al imprimir/exportar PDF */
@@ -31,16 +42,57 @@
     text-decoration: none;
   }
 
+  /* Deja fluir el contenido: NO forzar secciones a página nueva (evita huecos) */
   .section {
-    margin-top: 1.3rem;
+    margin-top: var(--gap);
+    page-break-inside: auto;
+  }
+
+  .section-title {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
+  }
+
+  .hero {
+    padding-bottom: 0.7rem;
+  }
+
+  .profile-text {
+    line-height: 1.4;
+  }
+
+  /* Un empleo no se parte, pero puede compartir página con otros */
+  .experience {
+    padding: 0.5rem 0;
     page-break-inside: avoid;
   }
 
-  .experience {
+  .experience-achievements {
+    margin: 0.2rem 0 0.3rem;
+  }
+
+  .experience-achievements li {
+    margin: 0.12rem 0;
+  }
+
+  .entry {
+    padding: 0.3rem 0;
+    page-break-inside: avoid;
+  }
+
+  .skills-group {
+    padding: 0.35rem 0;
     page-break-inside: avoid;
   }
 
   .skills-list li {
     border-color: #bbb;
+    background: transparent;
+  }
+
+  /* Evita que un título quede huérfano al final de la página */
+  h2,
+  h3 {
+    page-break-after: avoid;
   }
 }
