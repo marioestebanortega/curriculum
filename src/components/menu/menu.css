@@ -1,111 +1,97 @@
-.menu-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 15vw;
-    position: fixed;
-    height: 50vh;
-    background-color: rgba(0, 0, 0,0.5);
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    z-index: 4;
-    margin-top:25vh;
-    min-width: 229px;
-    left: 0;
-    transition:left 0.5s linear;
-    /*left: -11vw;*/
-
+/* Navegación de anclas — flotante en escritorio, colapsable en móvil */
+.nav {
+  position: fixed;
+  top: 50%;
+  right: 1.2rem;
+  transform: translateY(-50%);
+  z-index: 15;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
+  padding: 0.8rem 0.9rem;
 }
 
-  
-.menu {
-    /* .menu hereda de .menu */
-    height: inherit;
-    font-size: 2em;
-    width: 100%;
-    align-items: center;
-    display: flex;
-    transition: 0.5s;
-    transition: width 2s;
-  }
-  
+.nav ul {
+  list-style: none;
+  margin: 0 0 0.6rem;
+  padding: 0;
+}
 
-  .linkContainer,.linkContainer-sec {
-    /* .menu ol li hereda de .menu ol */
-    height: 100%;
-    margin-bottom: 1em;
+.nav li {
+  margin: 0.15rem 0;
+}
+
+.nav a {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--muted);
+  padding: 0.25rem 0.4rem;
+  border-radius: 4px;
+}
+
+.nav a:hover {
+  color: var(--accent);
+  background: var(--bg);
+  text-decoration: none;
+}
+
+.nav-print {
+  width: 100%;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--accent);
+  border: none;
+  border-radius: 5px;
+  padding: 0.45rem 0.6rem;
+  cursor: pointer;
+}
+
+.nav-print:hover {
+  opacity: 0.9;
+}
+
+/* Botón hamburguesa (solo móvil) */
+.nav-toggle {
+  display: none;
+  position: fixed;
+  top: 0.55rem;
+  left: 1rem;
+  z-index: 25;
+  width: 40px;
+  height: 36px;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.nav-toggle span {
+  display: block;
+  height: 2px;
+  width: 20px;
+  margin: 0 auto;
+  background: var(--accent);
+}
+
+@media screen and (max-width: 1180px) {
+  .nav-toggle {
+    display: flex;
   }
-  .linkContainer i,.linkContainer-sec i{
+
+  .nav {
+    top: 3.4rem;
+    right: 1rem;
+    transform: none;
     display: none;
-    margin-top: 0.3em;
-    font-size: 2.5em;
-    margin-right: 0.2em;
-    margin-left: 0.5em;
   }
 
-  .linkContainer-sec i{
-    display: inline;
-    color: white;
-    opacity: 0.8;
-    font-size: 2em;
+  .nav.is-open {
+    display: block;
   }
-  
-.link {
-    /* .menu a hereda de .menu ol li */
-    color: white;
-    text-decoration: none;
-    height: inherit;
-    display: flex;
-    align-items: center;
-    padding: 0 10px; /* <---- solo agregamos esta linea */
-  }
-
-  .arrowContainer{
-      background-color: transparent;
-      width: 15%;
-      margin-right: 1em;
-      height: 100%;
-      display: flex;
-      align-items: center;
-  }
-
-
-
-  .arrow {
-    border: solid rgb(255,255,255,0.5);
-    border-width: 0 0.8em 0.8em 0;
-    display: inline-block;
-    padding: 0.8em;
-    transition: 1s;
-
-  }
-  
-  .arrow-right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
-  
-  .arrow-left {
-    transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-
-  }
-  .arrow-hide{
-       left: -180px; 
-  }
-
-  .separator{
-    border-top: 2px solid rgba(255, 255, 255,0.5);
-    padding-top:1em;
-    width: 80%;
-  }
-  #buttonPrinter{
-    margin-top: 1em;
-    background-color: transparent;
-    border: 0;
-    transition: 0.4s;
-  }
-  #buttonPrinter:hover{
-    font-size: 1.2em;
-  }
-
+}

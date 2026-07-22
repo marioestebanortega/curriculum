@@ -1,74 +1,46 @@
 @media print {
-    @page {
-        margin: 0;
-        size: 8.3in 75in;
-     }
-    html {
-        -webkit-print-color-adjust: exact;
-     }
-     .experience-achievements ol li{
-         margin-bottom: 0;
-     }
-     .knowledge{
-         padding: 0.4em;
-     }
-     .experience-details{
-         width: 70%;
-     }
-     .experience-sec2{
-         width: 25%;
-     }
-  
-     .experiences{
-       display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
-       justify-content: space-between;
-     }
-  
-     .experience{
-         font-size: 0.7em;
-         padding-top: 0.5em;
-         line-height: 0.2em;
-     }
-     .experience-enterprise{
-        line-height:initial;
-     }
-
-     .experience h4{
-         margin-top: 0.2em;
-         margin-bottom: 0.2em;
-     }
-     .knowledge-detail{
-         font-size: 0.6em;
-     }
-
-     .languages{
-        font-size: 0.7em;
-        padding-top: 0;
-    }
-    .language{
-        width: 20%;
-        padding: 0.2em;
-    }
-    .language img{
-        width: 20%;
-    }
-    
-     #burger-menu{
-         display: none;
-     }
-     #seccionMenu{
-         display: none;
-     }
-     #buttoPrint{
-         display: none;
-     }
-    #footerPage{
-         display: none;
-     }
-     .select-language{
-         display: none;
-     }
-  
+  :root {
+    --accent: #000;
+    --text: #000;
+    --muted: #333;
+    --line: #bbb;
   }
+
+  body {
+    background: #fff;
+  }
+
+  /* Oculta la navegación y el selector de idioma al imprimir/exportar PDF */
+  .topbar,
+  .nav,
+  .nav-toggle {
+    display: none !important;
+  }
+
+  .cv {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .section {
+    margin-top: 1.3rem;
+    page-break-inside: avoid;
+  }
+
+  .experience {
+    page-break-inside: avoid;
+  }
+
+  .skills-list li {
+    border-color: #bbb;
+  }
+}

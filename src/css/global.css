@@ -1,87 +1,129 @@
+/* ============================================================
+   Sistema de diseño — CV minimalista, ATS-friendly
+   ============================================================ */
 
-/*------------------------------------------------------------->GENERALES*/
+:root {
+  --bg: #f4f5f7;
+  --paper: #ffffff;
+  --text: #1f2933;
+  --muted: #4b5563;
+  --accent: #1f3a5f;
+  --line: #e2e5ea;
+  --maxw: 820px;
+  --gap: 2.4rem;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 html {
-    font-size: 9px;
-    scroll-behavior: smooth;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Fjalla One", sans-serif;
-    font-weight: normal;
-    /*font-style: italic;*/
-  }
-  
-  h1 {
-    font-size: 6rem;
-  }
-  
-  h2 {
-    font-size: 5rem;
-    margin-bottom: 40px;
-  }
-  
-  h3{
-    font-size: 4rem;
-  }
-  h4{
-    font-size: 3rem;
-  }
-  h5{
-    font-size: 2rem;
-  }
-  h6{
-    font-size: 1rem;
-  }
-  .U {
-    font-weight: 100;
-    line-height: 1.5; /*Alto de la linea*/
-    letter-spacing: -0.2px; /*Espaciado de letras , 20 % menos de un pixel*/
-    /*text-transform: uppercase;*/ /*Pone texto en miniusculas o mayusculas*/
-    /*text-decoration: underline;*/ /*Decoracion del texto , por ejemplo subrayado*/
-    color: white;
-    margin-right: 10px;
-  }
-  .container {
-    /* border: 1px solid red; */
-    /*max-width: 1000px;*/
-    padding: 0 1em;
-    max-width: 1000px;
-    flex: 1;
-    margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    height: inherit;
-    flex-wrap: inherit;
-    flex-direction: inherit;
-  }
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
 
-  figure {
-    margin: 0;
-  }
-  ol,
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  
-  
-  strong {
-    color: slategrey;
-  }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Source Sans Pro', 'Open Sans', -apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
 
-  .container h2{
-    color: steelblue;
-    text-align: center;
-  }
-  
-  /*------------------------------------------------------------->GENERALES*/
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
 
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---- Documento (hoja) ---- */
+.cv {
+  max-width: var(--maxw);
+  margin: 2.5rem auto 3rem;
+  background: var(--paper);
+  padding: 3.2rem 3.4rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  box-shadow: 0 6px 24px rgba(15, 23, 42, 0.06);
+}
+
+/* ---- Secciones ---- */
+.section {
+  margin-top: var(--gap);
+}
+
+.section:first-child {
+  margin-top: 0;
+}
+
+.section-title {
+  font-family: 'Fjalla One', 'Source Sans Pro', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--accent);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+/* ---- Listas de entradas reutilizables (educación, idiomas, certs) ---- */
+.entry-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.55rem 0;
+  border-bottom: 1px dashed var(--line);
+}
+
+.entry:last-child {
+  border-bottom: none;
+}
+
+.entry-inline {
+  padding: 0.45rem 0;
+}
+
+.entry-main {
+  min-width: 0;
+}
+
+.entry-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.entry-sub {
+  margin: 0.1rem 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.entry-dates {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}

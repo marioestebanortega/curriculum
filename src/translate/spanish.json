@@ -1,51 +1,46 @@
 {
-    "general":{
-        "language":"lenguaje"
-    },
-    "menu":{
-        "profile":"Perfil",
-        "exp":"Experiencia profesional",
-        "certif":"Certificaciones",
-        "education":"Educación",
-        "lang":"Lenguajes",
-        "portf":"Portafolio"
-    },
-    "hero":{
-        "mail":"Email: ",
-        "cellphone":"Celular: ",
-        "address":"Dirección: ",
-        "cv_url":"CV: "
-    },
-    "experience":{
-        "title":"Experiencia laboral",
-        "dateIni":"Fecha inicio: ",
-        "dateEnd":"Fecha fin: ",
-        "ahievements": "Logros",
-        "usedTech":"Técnologias usadas"
-    },
-    "certification":{
-        "title":"Certificaciones",
-        "dateIni":"Fecha inicio: ",
-        "dateEnd":"Fecha fin: "
-
-    },
-    "education":{
-        "title":"Educación",
-        "dateIni":"Fecha inicio: ",
-        "dateEnd":"Fecha fin: "
-
-    },
-    "language":{
-        "title":"Idiomas",
-        "speaking":"Speaking",
-        "reading":"Reading",
-        "writing":"Writing",
-        "listening":"Listening",
-        "englishName":"Ingles"
-    },
-    "footer":{
-        "cvName":"Hoja de vida",
-        "implementedDesc":"Implementada por",
-        "developerName":"Mario Esteban Ortega Garcés"
-    }
+  "general": {
+    "language": "Idioma"
+  },
+  "menu": {
+    "profile": "Perfil",
+    "exp": "Experiencia",
+    "skills": "Habilidades",
+    "education": "Educación",
+    "lang": "Idiomas",
+    "certif": "Certificaciones",
+    "print": "Imprimir CV"
+  },
+  "contact": {
+    "location": "Ubicación",
+    "linkedin": "LinkedIn",
+    "portfolio": "Portafolio",
+    "cv": "CV en línea"
+  },
+  "profile": {
+    "title": "Perfil profesional"
+  },
+  "experience": {
+    "title": "Experiencia profesional",
+    "present": "Actualidad",
+    "achievements": "Logros",
+    "usedTech": "Tecnologías"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "hard": "Habilidades técnicas",
+    "soft": "Habilidades blandas"
+  },
+  "education": {
+    "title": "Educación"
+  },
+  "certification": {
+    "title": "Certificaciones"
+  },
+  "language": {
+    "title": "Idiomas"
+  },
+  "footer": {
+    "developerName": "Mario Esteban Ortega Garcés"
+  }
 }
