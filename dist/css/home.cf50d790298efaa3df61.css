@@ -551,13 +551,18 @@ img {
     font-size: 11px;
   }
 
+  /* Margen vertical 0: Chrome dibuja su encabezado/pie (fecha, título, URL,
+     nº de página) dentro del margen superior/inferior de @page; sin ese
+     espacio no los imprime. El aire vertical lo pone el padding del body. */
+  @page {
+    size: A4;
+    margin: 0 14mm;
+  }
+
   body {
     background: #fff;
     line-height: 1.4;
-  }
-
-  @page {
-    margin: 12mm 14mm;
+    padding: 12mm 0;
   }
 
   /* Oculta la navegación y el selector de idioma al imprimir/exportar PDF */
