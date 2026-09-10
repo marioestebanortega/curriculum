@@ -4,3 +4,7 @@
   line-height: 1.6;
   text-align: justify;
 }
+
+.profile-text + .profile-text {
+  margin-top: 0.75rem;
+}

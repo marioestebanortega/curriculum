@@ -171,6 +171,10 @@
   text-align: justify;
 }
 
+.profile-text + .profile-text {
+  margin-top: 0.75rem;
+}
+
 .experience {
   padding: 0.9rem 0;
   border-bottom: 1px solid var(--line);
@@ -603,6 +607,10 @@ img {
 
   .profile-text {
     line-height: 1.4;
+  }
+
+  .profile-text + .profile-text {
+    margin-top: 0.45rem;
   }
 
   /* Un empleo no se parte, pero puede compartir página con otros */

@@ -66,6 +66,10 @@
     line-height: 1.4;
   }
 
+  .profile-text + .profile-text {
+    margin-top: 0.45rem;
+  }
+
   /* Un empleo no se parte, pero puede compartir página con otros */
   .experience {
     padding: 0.5rem 0;
